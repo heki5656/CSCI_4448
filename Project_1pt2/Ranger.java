@@ -1,7 +1,3 @@
-// Resources Used:
-// 1) https://www.w3schools.com/java/java_files_create.asp
-// 2)
-
 import java.util.Scanner;
 import java.io.FileWriter;
 import java.io.PrintStream;
@@ -42,6 +38,7 @@ public class Ranger{
     }
 
     // read method
+    // Sources: https://stackoverflow.com/questions/8707906/error-message-unreported-exception-java-io-ioexception-must-be-caught-or-decla (for try/catch phrases)
     public static char read()
     {
         int min,max;
@@ -98,10 +95,12 @@ public class Ranger{
         return arr;
     }
 
+    // Random number generator
+    // Sources: https://programmerfriend.com/java-random-numbers/
     private static int getRandomInt(int min, int max) {
-        int spread = max - min;
+        int difference = max - min;
         Random random = new Random();
-        return random.nextInt(spread + 1) + min;
+        return random.nextInt(difference + 1) + min;
     }
 
     // calculate method
@@ -113,9 +112,7 @@ public class Ranger{
 
         while (arr.length <= 100){ // array size cannot exceed 100
             for (int i = count; i < arr.length; i++) {
-                //Random random = new Random();
                 arr[i] = getRandomInt(min,max); // generate numbers randomly within the given accepted range
-                //arr[i] = (int) Math.floor(Math.random() * (max - min + 1) + min);
             }
 
             System.out.print("\nValues:");
@@ -143,9 +140,7 @@ public class Ranger{
             deviation = 0.0;
             total = 0.0;
 
-//            System.out.println("count" + count);
-//            System.out.println("length" + arr.length);
-            count = (arr.length-1) + 1; // increase count to position right after previous array length; ex. 0-10, so count will start at 11 and next array range will be from 11-20
+            count = (arr.length-1) + 1; // increase count to position right after previous array length; ex. 0-9, so count will start at 10 and next array range will be from 10-19
             arr = extend(arr); // increase array size for next iteration using current accepted number range
 
         }
@@ -154,6 +149,8 @@ public class Ranger{
     }
 
     // write method
+    // Sources: https://www.w3schools.com/java/java_files_create.asp
+    // https://stackoverflow.com/questions/8043356/file-write-printstream-append (for the printstream)
     public static void write() throws IOException {
         //Instantiating the File class
         File file = new File("C:\\CU BOULDER\\Junior Year\\OOAD\\Project 1 Part 2\\Results2.txt"); // create file object with given path; title it 'Results2.txt'
@@ -165,6 +162,7 @@ public class Ranger{
 
     }
 
+    // Sources: https://stackoverflow.com/questions/8707906/error-message-unreported-exception-java-io-ioexception-must-be-caught-or-decla (for try/catch phrases)
     public static void main(String[] args){
         boolean continueProgram = true; // program will run as long as set to true
         int counter = 0;
