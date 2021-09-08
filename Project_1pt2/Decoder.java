@@ -38,6 +38,9 @@ public class Decoder{
             else if((asciiArray[i] >= 97) && (asciiArray[i] <= 122)){
                 System.out.println("Code: " + asciiArray[i] + "   Type: Lower Case Letters   " + "ASCII Char: " + (char)asciiArray[i]);
             }
+            else{
+                return;
+            }
 
         }
     }
