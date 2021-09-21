@@ -6,19 +6,19 @@ import java.util.*;
 //import java.util.List;
 
 public class Store{
-    protected String[] damageContainer = {""}; // not sure about this
-    List<Employee> employeeList = new ArrayList<Employee>();
+    List<Game> damageContainer = new ArrayList<Game>(); // not sure about this
+    List<String> employeeList = new ArrayList<String>();
     List<Game> gameList = new ArrayList<Game>();
     double cashReg = 0.00;
 
     public void createEmployee(){
         Employee employee1 = new Employee("Burt");
-        employeeList.add(employee1);
+        employeeList.add(employee1.getName());
         Employee employee2 = new Employee("Ernie");
-        employeeList.add(employee2);
+        employeeList.add(employee2.getName());
     }
 
-    public Employee pickEmployee(){ //https://www.codegrepper.com/code-examples/java/how+to+select+a+random+element+from+an+array+in+java
+    public String pickEmployee(){
         createEmployee();
         double rangeMin = 0.0f;
         double rangeMax = 1.0f;
