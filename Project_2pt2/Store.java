@@ -1,32 +1,40 @@
 import java.util.Arrays;
 import java.io.IOException;
 import java.util.*;
+//import java.util.ArrayList;
+//import java.util.Random;
+//import java.util.List;
 
 public class Store{
     protected String[] damageContainer = {""}; // not sure about this
-    List employeeList = new List<Employee>;
-    List gameList = new List<Game>;
+    List<Employee> employeeList = new ArrayList<Employee>();
 
-    public void createEmployee(String name){
+    public void createEmployee(){
         Employee employee1 = new Employee("Burt");
         employeeList.add(employee1);
         Employee employee2 = new Employee("Ernie");
         employeeList.add(employee2);
     }
 
-    public void pickEmployee(){ //https://www.codegrepper.com/code-examples/java/how+to+select+a+random+element+from+an+array+in+java
+    public Employee pickEmployee(){ //https://www.codegrepper.com/code-examples/java/how+to+select+a+random+element+from+an+array+in+java
+        createEmployee();
         double rangeMin = 0.0f;
         double rangeMax = 1.0f;
+        //Employee getEmployee = null;
         Random r = new Random();
         double createdRanNum = rangeMin + (rangeMax - rangeMin) * r.nextDouble();
 
         if (createdRanNum < 0.5){
-            employeeList.get(0); // get Burt
+            return employeeList.get(0); // get Burt
+            //return getEmployee;
         }
 
         if (createdRanNum >= 0.5){
-            employeeList.get(1); // get Ernie
+            return employeeList.get(1); // get Ernie
+            //return getEmployee;
         }
+
+        return null;
     }
 
     public void gameVals(){
@@ -91,4 +99,3 @@ public class Store{
 
     }
 }
-
