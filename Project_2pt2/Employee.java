@@ -1,61 +1,32 @@
 import java.util.*;
-
-public class Store {
-    protected String[] damageContainer = {""}; // not sure about this
-    List employeeList = new List<Employee>;
-
-    public void createEmployee(String name){
-        Employee employee = new Employee("Burt");
-        employeeList.add(employee);
-        Employee employee = new Employee("Ernie");
-        employeeList.add(employee);
-    }
-
-    public void pickEmployee(){ //https://www.codegrepper.com/code-examples/java/how+to+select+a+random+element+from+an+array+in+java
-        double rangeMin = 0.0f;
-        double rangeMax = 1.0f;
-        Random r = new Random();
-        double createdRanNum = rangeMin + (rangeMax - rangeMin) * r.nextDouble();
-
-        if (createdRanNum < 0.5){
-            employeeList.get(0); // get Burt
-        }
-
-        if (createdRanNum >= 0.5){
-            employeeList.get(1); // get Ernie
-        }
-
-//        String[] employeeName = {"Burt", "Ernie"};
-//        Random r = new Random();
-//        int randomEmployee = r.nextInt(employeeName.length);
-//        System.out.println(employeeName[randomEmployee]);
-    }
-}
-
-
+import java.util.List;
 
 public class Employee{
  //name attribute for each instance of a class
-    String Name;
+    String name;
 
     public Employee(String name){
-        Name = name;
+        this.name = name;
     }
 }
 
 // List of games in store, cashier has reference to store, cashier can access games
-public class Cashier extends Employee { // Example of Inheritance
-    //Employee employee = new Employee();
+class Cashier extends Employee { // Example of Inheritance
 
-    Store store = new Store();
-    Cashier cashier = new Cashier(store); // make reference of Store class?
+    Store storeObj = new Store();
+    Game game = new Game();
 
-    public static void arriveAtStore(){
-        System.out.println(store.pickEmployee(), "the cashier has arrived at the store on Day ", day_number);
+    public Cashier(String name) {
+        super(name);
     }
 
-    public static void vacuumStore(){
-        System.out.println(store.pickEmployee(), " vacuumed the store");
+
+    public void arriveAtStore(){
+        System.out.println(storeObj.pickEmployee() + "the cashier has arrived at the store on Day ");
+    }
+
+    public void vacuumStore(){
+        System.out.println(storeObj.pickEmployee() + " vacuumed the store");
 
     }
 
@@ -71,11 +42,16 @@ public class Cashier extends Employee { // Example of Inheritance
 
     }
 
-    public static void closeStore(){
-        System.out.println(employee.pickEmployee(), " is leaving and closed the store");
+    public void closeStore(){
+        System.out.println(storeObj.pickEmployee() + " is leaving and closed the store");
     }
 
     public void countMoney(){
+        System.out.println("There are $" + game.cashReg + " in the cash register.");
 
+        if (game.cashReg < 100){
+            game.cashReg = game.cashReg + 1000;
+            System.out.println("Money was added to the cash register.");
+        }
     }
 }
