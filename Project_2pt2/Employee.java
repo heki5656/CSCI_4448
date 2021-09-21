@@ -1,12 +1,17 @@
 import java.util.*;
 import java.util.List;
+import java.lang.Math;
 
 public class Employee{
-    //name attribute for each instance of a class
+ //name attribute for each instance of a class
     String name;
 
     public Employee(String name){
         this.name = name;
+    }
+
+    public String getName() {
+        return name;
     }
 }
 
@@ -16,34 +21,45 @@ class Cashier extends Employee { // Example of Inheritance
     Store storeObj = new Store();
     Game game = new Game();
 
-    public Cashier(String name) {
-        super(name);
+    String cashierName = storeObj.pickEmployee();
+
+    public Cashier(String storeObj) {
+        super(storeObj);
     }
 
 
     public void arriveAtStore(){
-        System.out.println(storeObj.pickEmployee() + "the cashier has arrived at the store on Day ");
+        System.out.println(cashierName + " the cashier has arrived at the store on Day ");
     }
 
     public void vacuumStore(){
-        System.out.println(storeObj.pickEmployee() + " vacuumed the store");
+//        System.out.println(cashierName + " vacuumed the store");
+//
+//        if (cashierName == "Ernie"){
+//        }
+//
+//        var d = Math.random();
+//        if (d * 100 < 15){
+//            storeObj.gameVals(); //randomly pick a game from gameList in gameVal - to do
+//        }
 
     }
 
-    public static void stackGame(){
-
-    }
-
-    public static void openStore(){
-
-    }
+//    public static void stackGame(){
+//
+//    }
+//
+//    public static void openStore(){
+//
+//    }
 
     public static void orderGame(){
+        System.out.println("Ordering new games.");
 
     }
 
     public void closeStore(){
-        System.out.println(storeObj.pickEmployee() + " is leaving and closed the store");
+        System.out.println(cashierName + " is leaving and closed the store");
     }
 
     public void countMoney(){
