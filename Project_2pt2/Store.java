@@ -101,6 +101,17 @@ public class Store{
     public void dayStimulation(){
         for(int i = 1; i < 31; i++){
             day = i;
+            Cashier cashierObj = new Cashier(pickEmployee());
+            cashierObj.arriveAtStore();
+            System.out.print(day);
+            System.out.println();
+            cashierObj.stackGame();
+            cashierObj.countMoney();
+            cashierObj.openStore();
+            cashierObj.vacuumStore();
+            cashierObj.orderGame();
+            cashierObj.closeStore();
+            System.out.println();
         }
     }
 }
