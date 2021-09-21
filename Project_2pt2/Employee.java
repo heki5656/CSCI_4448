@@ -30,7 +30,7 @@ class Cashier extends Employee { // Example of Inheritance
 
 
     public void arriveAtStore(){
-        System.out.println(cashierName + " the cashier has arrived at the store on Day " + storeObj.day);
+        System.out.print(cashierName + " the cashier has arrived at the store on Day ");
     }
 
     public void vacuumStore(){
@@ -50,7 +50,7 @@ class Cashier extends Employee { // Example of Inheritance
                 storeObj.gameList.get(i).inventoryAmount = storeObj.gameList.get(i).inventoryAmount - 1;
                 System.out.println(storeObj.gameList.get(i).name + " has " + storeObj.gameList.get(i).inventoryAmount + " games left in inventory");
                 storeObj.damageContainer.add(storeObj.gameList.get(i));
-                System.out.println("removed" + storeObj.damageContainer);
+                //System.out.println("removed" + storeObj.damageContainer);
 
             }
         }
@@ -68,7 +68,7 @@ class Cashier extends Employee { // Example of Inheritance
                 storeObj.gameList.get(i).inventoryAmount = storeObj.gameList.get(i).inventoryAmount - 1;
                 System.out.println(storeObj.gameList.get(i).name + " has " + storeObj.gameList.get(i).inventoryAmount + " games left in inventory");
                 storeObj.damageContainer.add(storeObj.gameList.remove(i));
-                System.out.println("removed" + storeObj.damageContainer);
+               // System.out.println("removed" + storeObj.damageContainer);
 
             }
         }
@@ -119,10 +119,9 @@ class Cashier extends Employee { // Example of Inheritance
         }
     }
 
-    public static void orderGame(){
+    public void orderGame(){
         System.out.println("Ordering new games.");
-        
-        System.out.println("Ordering new games.");
+
         Random random = new Random();
         int max = 12;
         int min = 1;
