@@ -25,7 +25,9 @@ class kidsGame extends Game{
 }
 
 class cardGame extends Game{
-
+    int length = 5;
+    int width = 4;
+    int height = 2;
 }
 
 class boardGame extends Game{

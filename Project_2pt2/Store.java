@@ -9,6 +9,7 @@ public class Store{
     protected String[] damageContainer = {""}; // not sure about this
     List<Employee> employeeList = new ArrayList<Employee>();
     List<Game> gameList = new ArrayList<Game>();
+    double cashReg = 0.00;
 
     public void createEmployee(){
         Employee employee1 = new Employee("Burt");
