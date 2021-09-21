@@ -2,7 +2,7 @@ import java.util.*;
 import java.util.List;
 
 public class Employee{
- //name attribute for each instance of a class
+    //name attribute for each instance of a class
     String name;
 
     public Employee(String name){
@@ -47,10 +47,10 @@ class Cashier extends Employee { // Example of Inheritance
     }
 
     public void countMoney(){
-        System.out.println("There are $" + game.cashReg + " in the cash register.");
+        System.out.println("There are $" + storeObj.cashReg + " in the cash register.");
 
-        if (game.cashReg < 100){
-            game.cashReg = game.cashReg + 1000;
+        if (storeObj.cashReg < 100){
+            storeObj.cashReg = storeObj.cashReg + 1000;
             System.out.println("Money was added to the cash register.");
         }
     }
