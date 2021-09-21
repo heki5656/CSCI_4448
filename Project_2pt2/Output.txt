@@ -1,0 +1,267 @@
+Ernie the cashier has arrived at the store on Day 1
+There are $0.0 in the cash register.
+Money was added to the cash register.
+Ernie vacuumed the store
+Ordering new games.
+Ernie is leaving and closed the store
+
+Burt the cashier has arrived at the store on Day 2
+There are $0.0 in the cash register.
+Money was added to the cash register.
+Burt vacuumed the store
+Burt says that Magic is damaged.
+Magic has 2 games left in inventory
+Ordering new games.
+Burt is leaving and closed the store
+
+Burt the cashier has arrived at the store on Day 3
+There are $0.0 in the cash register.
+Money was added to the cash register.
+Burt vacuumed the store
+Burt says that Monopoly is damaged.
+Monopoly has 2 games left in inventory
+Ordering new games.
+Burt is leaving and closed the store
+
+Ernie the cashier has arrived at the store on Day 4
+There are $0.0 in the cash register.
+Money was added to the cash register.
+Ernie vacuumed the store
+Ernie says that Risk is damaged.
+Risk has 2 games left in inventory
+Ordering new games.
+Ernie is leaving and closed the store
+
+Ernie the cashier has arrived at the store on Day 5
+There are $0.0 in the cash register.
+Money was added to the cash register.
+Ernie sold a Life game to Customer 2 for $31
+Ernie vacuumed the store
+Ernie says that Life is damaged.
+Life has 1 games left in inventory
+Ordering new games.
+Ernie is leaving and closed the store
+
+Burt the cashier has arrived at the store on Day 6
+There are $0.0 in the cash register.
+Money was added to the cash register.
+Burt vacuumed the store
+Ordering new games.
+Burt is leaving and closed the store
+
+Ernie the cashier has arrived at the store on Day 7
+There are $0.0 in the cash register.
+Money was added to the cash register.
+Ernie sold a Clue game to Customer 1 for $58
+Ernie vacuumed the store
+Ernie says that Catan is damaged.
+Catan has 2 games left in inventory
+Ordering new games.
+Ernie is leaving and closed the store
+
+Ernie the cashier has arrived at the store on Day 8
+There are $0.0 in the cash register.
+Money was added to the cash register.
+Ernie sold a Clue game to Customer 1 for $6
+Ernie vacuumed the store
+Ernie says that Monopoly is damaged.
+Monopoly has 2 games left in inventory
+Ordering new games.
+Ernie is leaving and closed the store
+
+Burt the cashier has arrived at the store on Day 9
+There are $0.0 in the cash register.
+Money was added to the cash register.
+Burt vacuumed the store
+Ordering new games.
+Burt is leaving and closed the store
+
+Burt the cashier has arrived at the store on Day 10
+There are $0.0 in the cash register.
+Money was added to the cash register.
+Burt sold a Clue game to Customer 1 for $79
+Burt vacuumed the store
+Burt says that Connect Four is damaged.
+Connect Four has 2 games left in inventory
+Ordering new games.
+Burt is leaving and closed the store
+
+Burt the cashier has arrived at the store on Day 11
+There are $0.0 in the cash register.
+Money was added to the cash register.
+Burt vacuumed the store
+Burt says that Connect Four is damaged.
+Connect Four has 2 games left in inventory
+Ordering new games.
+Burt is leaving and closed the store
+
+Burt the cashier has arrived at the store on Day 12
+There are $0.0 in the cash register.
+Money was added to the cash register.
+Burt sold a Clue game to Customer 1 for $27
+Burt sold a Life game to Customer 2 for $59
+Burt vacuumed the store
+Burt says that Risk is damaged.
+Risk has 2 games left in inventory
+Ordering new games.
+Burt is leaving and closed the store
+
+Ernie the cashier has arrived at the store on Day 13
+There are $0.0 in the cash register.
+Money was added to the cash register.
+Ernie sold a Life game to Customer 2 for $61
+Ernie vacuumed the store
+Ernie says that Magic is damaged.
+Magic has 2 games left in inventory
+Ordering new games.
+Ernie is leaving and closed the store
+
+Burt the cashier has arrived at the store on Day 14
+There are $0.0 in the cash register.
+Money was added to the cash register.
+Burt vacuumed the store
+Burt says that Clue is damaged.
+Clue has 2 games left in inventory
+Ordering new games.
+Burt is leaving and closed the store
+
+Ernie the cashier has arrived at the store on Day 15
+There are $0.0 in the cash register.
+Money was added to the cash register.
+Ernie sold a Life game to Customer 2 for $31
+Ernie vacuumed the store
+Ernie says that Magic is damaged.
+Magic has 2 games left in inventory
+Ordering new games.
+Ernie is leaving and closed the store
+
+Ernie the cashier has arrived at the store on Day 16
+There are $0.0 in the cash register.
+Money was added to the cash register.
+Ernie sold a Monopoly game to Customer 0 for $32
+Ernie vacuumed the store
+Ernie says that Life is damaged.
+Life has 2 games left in inventory
+Ordering new games.
+Ernie is leaving and closed the store
+
+Ernie the cashier has arrived at the store on Day 17
+There are $0.0 in the cash register.
+Money was added to the cash register.
+Ernie vacuumed the store
+Ernie says that Monopoly is damaged.
+Monopoly has 2 games left in inventory
+Ordering new games.
+Ernie is leaving and closed the store
+
+Ernie the cashier has arrived at the store on Day 18
+There are $0.0 in the cash register.
+Money was added to the cash register.
+Ernie vacuumed the store
+Ernie says that Pokemon is damaged.
+Pokemon has 2 games left in inventory
+Ordering new games.
+Ernie is leaving and closed the store
+
+Ernie the cashier has arrived at the store on Day 19
+There are $0.0 in the cash register.
+Money was added to the cash register.
+Ernie vacuumed the store
+Ernie says that Candyland is damaged.
+Candyland has 2 games left in inventory
+Ordering new games.
+Ernie is leaving and closed the store
+
+Ernie the cashier has arrived at the store on Day 20
+There are $0.0 in the cash register.
+Money was added to the cash register.
+Ernie vacuumed the store
+Ordering new games.
+Ernie is leaving and closed the store
+
+Ernie the cashier has arrived at the store on Day 21
+There are $0.0 in the cash register.
+Money was added to the cash register.
+Ernie vacuumed the store
+Ernie says that Netrunner is damaged.
+Netrunner has 2 games left in inventory
+Ordering new games.
+Ernie is leaving and closed the store
+
+Burt the cashier has arrived at the store on Day 22
+There are $0.0 in the cash register.
+Money was added to the cash register.
+Burt vacuumed the store
+Burt says that Pokemon is damaged.
+Pokemon has 2 games left in inventory
+Ordering new games.
+Burt is leaving and closed the store
+
+Burt the cashier has arrived at the store on Day 23
+There are $0.0 in the cash register.
+Money was added to the cash register.
+Burt vacuumed the store
+Burt says that Gloomhaven is damaged.
+Gloomhaven has 2 games left in inventory
+Ordering new games.
+Burt is leaving and closed the store
+
+Burt the cashier has arrived at the store on Day 24
+There are $0.0 in the cash register.
+Money was added to the cash register.
+Burt vacuumed the store
+Burt says that Catan is damaged.
+Catan has 2 games left in inventory
+Ordering new games.
+Burt is leaving and closed the store
+
+Burt the cashier has arrived at the store on Day 25
+There are $0.0 in the cash register.
+Money was added to the cash register.
+Burt vacuumed the store
+Burt says that Connect Four is damaged.
+Connect Four has 2 games left in inventory
+Ordering new games.
+Burt is leaving and closed the store
+
+Burt the cashier has arrived at the store on Day 26
+There are $0.0 in the cash register.
+Money was added to the cash register.
+Burt vacuumed the store
+Ordering new games.
+Burt is leaving and closed the store
+
+Ernie the cashier has arrived at the store on Day 27
+There are $0.0 in the cash register.
+Money was added to the cash register.
+Ernie vacuumed the store
+Ernie says that Catan is damaged.
+Catan has 2 games left in inventory
+Ordering new games.
+Ernie is leaving and closed the store
+
+Ernie the cashier has arrived at the store on Day 28
+There are $0.0 in the cash register.
+Money was added to the cash register.
+Ernie vacuumed the store
+Ernie says that Risk is damaged.
+Risk has 2 games left in inventory
+Ordering new games.
+Ernie is leaving and closed the store
+
+Burt the cashier has arrived at the store on Day 29
+There are $0.0 in the cash register.
+Money was added to the cash register.
+Burt sold a Monopoly game to Customer 0 for $81
+Burt vacuumed the store
+Ordering new games.
+Burt is leaving and closed the store
+
+Burt the cashier has arrived at the store on Day 30
+There are $0.0 in the cash register.
+Money was added to the cash register.
+Burt sold a Monopoly game to Customer 0 for $8
+Burt vacuumed the store
+Ordering new games.
+Burt is leaving and closed the store
+
