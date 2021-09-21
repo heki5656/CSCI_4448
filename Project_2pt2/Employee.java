@@ -3,7 +3,7 @@ import java.util.List;
 import java.lang.Math;
 
 public class Employee{
- //name attribute for each instance of a class
+    //name attribute for each instance of a class
     String name;
 
     public Employee(String name){
@@ -45,13 +45,32 @@ class Cashier extends Employee { // Example of Inheritance
 
     }
 
-//    public static void stackGame(){
-//
-//    }
-//
-//    public static void openStore(){
-//
-//    }
+    public void stackGame(){
+        storeObj.gameVals();
+        //System.out.println(storeObj.gameList.get(2).name);
+        if(cashierName == "Ernie"){
+            //all the games have the same height so Ernie would not sort the list
+            storeObj.gameList = storeObj.gameList;
+        }
+        else if(cashierName == "Burt"){
+            for(int i = storeObj.gameList.size()-1; i > 0; i--){
+                for(int j = 0; j < storeObj.gameList.size()-i-1; j++){
+                    if(storeObj.gameList.get(j).width > storeObj.gameList.get(j+1).width){
+                        Game tempObj; //don't need it to be new since I declare a val for it below
+                        Game tempObj2;
+                        tempObj = storeObj.gameList.get(j);
+                        tempObj2 = storeObj.gameList.get(j+1);
+                        storeObj.gameList.set(j, tempObj2);
+                        storeObj.gameList.set(j+1, tempObj);
+                    }
+                }
+            }
+        }
+    }
+
+    public void openStore(){
+
+    }
 
     public static void orderGame(){
         System.out.println("Ordering new games.");
