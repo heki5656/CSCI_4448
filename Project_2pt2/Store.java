@@ -6,10 +6,11 @@ import java.util.*;
 //import java.util.List;
 
 public class Store{
-    List<Game> damageContainer = new ArrayList<Game>(); // not sure about this
+    List<Game> damageContainer = new ArrayList<Game>(); // list of all the damaged games
     List<String> employeeList = new ArrayList<String>();
     List<Game> gameList = new ArrayList<Game>();
     double cashReg = 0.00;
+    int day = 1;
 
     public void createEmployee(){
         Employee employee1 = new Employee("Burt");
@@ -46,12 +47,12 @@ public class Store{
         famGame1.shelfPosition = 1;
         gameList.add(famGame1);
         Game famGame2 = new familyGame();
-        famGame1.name = "Clue";
-        famGame1.shelfPosition = 2;
+        famGame2.name = "Clue";
+        famGame2.shelfPosition = 2;
         gameList.add(famGame2);
         Game famGame3 = new familyGame();
-        famGame1.name = "Life";
-        famGame1.shelfPosition = 3;
+        famGame3.name = "Life";
+        famGame3.shelfPosition = 3;
         gameList.add(famGame3);
 
         //implementing the kids game objects
@@ -98,6 +99,8 @@ public class Store{
     }
 
     public void dayStimulation(){
-
+        for(int i = 1; i < 31; i++){
+            day = i;
+        }
     }
 }

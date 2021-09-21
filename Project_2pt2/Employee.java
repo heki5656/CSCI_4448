@@ -30,7 +30,7 @@ class Cashier extends Employee { // Example of Inheritance
 
 
     public void arriveAtStore(){
-        System.out.println(cashierName + " the cashier has arrived at the store on Day ");
+        System.out.println(cashierName + " the cashier has arrived at the store on Day " + storeObj.day);
     }
 
     public void vacuumStore(){
