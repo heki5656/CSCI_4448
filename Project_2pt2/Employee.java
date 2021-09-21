@@ -1,6 +1,7 @@
 import java.util.*;
 import java.util.List;
 import java.lang.Math;
+import java.util.Random;
 
 public class Employee{
     //name attribute for each instance of a class
@@ -69,7 +70,23 @@ class Cashier extends Employee { // Example of Inheritance
     }
 
     public void openStore(){
-
+        stackGame();
+        Random rand = new Random();
+        int numCustomers = rand.nextInt(4);
+        for(int i = 0; i < numCustomers; i++){
+            Random randGame = new Random();
+            int soldGameAmt = randGame.nextInt(3);
+            for(int j = 0; j < soldGameAmt; j++){
+                Random randNum = new Random();
+                int prob = randNum.nextInt(99);
+                if(prob <= (20-i*2)){
+                    storeObj.cashReg = storeObj.cashReg + storeObj.gameList.get(i).cost;
+                    storeObj.gameList.get(i).inventoryAmount = storeObj.gameList.get(i).inventoryAmount - 1;
+                    game.numSold = game.numSold + 1;
+                    System.out.println(cashierName + " sold a " + storeObj.gameList.get(i).name + " game to Customer " + i + " for $" + storeObj.gameList.get(i).cost);
+                }
+            }
+        }
     }
 
     public static void orderGame(){
