@@ -8,6 +8,7 @@ import java.util.*;
 public class Store{
     protected String[] damageContainer = {""}; // not sure about this
     List<Employee> employeeList = new ArrayList<Employee>();
+    List<Game> gameList = new ArrayList<Game>();
 
     public void createEmployee(){
         Employee employee1 = new Employee("Burt");
