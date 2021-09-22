@@ -21,18 +21,18 @@ public class Store{
 
     public String pickEmployee(){
         createEmployee();
-        double rangeMin = 0.0f;
-        double rangeMax = 1.0f;
+        double min_float = 0.0f;
+        double max_float = 1.0f;
         //Employee getEmployee = null;
         Random r = new Random();
-        double createdRanNum = rangeMin + (rangeMax - rangeMin) * r.nextDouble();
+        double randomProb = min_float + (max_float - min_float) * r.nextDouble();
 
-        if (createdRanNum < 0.5){
+        if (randomProb < 0.5){
             return employeeList.get(0); // get Burt
             //return getEmployee;
         }
 
-        if (createdRanNum >= 0.5){
+        if (randomProb >= 0.5){
             return employeeList.get(1); // get Ernie
             //return getEmployee;
         }
