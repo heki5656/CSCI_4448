@@ -103,23 +103,28 @@ class Cashier extends Employee {
             }
         }
     }
-
+    
     public void openStore(String cashierName){
         stackGame(cashierName);
         Random rand = new Random();
         int numCustomers = rand.nextInt(4);
+        //generates a random number of customers from 1-4 for the day 
         for(int i = 0; i < numCustomers; i++){
             Random randGame = new Random();
             int soldGameAmt = randGame.nextInt(3);
+            //determins the number of games each customer chooses to buy in a day, ranging from 0-3
             for(int j = 0; j < soldGameAmt; j++){
                 Random randNum = new Random();
                 int prob = randNum.nextInt(99);
+                //determines the probability for which games are sold to the customer
                 if(prob <= (20-i*2)){
                     storeObj.cashReg = storeObj.cashReg + storeObj.gameList.get(i).cost;
                     storeObj.gameList.get(i).inventoryAmount = storeObj.gameList.get(i).inventoryAmount - 1;
+                    //checking of the inventory to make sure that the cashier orders more games if the amount of one drops to 0
                     if(storeObj.gameList.get(i).inventoryAmount == 0){
                         orderGame(i);
                     }
+                    //counter for the number of games sold 
                     game.numSold = game.numSold + 1;
                     System.out.println(cashierName + " sold a " + storeObj.gameList.get(i).name + " game to Customer " + i + " for $" + storeObj.gameList.get(i).cost);
                 }
