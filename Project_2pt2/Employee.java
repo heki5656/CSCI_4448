@@ -3,7 +3,7 @@ import java.util.List;
 import java.lang.Math;
 import java.util.Random;
 
-public class Employee{
+public class Employee{ // example of abstraction?
     //name attribute for each instance of a class
     String name;
 
