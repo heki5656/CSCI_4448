@@ -6,6 +6,7 @@ import java.util.*;
 //import java.util.List;
 
 public class Store{
+    //creating the lists for damaged games, employees, and the games in the store
     List<Game> damageContainer = new ArrayList<Game>(); // list of all the damaged games
     List<String> employeeList = new ArrayList<String>();
     List<Game> gameList = new ArrayList<Game>();
@@ -20,7 +21,8 @@ public class Store{
         employee2.setName("Ernie");
         employeeList.add(employee2.getName());
     }
-
+    //create and pick employee are an example of coupling because they both initialize who the staff of the store are and set who works for the day and it is a property
+    //that cannot be changed by the employee or cashier class, and they can only use the store objects of the employee to determine who does what.
     public String pickEmployee(){
         createEmployee();
         double rangeMin = 0.0f;
@@ -41,7 +43,8 @@ public class Store{
 
         return null;
     }
-
+    
+    //this method instantiates all the game objects in the game list that the store uses to sell games to customers
     public void gameVals(){
         //implementing the family game objects
         Game famGame1 = new familyGame();
@@ -100,6 +103,7 @@ public class Store{
         gameList.add(boardGame3);
     }
 
+    //runs all the methods necessary to run the store for 30 days of how an average day would go
     public void dayStimulation(){
 //        Cashier cashierObj = new Cashier(pickEmployee());
         //the cashier has to be outside the loop since the cash reg keeps
