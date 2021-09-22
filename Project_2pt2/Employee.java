@@ -5,6 +5,8 @@ import java.util.Random;
 
 public class Employee{
     //name attribute for each instance of a class
+    //this private variable is an example of encapsulation because it shouldn't be edited by other classes as once an employee is picked it has to remain the same 
+    //for the other class uses 
     private String name;
 
 //    public Employee(String name){
@@ -22,6 +24,8 @@ public class Employee{
 
 // List of games in store, cashier has reference to store, cashier can access games
 
+//The cashier methods are an example of abstraction because how the cahsier decides to do certain tasks are not displayed for the customers and the details of it are instead 
+//hidden and only the necessary values of what occurs is being shown in the store class.
 class Cashier extends Employee { // Example of Inheritance
 
 //    Store storeObj = new Store();
