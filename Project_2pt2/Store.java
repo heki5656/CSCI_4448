@@ -13,26 +13,28 @@ public class Store{
     int day = 1;
 
     public void createEmployee(){
-        Employee employee1 = new Employee("Burt");
+        Employee employee1 = new Employee();
+        employee1.setName("Burt");
         employeeList.add(employee1.getName());
-        Employee employee2 = new Employee("Ernie");
+        Employee employee2 = new Employee();
+        employee2.setName("Ernie");
         employeeList.add(employee2.getName());
     }
 
     public String pickEmployee(){
         createEmployee();
-        double min_float = 0.0f;
-        double max_float = 1.0f;
+        double rangeMin = 0.0f;
+        double rangeMax = 1.0f;
         //Employee getEmployee = null;
         Random r = new Random();
-        double randomProb = min_float + (max_float - min_float) * r.nextDouble();
+        double createdRanNum = rangeMin + (rangeMax - rangeMin) * r.nextDouble();
 
-        if (randomProb < 0.5){
+        if (createdRanNum < 0.5){
             return employeeList.get(0); // get Burt
             //return getEmployee;
         }
 
-        if (randomProb >= 0.5){
+        if (createdRanNum >= 0.5){
             return employeeList.get(1); // get Ernie
             //return getEmployee;
         }
@@ -99,18 +101,22 @@ public class Store{
     }
 
     public void dayStimulation(){
+//        Cashier cashierObj = new Cashier(pickEmployee());
+        //the cashier has to be outside the loop since the cash reg keeps
+        //resetting each time
+        Cashier cashierObj = new Cashier();
         for(int i = 1; i < 31; i++){
             day = i;
-            Cashier cashierObj = new Cashier(pickEmployee());
-            cashierObj.arriveAtStore();
+            String cashier = pickEmployee();
+            cashierObj.arriveAtStore(cashier);
             System.out.print(day);
             System.out.println();
-            cashierObj.stackGame();
+            cashierObj.stackGame(cashier);
             cashierObj.countMoney();
-            cashierObj.openStore();
-            cashierObj.vacuumStore();
-            cashierObj.orderGame();
-            cashierObj.closeStore();
+            cashierObj.openStore(cashier);
+            cashierObj.vacuumStore(cashier);
+            //cashierObj.orderGame();
+            cashierObj.closeStore(cashier);
             System.out.println();
         }
     }
