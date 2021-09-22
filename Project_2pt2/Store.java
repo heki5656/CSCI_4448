@@ -45,6 +45,10 @@ public class Store{
     }
     
     //this method instantiates all the game objects in the game list that the store uses to sell games to customers
+    //these different game objects are an example of identity because even though they are all game type objects and there are groups of game subclasses where 
+    //there are 3 of those different subclass objects, they are still used differently as they each have their own unique game and card game also has a different set of sizes.
+    //And when they are being sold the inventory of each specific game is being affected depending on which one is called despite them being of the same class type of even 
+    //subclass type object
     public void gameVals(){
         //implementing the family game objects
         Game famGame1 = new familyGame();
