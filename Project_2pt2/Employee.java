@@ -4,70 +4,64 @@ import java.lang.Math;
 import java.util.Random;
 
 public class Employee{
-    //name attribute for each instance of a class
     //this private variable is an example of encapsulation because it shouldn't be edited by other classes as once an employee is picked it has to remain the same 
     //for the other class uses 
     private String name;
 
-//    public Employee(String name){
-//        this.name = name;
-//    }
-    public void setName(String name){
+    public void setName(String name){ // set employee name
         this.name = name;
     }
 
-    public String getName() {
+    public String getName() { // get name of employee
         return name;
     }
     Store storeObj = new Store();
 }
 
-// List of games in store, cashier has reference to store, cashier can access games
-
-//The cashier methods are an example of abstraction because how the cahsier decides to do certain tasks are not displayed for the customers and the details of it are instead 
+//The cashier methods are an example of abstraction because how the cashier decides to do certain tasks are not displayed for the customers and the details of it are instead 
 //hidden and only the necessary values of what occurs is being shown in the store class.
-class Cashier extends Employee { // Example of Inheritance
+
+// The fact that the cashier class "extends" the employee class is an example of inheritance because the methods and attributes in Employee are inherited by Cashier like name,
+// setName(), and getName(). Cashier can now use those methods and attributes from Employee. 
+
+// An example of cohesion is the relationship between the cashier and store classes. They are highly cohesive because Cashier only focuses on the specific actions a cashier
+// can take. The Store class solely focues on deciding who that cashier is that will work that day and takes care of initializations for the games. These actions are not 
+// combined into one class as separate methods. Instead, Cashier is calling those methods and attributes from Store. 
+
+class Cashier extends Employee {
 
 //    Store storeObj = new Store();
-    //this keeps resetting the cash register as well
     Game game = new Game();
 
-    //String cashierName = storeObj.pickEmployee();
-
-    //public Cashier(String storeObj) {
-//        super(storeObj);
-//    }
-    public void arriveAtStore(String cashierName){
+    public void arriveAtStore(String cashierName){ 
         System.out.print(cashierName + " the cashier has arrived at the store on Day ");
     }
 
     public void vacuumStore(String cashierName){
         System.out.println(cashierName + " vacuumed the store");
         java.util.Random rand = new java.util.Random();
-        double f = rand.nextDouble();
+        double damageProb = rand.nextDouble(); // pick random double value to determine if Burt or Ernie damages a game
 
         if (cashierName == "Ernie"){
-            if (f < 0.95){
+            if (damageProb < 0.95){
                 Random random = new Random();
                 int max = 12;
                 int min = 1;
-                int i = random.nextInt(max - min + 1) + min;
+                int i = random.nextInt(max - min + 1) + min; //pick random shelf number to represent game
                 storeObj.gameVals();
-                String name = storeObj.gameList.get(i).name;
+                String name = storeObj.gameList.get(i).name; //select name of random game chosen based on shelf number 
                 System.out.println(cashierName + " says that " + name + " is damaged.");
-                storeObj.gameList.get(i).inventoryAmount = storeObj.gameList.get(i).inventoryAmount - 1;
+                storeObj.gameList.get(i).inventoryAmount = storeObj.gameList.get(i).inventoryAmount - 1; // reduce inventory because a game was damaged so we take a new game out
                 System.out.println(storeObj.gameList.get(i).name + " has " + storeObj.gameList.get(i).inventoryAmount + " games left in inventory");
                 if(storeObj.gameList.get(i).inventoryAmount == 0){
                     orderGame(i);
                 }
-                storeObj.damageContainer.add(storeObj.gameList.get(i));
-                //System.out.println("removed" + storeObj.damageContainer);
-
+                storeObj.damageContainer.add(storeObj.gameList.get(i)); // add the damaged game to the damaged game container
             }
         }
 
         if (cashierName == "Burt"){
-            if (f < 0.60){
+            if (damageProb < 0.60){
                 Random random = new Random();
                 int max = 12;
                 int min = 1;
@@ -75,7 +69,6 @@ class Cashier extends Employee { // Example of Inheritance
                 stackGame(cashierName);
                 String name = storeObj.gameList.get(i).name;
                 System.out.println(cashierName + " says that " + name + " is damaged.");
-                //System.out.println("height" + storeObj.gameList.get(i).height);
                 if(storeObj.gameList.get(i).inventoryAmount > 0){
                     storeObj.gameList.get(i).inventoryAmount = storeObj.gameList.get(i).inventoryAmount - 1;
                 }
@@ -84,15 +77,11 @@ class Cashier extends Employee { // Example of Inheritance
                 }
                 System.out.println(storeObj.gameList.get(i).name + " has " + storeObj.gameList.get(i).inventoryAmount + " games left in inventory");
                 storeObj.damageContainer.add(storeObj.gameList.remove(i));
-                // System.out.println("removed" + storeObj.damageContainer);
-
             }
         }
-
-
     }
 
-    public void stackGame(String cashierName){
+    public void stackGame(String cashierName){ 
         storeObj.gameVals();
         //System.out.println(storeObj.gameList.get(2).name);
         if(cashierName == "Ernie"){
@@ -138,19 +127,12 @@ class Cashier extends Employee { // Example of Inheritance
         }
     }
 
-    public void orderGame(int gameNum){
+    public void orderGame(int gameNum){ // pass in the shelf number of the game that has zero quantity left in inventory in order to add more games of that type
         System.out.println("Ordering new games.");
-//        Random random = new Random();
-//        int max = 12;
-//        int min = 1;
-//        int j = random.nextInt(max - min + 1) + min;
         storeObj.gameVals();
-        String name = storeObj.gameList.get(gameNum).name;
-
-        //if (storeObj.gameList.get(j).inventoryAmount == 0) {
-            storeObj.gameList.get(gameNum).inventoryAmount = storeObj.gameList.get(gameNum).inventoryAmount + 3;
-            storeObj.cashReg = storeObj.cashReg - (storeObj.gameList.get(gameNum).cost/2.0);
-        //}
+        String name = storeObj.gameList.get(gameNum).name; // get the name of the game that has zero left in inventory
+        storeObj.gameList.get(gameNum).inventoryAmount = storeObj.gameList.get(gameNum).inventoryAmount + 3; // reset inventory amount for that game back to 3
+        storeObj.cashReg = storeObj.cashReg - (storeObj.gameList.get(gameNum).cost/2.0); // update cash register amount after paying for the new game
     }
 
     public void closeStore(String cashierName){
@@ -160,10 +142,9 @@ class Cashier extends Employee { // Example of Inheritance
     public void countMoney(){
         System.out.println("There are $" + storeObj.cashReg + " in the cash register.");
 
-        if (storeObj.cashReg < 100){
+        if (storeObj.cashReg < 100){ // if money in cash register goes below $100, add $1000 to it
             storeObj.cashReg = storeObj.cashReg + 1000;
             System.out.println("Money was added to the cash register.");
-            //System.out.println("test: " + storeObj.cashReg );
         }
     }
 }
