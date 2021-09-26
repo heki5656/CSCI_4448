@@ -6,40 +6,51 @@ import java.util.*;
 //import java.util.List;
 
 public class Store{
+    //creating the lists for damaged games, employees, and the games in the store
     List<Game> damageContainer = new ArrayList<Game>(); // list of all the damaged games
-    List<String> employeeList = new ArrayList<String>();
-    List<Game> gameList = new ArrayList<Game>();
-    double cashReg = 0.00;
+    List<String> employeeList = new ArrayList<String>(); // list to keep track of employees
+    List<Game> gameList = new ArrayList<Game>(); // list to hold game information for each game
+    double cashReg = 0.00; 
     int day = 1;
 
     public void createEmployee(){
-        Employee employee1 = new Employee("Burt");
-        employeeList.add(employee1.getName());
-        Employee employee2 = new Employee("Ernie");
+        Employee employee1 = new Employee(); // create employee object in order to set the name and access it
+        employee1.setName("Burt");
+        employeeList.add(employee1.getName()); // add newly created employee in employee list
+        Employee employee2 = new Employee();
+        employee2.setName("Ernie");
         employeeList.add(employee2.getName());
     }
-
+    
+    //create and pick employee are an example of coupling because they both initialize who the staff of the store are and set who works for the day and it is a property
+    //that cannot be changed by the employee or cashier class, and they can only use the store objects of the employee to determine who does what.
     public String pickEmployee(){
         createEmployee();
-        double rangeMin = 0.0f;
-        double rangeMax = 1.0f;
-        //Employee getEmployee = null;
+        double minProb = 0.0f;
+        double maxProb = 1.0f;
         Random r = new Random();
-        double createdRanNum = rangeMin + (rangeMax - rangeMin) * r.nextDouble();
+        double employeeProb = minProb + (maxProb - minProb) * r.nextDouble(); // generate random probability to find out if Burt or Ernie works that day (50/50 chance)
 
-        if (createdRanNum < 0.5){
+        if (employeeProb < 0.5){
             return employeeList.get(0); // get Burt
-            //return getEmployee;
         }
 
-        if (createdRanNum >= 0.5){
+        if (employeeProb >= 0.5){
             return employeeList.get(1); // get Ernie
-            //return getEmployee;
         }
 
         return null;
     }
-
+    
+    //this method instantiates all the game objects in the game list that the store uses to sell games to customers
+    //these different game objects are an example of identity because even though they are all game type objects and there are groups of game subclasses where 
+    //there are 3 of those different subclass objects, they are still used differently as they each have their own unique game and card game also has a different set of sizes.
+    //And when they are being sold the inventory of each specific game is being affected depending on which one is called despite them being of the same class type of even 
+    //subclass type object
+    
+    // an example of polymorphism is when each of the different game subclasses (family, kids, etc) has common actions like defining specific game subclass names
+    // like monopoly or candyland, and shelf positions. These are common actions for each game subclass however they do slightly different things. Each game has a different
+    // name and shelf position. 
     public void gameVals(){
         //implementing the family game objects
         Game famGame1 = new familyGame();
@@ -98,9 +109,25 @@ public class Store{
         gameList.add(boardGame3);
     }
 
+    //runs all the methods necessary to run the store for 30 days of how an average day would go
     public void dayStimulation(){
+//        Cashier cashierObj = new Cashier(pickEmployee());
+        //the cashier has to be outside the loop since the cash reg keeps
+        //resetting each time
+        Cashier cashierObj = new Cashier();
         for(int i = 1; i < 31; i++){
             day = i;
+            String cashier = pickEmployee();
+            cashierObj.arriveAtStore(cashier);
+            System.out.print(day);
+            System.out.println();
+            cashierObj.stackGame(cashier);
+            cashierObj.countMoney();
+            cashierObj.openStore(cashier);
+            cashierObj.vacuumStore(cashier);
+            //cashierObj.orderGame();
+            cashierObj.closeStore(cashier);
+            System.out.println();
         }
     }
 }
