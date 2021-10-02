@@ -1,4 +1,5 @@
 package com.OOAD;
+import java.util.*;
 
 public class Simulator {
     public void run(int days) {

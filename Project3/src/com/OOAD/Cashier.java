@@ -1,5 +1,5 @@
 package com.OOAD;
-
+import java.util.*;
 import java.util.ArrayList;
 
 public class Cashier extends Employee {
