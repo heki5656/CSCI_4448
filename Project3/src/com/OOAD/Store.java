@@ -5,6 +5,7 @@ import java.util.ArrayList;
 
 public class Store {
 
+    Announcer announcer;
     double registerCash; //starts at $0
     int registerAdds; //starts at 0, incremented when we add $1000
     ArrayList<Cashier> cashiers;
@@ -13,6 +14,9 @@ public class Store {
     ArrayList<Game> brokenGames;
 
     public Store() {
+        //initialize the announcer
+        announcer = new Announcer("Guy", null);
+
         //initialize the cashiers
         cashiers = new ArrayList<Cashier>();
         cashiers.add(new Cashier("Burt",10,new BurtStacks()));

@@ -1,6 +1,7 @@
 package com.OOAD;
 import java.util.*;
 import java.util.ArrayList;
+//message refers to the string that gets sent to announcer
 
 public class Cashier extends Employee {
 
@@ -19,14 +20,14 @@ public class Cashier extends Employee {
     }
 
     public Cashier(String name) {
-        super(name);
+        super(name, null);
         damageChance = 0;
 
         stackMethod = STACK_BY_WIDTH;
     }
 
     public Cashier(String name, int dmgChance, StackBehavior stack) {
-        super(name);
+        super(name, null);
         damageChance = dmgChance;
         this.stackBehavior = stack;
     }
@@ -72,7 +73,8 @@ public class Cashier extends Employee {
 
     public void openTheStore(Store store) {
         int customerCount = Utility.rndFromRange(0,4);
-        System.out.println(name+" sees "+customerCount+" customers coming in the store!");
+        //System.out.println(name+" sees "+customerCount+" customers coming in the store!");
+        String message = name+" sees "+customerCount+" customers coming in the store!";
         for (int c = 1; c <= customerCount ; c++) {
             int purchaseCount = 0;
             int chanceOfPurchase = 20;

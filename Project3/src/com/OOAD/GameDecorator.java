@@ -13,5 +13,11 @@ public abstract class GameDecorator extends Game {
     //need an object to reference to (for adding on the price and such)
     public GameDecorator(String name) {
         super(name);
+        Store store = new Store();
+        //monopoly game condition: 50% chance of getting 1 special tokens pack
+        if((name == "Monopoly") && (random_int <= 50)){
+
+        }
+
     }
 }
