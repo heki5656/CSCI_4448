@@ -9,5 +9,4 @@ public class Cookie {
     //Cookie constructor
     public Cookie(){
     }
-    
 }
