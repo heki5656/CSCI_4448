@@ -15,8 +15,9 @@ public class Store {
     public Store() {
         //initialize the cashiers
         cashiers = new ArrayList<Cashier>();
-        cashiers.add(new Cashier("Burt",10,Cashier.STACK_BY_WIDTH));
-        cashiers.add(new Cashier("Ernie", 5,Cashier.STACK_BY_HEIGHT));
+        cashiers.add(new Cashier("Burt",10,new BurtStacks()));
+        cashiers.add(new Cashier("Ernie", 5,new ErnieStacks()));
+        cashiers.add(new Cashier("Bart", 2, new BartStacks()));
 
         //initialize the games
         games = new ArrayList<Game>();
