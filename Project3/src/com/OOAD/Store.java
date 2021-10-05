@@ -12,6 +12,7 @@ public class Store {
     ArrayList<Game> games;
     Cashier activeCashier;
     ArrayList<Game> brokenGames;
+    Cookie cookie;
 
     public Store() {
         //initialize the announcer
@@ -40,6 +41,9 @@ public class Store {
 
         //initialize a place for broken games
         brokenGames = new ArrayList<Game>();
+
+        //initialize a cookie object for the store
+        cookie = new Cookie();
     }
 
     public void startADay(int day) {
