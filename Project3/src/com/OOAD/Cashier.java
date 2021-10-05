@@ -96,7 +96,8 @@ public class Cashier extends Employee {
                             g.countInventory -= 1;
                             g.countSold += 1;
                             //this is where gameDecorator would go in
-                            GameDecorator decorator = new GameDecorator(g.name);
+                            GameDecorator decorator;
+                            //move this to announcer class
                             System.out.println(name + " sold " + g.name + " to customer " + c + " for " + Utility.asDollar(g.price));
                         }
                     }
