@@ -10,16 +10,25 @@ public class Cashier extends Employee {
     int damageChance; //integer percentage chance of damage for vacuuming
     String stackMethod; // how does this cashier stack games
 
+    //initialize reference variables for the stack behavior
+    StackBehavior stackBehavior;
+
+    //delegate to the behavior class
+    public void performStack(ArrayList<Game> games){
+        stackBehavior.stack(games);
+    }
+
     public Cashier(String name) {
         super(name);
         damageChance = 0;
+
         stackMethod = STACK_BY_WIDTH;
     }
 
-    public Cashier(String name, int dmgChance, String method) {
+    public Cashier(String name, int dmgChance, StackBehavior stack) {
         super(name);
         damageChance = dmgChance;
-        stackMethod = method;
+        this.stackBehavior = stack;
     }
 
     public void checkForNewGames(Store store) {
@@ -58,26 +67,7 @@ public class Cashier extends Employee {
     }
 
     public void stackTheGames(ArrayList<Game> games) {
-
-        // TODO: This really should be done with Strategy
-        // I should assign a method to the Cashier when I initialize it
-        // and avoid this if statement block
-
-        String measure = "";
-        if (this.stackMethod.equals(STACK_BY_WIDTH)) {
-            Stacker.stackByWidth(games);
-            measure = ", game width=";
-        }
-        if (this.stackMethod.equals(STACK_BY_HEIGHT)) {
-            Stacker.stackByHeight(games);
-            measure = ", pile height=";
-        }
-        int i = 0;
-        for (Game g:games) {
-            g.shelfPosition = i;
-            System.out.println(name+" stacked "+g.name+" on shelf "+g.shelfPosition+measure+g.shelfMeasure);
-            i += 1;
-        }
+        stackBehavior.stack(games);
     }
 
     public void openTheStore(Store store) {
