@@ -5,7 +5,7 @@ public abstract class Employee {
     String name;
     String message;
     Announcer announcer;
-    public Employee(String name, Announcer announcer) {
+    public Employee(String name) {
         this.name = name;
         //giving reference to announcer to the employees
         this.announcer = announcer;

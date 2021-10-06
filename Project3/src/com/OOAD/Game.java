@@ -41,6 +41,7 @@ public class Game {
         this.countSold = another.countSold;
         this.countOrdered = another.countOrdered;
     }
+
 }
 
 // I'm using the subclasses to make different sizes and prices for types of games

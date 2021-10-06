@@ -11,13 +11,10 @@ public abstract class GameDecorator extends Game {
     //random variable for generating the random values, values 0 - 100
     int random_int = (int)Math.floor(Math.random()*(100-0+1)+0);
     //need an object to reference to (for adding on the price and such)
-    public GameDecorator(String name) {
+    Game games;
+    public GameDecorator(String name, Game game) {
         super(name);
-        Store store = new Store();
-        //monopoly game condition: 50% chance of getting 1 special tokens pack
-        if((name == "Monopoly") && (random_int <= 50)){
-
-        }
-
+        this.games = game;
     }
 }
+

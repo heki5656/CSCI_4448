@@ -13,21 +13,23 @@ public class Cashier extends Employee {
 
     //initialize reference variables for the stack behavior
     StackBehavior stackBehavior;
+    Announcer announcer;
+    String message;
 
     //delegate to the behavior class
     public void performStack(ArrayList<Game> games){
         stackBehavior.stack(games);
     }
 
-    public Cashier(String name) {
-        super(name, null);
-        damageChance = 0;
-
-        stackMethod = STACK_BY_WIDTH;
-    }
+//    public Cashier(String name, Announcer announcer) {
+//        super(name, announcer);
+//        damageChance = 0;
+//
+//        stackMethod = STACK_BY_WIDTH;
+//    }
 
     public Cashier(String name, int dmgChance, StackBehavior stack) {
-        super(name, null);
+        super(name);
         damageChance = dmgChance;
         this.stackBehavior = stack;
     }
@@ -44,8 +46,12 @@ public class Cashier extends Employee {
 
     public void countTheMoney(Store store) {
         //say what the starting cash is
-        System.out.println(name+" counts the money.");
-        System.out.println(name+" sees "+Utility.asDollar(store.registerCash)+" in the register");
+        //System.out.println(name+" counts the money.");
+        message = name+" counts the money.";
+        announcer.Announcement(message);
+        //System.out.println(name+" sees "+Utility.asDollar(store.registerCash)+" in the register");
+        message = name+" sees "+Utility.asDollar(store.registerCash)+" in the register";
+        announcer.Announcement(message);
 
         // if the money is less than 100, add 1000
         if (store.registerCash < 100) {
