@@ -6,7 +6,7 @@ public class Baker extends Employee{
     double bakerWallet = 0.0; // $0 to begin with
 
     public Baker(String name) {
-        super(name);
+        super(name, null);
     }
 
     public void dropOffCookies(int packages){
@@ -16,3 +16,4 @@ public class Baker extends Employee{
 
     }
 }
+

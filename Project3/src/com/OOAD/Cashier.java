@@ -5,8 +5,6 @@ import java.util.ArrayList;
 
 public class Cashier extends Employee {
 
-    public final static String STACK_BY_WIDTH = "width";
-    public final static String STACK_BY_HEIGHT = "height";
 
     int damageChance; //integer percentage chance of damage for vacuuming
     String stackMethod; // how does this cashier stack games
@@ -22,8 +20,6 @@ public class Cashier extends Employee {
     public Cashier(String name) {
         super(name, null);
         damageChance = 0;
-
-        stackMethod = STACK_BY_WIDTH;
     }
 
     public Cashier(String name, int dmgChance, StackBehavior stack) {
@@ -72,15 +68,44 @@ public class Cashier extends Employee {
     }
 
     public void openTheStore(Store store) {
+        boolean cookieMonster = false;
         int customerCount = Utility.rndFromRange(0,4);
-        //System.out.println(name+" sees "+customerCount+" customers coming in the store!");
-        String message = name+" sees "+customerCount+" customers coming in the store!";
+        System.out.println(name+" sees "+customerCount+" customers coming in the store!");
+        //String message = name+" sees "+customerCount+" customers coming in the store!";
         for (int c = 1; c <= customerCount ; c++) {
+            int cookieMonsterChance = Utility.rndFromRange(1, 100); //cookie monster chance
+            //check if customer is the cookie monster
+            if(cookieMonsterChance == 1){
+                cookieMonster = true;
+                System.out.println("COOKIE MONSTER!!!");
+
+                //check if there is cookies in the store
+                if(store.cookie.inventory > 0){
+                    //cookie monster will eat all the cookies without paying for them
+                    System.out.println("Cookie moster is eating " + store.cookie.inventory + " cookie(s). There are no more cookies in the inventory.");
+                    store.cookie.inventory = 0;
+
+                    //cookie monster will destroy 1-6 games
+                    int cookieMonsterDestroyed = Utility.rndFromRange(1, 6);
+
+                    //loop through the games cookie monster destroyed
+                    for (int i = 0; i < cookieMonsterDestroyed; i++){
+                        System.out.println("Cookie monster is breaking a random game!");
+                        store.breakARandomGame();
+                    }
+
+                }
+                //if there are no cookies then cookie monster leaves the store
+                else{
+                    System.out.println("There are no cookies! Cookie monster is leaving the store.");
+                }
+
+            }
             int purchaseCount = 0;
             int chanceOfPurchase = 20;
             for (Game g:store.games) {
                 if (purchaseCount <= 1) {   // two game purchase limit
-                    if (Utility.rndFromRange(1,100)<=chanceOfPurchase) {
+                    if (Utility.rndFromRange(1,100)<=chanceOfPurchase && cookieMonster == false) {
                         //buying this game if it's on the shelf
                         if (g.countInventory > 0) {
                             purchaseCount += 1;

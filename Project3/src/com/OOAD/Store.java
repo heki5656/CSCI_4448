@@ -16,7 +16,7 @@ public class Store {
 
     public Store() {
         //initialize the announcer
-        announcer = new Announcer("Guy", null);
+        //announcer = new Announcer("Guy", null); /* COMMENT THIS OUT IN ORDER TO RUN */
 
         //initialize the cashiers
         cashiers = new ArrayList<Cashier>();
