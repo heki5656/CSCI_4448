@@ -11,10 +11,14 @@ public abstract class GameDecorator extends Game {
     //random variable for generating the random values, values 0 - 100
     int random_int = (int)Math.floor(Math.random()*(100-0+1)+0);
     //need an object to reference to (for adding on the price and such)
-    Game games;
-    public GameDecorator(String name, Game game) {
+    public GameDecorator(String name) {
         super(name);
-        this.games = game;
+    }
+}
+
+class specialToken extends GameDecorator{
+    public specialToken(String name){
+        super(name);
     }
 }
 

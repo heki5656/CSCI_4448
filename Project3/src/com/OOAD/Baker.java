@@ -5,6 +5,7 @@ public class Baker extends Employee{
     Store store;
     double bakerWallet = 0.0; // $0 to begin with
     Announcer announcer;
+    int packages = 1;
 
     public Baker(String name, Announcer announcer) {
         super(name);
