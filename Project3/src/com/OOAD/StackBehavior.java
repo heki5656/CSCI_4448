@@ -48,10 +48,26 @@ class BurtStacks implements StackBehavior{
 class BartStacks implements StackBehavior{
     public void stack(ArrayList<Game> games){
         System.out.println("Bart is stacking");
+        //create a new game list to put the games with an inventory of 1 in
+        ArrayList<Game> inventoryGames = new ArrayList<Game>();
+
+        //check which games have an inventory of 1 and if so remove them and put them on a new list
+        for (int i = 0; i < games.size(); i++){
+            if (games.get(i).countInventory == 1){
+                inventoryGames.add(games.get(i));
+                games.remove(i);
+            }
+        }
 
         // Width is of a single game
         for (Game g:games) g.shelfMeasure = g.width;
         games.sort(new Sorter());
+
+        //add the inventory 1 games back to the games list
+        for (int i = 0; i < inventoryGames.size(); i++){
+            games.add(inventoryGames.get(i));
+        }
+
 
     //print out Burt stacking the games
     int i = 0;
@@ -60,8 +76,6 @@ class BartStacks implements StackBehavior{
         System.out.println("Bart stacked "+g.name+" on shelf "+g.shelfPosition+", game width=" + g.shelfMeasure);
         i += 1;
     }
-
-    //TODO implement the inventory for Bart stacking the games
    
    }
 }

@@ -10,4 +10,5 @@ public class Announcer extends Employee implements Observer{
     public void Announcement(String message){
         System.out.println("Guy says: " + message);
     }
+
 }
