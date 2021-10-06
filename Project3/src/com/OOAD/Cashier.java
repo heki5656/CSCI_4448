@@ -123,7 +123,7 @@ public class Cashier extends Employee{
             // ..price of cookies to cash register money
             //cookie.inventory -= cookieNum; // reduce cookie inventory
             int cookiePurchaseCount = 0; // number of cookies bought
-            int chanceOfPurchase = 20;
+            double chanceOfPurchase = 20;
             int purchaseCount = 0;
 
             //**********COOKIE MONSTER************//
@@ -164,16 +164,22 @@ public class Cashier extends Employee{
             }
             if (store.cookie.inventory == 0) {
                 // decrease chance of purchasing game by 10%
+                if (Utility.rndFromRange(1, 100) <= chanceOfPurchase){
+                    chanceOfPurchase = chanceOfPurchase * 0.9;
+                }
             }
             if (store.cookie.inventory > 0) {
                 cookiePurchaseCount = cookiePurchaseCount + 1;
+                if (Utility.rndFromRange(1, 100) <= chanceOfPurchase) {
+                    chanceOfPurchase = chanceOfPurchase * 1.2;
+                }
                 store.registerCash += cookieCustomerPrice;
                 store.cookie.inventory -= cookieNum;
                 //g.countSold += 1;
                 //this is where gameDecorator would go in
                 //GameDecorator decorator;
                 //move this to announcer class
-                System.out.println(name + " sold " + cookieNum + " cookies to customer " + c + " for " + Utility.asDollar(cookie.price));
+                System.out.println(name + " sold " + cookieNum + " cookies to customer " + c + " for " + Utility.asDollar(store.cookie.price));
             }
 
             //chanceOfPurchase -= 2;
