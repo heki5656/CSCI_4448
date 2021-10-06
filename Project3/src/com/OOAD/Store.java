@@ -13,6 +13,7 @@ public class Store {
     Cashier activeCashier;
     ArrayList<Game> brokenGames;
     Cookie cookie;
+    Baker baker;
 
     public Store() {
         //initialize the announcer
@@ -44,6 +45,9 @@ public class Store {
 
         //initialize a cookie object for the store
         cookie = new Cookie();
+
+        //initializing the baker
+        baker = new Baker("Gonger");
     }
 
     public void startADay(int day) {

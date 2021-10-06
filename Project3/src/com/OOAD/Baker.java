@@ -7,7 +7,7 @@ public class Baker extends Employee{
     Announcer announcer;
     int packages = 1;
 
-    public Baker(String name, Announcer announcer) {
+    public Baker(String name) {
         super(name);
     }
 

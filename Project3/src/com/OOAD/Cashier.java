@@ -118,8 +118,9 @@ public class Cashier extends Employee{
         String message = name + " sees " + customerCount + " customers coming in the store!";
         for (int c = 1; c <= customerCount; c++) {
             int cookieNum = Utility.rndFromRange(1, 3); // customer purchases 1-3 cookies
-            double cookieCustomerPrice = cookie.price * cookieNum;
-            //store.registerCash += cookieCustomerPrice; // adding price of cookies to cash register money
+            double cookieCustomerPrice = store.cookie.price * cookieNum;
+            //store.registerCash += cookieCustomerPrice; // addi.
+            // ..price of cookies to cash register money
             //cookie.inventory -= cookieNum; // reduce cookie inventory
             int cookiePurchaseCount = 0; // number of cookies bought
             int chanceOfPurchase = 20;
@@ -158,16 +159,16 @@ public class Cashier extends Employee{
             //if (purchaseCount <= 1) {   // two game purchase limit
             //if (Utility.rndFromRange(1,100)<=chanceOfPurchase) {
             //buying this game if it's on the shelf
-            if ((cookieNum > cookie.inventory) && (cookie.inventory < 0)) {
-                cookie.inventory = cookieNum - cookie.inventory; // customer buys whatever remaining cookies left if inventory is less than desired number of cookies
+            if ((cookieNum > store.cookie.inventory) && (store.cookie.inventory < 0)) {
+                store.cookie.inventory = cookieNum - store.cookie.inventory; // customer buys whatever remaining cookies left if inventory is less than desired number of cookies
             }
-            if (cookie.inventory == 0) {
+            if (store.cookie.inventory == 0) {
                 // decrease chance of purchasing game by 10%
             }
-            if (cookie.inventory > 0) {
+            if (store.cookie.inventory > 0) {
                 cookiePurchaseCount = cookiePurchaseCount + 1;
                 store.registerCash += cookieCustomerPrice;
-                cookie.inventory -= cookieNum;
+                store.cookie.inventory -= cookieNum;
                 //g.countSold += 1;
                 //this is where gameDecorator would go in
                 //GameDecorator decorator;
@@ -206,16 +207,15 @@ public class Cashier extends Employee{
         }
     }
 
-
     public void orderNewGames(Store store) {
         double cost = 0;
-        if (cookie.inventory == 0) {
-            baker.packages += 1;
+        if (store.cookie.inventory == 0) {
+            store.baker.packages += 1;
         }
 
         else { // if there are cookies in store at end of the day
-            if (baker.packages >= 2) { // deliver a minimum package of 1 cookies if there are cookies in store
-                baker.packages -= 1;
+            if (store.baker.packages >= 2) { // deliver a minimum package of 1 cookies if there are cookies in store
+                store.baker.packages -= 1;
             }
         }
 
