@@ -62,6 +62,7 @@ public class Store {
         activeCashier.arriveAtStore(day);
         activeCashier.checkForNewGames(this);
         activeCashier.countTheMoney(this);
+        baker.dropOffCookies(1, this);
         activeCashier.vacuumTheStore(this);
         activeCashier.stackTheGames(games);
         activeCashier.openTheStore(this);

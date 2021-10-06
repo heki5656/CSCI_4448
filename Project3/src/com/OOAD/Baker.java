@@ -11,7 +11,9 @@ public class Baker extends Employee{
         super(name);
     }
 
-    public void dropOffCookies(int packages){
+    public void dropOffCookies(int packages, Store storeInput){
+        packages = packages;
+        store = storeInput;
         store.registerCash = store.registerCash - (0.5 * store.cookie.price * (packages * 12));
         bakerWallet = store.registerCash; //money reduced will go to Baker's pocket
         store.cookie.inventory += (packages * 12); //update the cookie inventory 

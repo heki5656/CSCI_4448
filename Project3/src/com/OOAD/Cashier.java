@@ -191,7 +191,7 @@ public class Cashier extends Employee{
             if (cookieMonster == false){
                 for (Game g : store.games) {
                     if (purchaseCount <= 1) {   // two game purchase limit
-                        if (cookiePurchaseCount > 0 ){ // customer bought cookies, so check if they will buy games
+                        //if (cookiePurchaseCount > 0 ){ // customer bought cookies, so check if they will buy games
                             //if (Utility.rndFromRange(1, 100) <= chanceOfPurchase * 1.2) { // chance of buying game increases 20%
                             //buying this game if it's on the shelf
                             if (g.countInventory > 0) {
@@ -205,7 +205,7 @@ public class Cashier extends Employee{
                                 System.out.println(name + " sold " + g.name + " to customer " + c + " for " + Utility.asDollar(g.price));
                             }
                             chanceOfPurchase -= 2;
-                        }
+                        //}
                     }
                 }
             }
