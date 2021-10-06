@@ -51,6 +51,9 @@ public class Store {
         int n = Utility.rndFromRange(0,cashiers.size()-1);
         activeCashier = cashiers.get(n);
 
+        //need to send an announcer to the cashier so that it won't null
+        activeCashier.registerObserver(announcer);
+
         //have the cashier do their things
         activeCashier.arriveAtStore(day);
         activeCashier.checkForNewGames(this);

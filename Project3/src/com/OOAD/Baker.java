@@ -4,8 +4,9 @@ public class Baker extends Employee{
     Game game;
     Store store;
     double bakerWallet = 0.0; // $0 to begin with
+    Announcer announcer;
 
-    public Baker(String name) {
+    public Baker(String name, Announcer announcer) {
         super(name);
     }
 
