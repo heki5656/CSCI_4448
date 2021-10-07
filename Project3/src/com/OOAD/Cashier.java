@@ -41,6 +41,7 @@ public class Cashier extends Employee{
     }
 
     public void arriveAtStore(int day) {
+        notifyObserver("Guy has arrived at the store");
 
         //System.out.println(name+" has arrived on day "+day);
         message = name+" has arrived on day "+day;
@@ -51,7 +52,9 @@ public class Cashier extends Employee{
     }
 
     public void leaveTheStore(int day) {
+
         notifyObserver(name+" has left on day "+day);
+        notifyObserver("Guy is leaving the store");
     }
 
     public void checkForNewGames(Store store) {
@@ -109,6 +112,23 @@ public class Cashier extends Employee{
         } while (p > L);
         return k - 1;
     }
+    //decorating the games based on the inputs and names of them
+    public Game gameDecoratorCall(Game game){
+        Game gameFinal = game;
+        if(gameFinal.name == "Monopoly"){
+            gameFinal = new specialToken(gameFinal);
+        }
+        else if(gameFinal instanceof CardGame){
+            gameFinal = new specialCard(gameFinal);
+        }
+        else if(gameFinal.name == "Mousetrap"){
+            gameFinal = new spareParts(gameFinal);
+        }
+        else if(gameFinal.name == "Gloomhaven"){
+            gameFinal = new customMini(gameFinal);
+        }
+        return gameFinal;
+    }
 
     public void openTheStore(Store store) {
         boolean cookieMonster = false;
@@ -131,12 +151,12 @@ public class Cashier extends Employee{
             //check if customer is the cookie monster
             if(cookieMonsterChance == 1){
                 cookieMonster = true;
-                System.out.println("COOKIE MONSTER!!!");
+                notifyObserver("COOKIE MONSTER!!!");
 
                 //check if there is cookies in the store
                 if(store.cookie.inventory > 0){
                     //cookie monster will eat all the cookies without paying for them
-                    System.out.println("Cookie monster is eating " + store.cookie.inventory + " cookie(s). There are no more cookies in the inventory.");
+                    notifyObserver("Cookie monster is eating " + store.cookie.inventory + " cookie(s). There are no more cookies in the inventory.");
                     store.cookie.inventory = 0;
 
                     //cookie monster will destroy 1-6 games
@@ -144,7 +164,7 @@ public class Cashier extends Employee{
 
                     //loop through the games cookie monster destroyed
                     for (int i = 0; i < cookieMonsterDestroyed; i++){
-                        System.out.println("Cookie monster is breaking a random game!");
+                        notifyObserver("Cookie monster is breaking a random game!");
                         store.breakARandomGame();
                     }
 
@@ -179,7 +199,7 @@ public class Cashier extends Employee{
                 //this is where gameDecorator would go in
                 //GameDecorator decorator;
                 //move this to announcer class
-                System.out.println(name + " sold " + cookieNum + " cookies to customer " + c + " for " + Utility.asDollar(store.cookie.price));
+                notifyObserver(name + " sold " + cookieNum + " cookies to customer " + c + " for " + Utility.asDollar(store.cookie.price));
             }
 
             //chanceOfPurchase -= 2;
@@ -200,9 +220,9 @@ public class Cashier extends Employee{
                                 g.countInventory -= 1;
                                 g.countSold += 1;
                                 //this is where gameDecorator would go in
-                                GameDecorator decorator;
+                                g = gameDecoratorCall(g);
                                 //move this to announcer class
-                                System.out.println(name + " sold " + g.name + " to customer " + c + " for " + Utility.asDollar(g.price));
+                                notifyObserver(name + " sold " + g.name + " to customer " + c + " for " + Utility.asDollar(g.price));
                             }
                             chanceOfPurchase -= 2;
                         //}
@@ -229,18 +249,18 @@ public class Cashier extends Employee{
             if (g.countInventory == 0) {
                 g.countOrdered = 3; // always order 3
                 cost += g.countOrdered * g.price / 2; //pay for the order
-                System.out.println(name+" ordering new copies of "+g.name);
+                notifyObserver(name+" ordering new copies of "+g.name);
             }
         }
         if (cost != 0) {
             store.registerCash -= cost;
-            System.out.println(name+" ordered new games for "+Utility.asDollar(cost));
+            notifyObserver(name+" ordered new games for "+Utility.asDollar(cost));
         }
-        else System.out.println(name + " did not order any games");
+        else notifyObserver(name + " did not order any games");
     }
 
     public void closeTheStore(int day) {
-        System.out.println(name + " is closing the store");
+        notifyObserver(name + " is closing the store");
         leaveTheStore(day);
     }
 }
