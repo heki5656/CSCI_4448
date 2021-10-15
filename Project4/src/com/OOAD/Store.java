@@ -14,6 +14,7 @@ public class Store {
     ArrayList<Game> brokenGames;
     Cookie cookie;
     Baker baker;
+    CustomerFactory factory;
 
     public Store() {
         //initialize the announcer
