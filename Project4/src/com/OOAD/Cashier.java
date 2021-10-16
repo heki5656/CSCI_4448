@@ -132,53 +132,71 @@ public class Cashier extends Employee{
 
     public void openTheStore(Store store) {
         boolean cookieMonster = false;
-        //int customerCount = Utility.rndFromRange(0,4);
         int customerCount = 1 + getPoissonRandom(3.0);
-        //System.out.println(name+" sees "+customerCount+" customers coming in the store!");
-        String message = name + " sees " + customerCount + " customers coming in the store!";
+        
         for (int c = 1; c <= customerCount; c++) {
             int cookieNum = Utility.rndFromRange(1, 3); // customer purchases 1-3 cookies
             double cookieCustomerPrice = store.cookie.price * cookieNum;
-            //store.registerCash += cookieCustomerPrice; // addi.
-            // ..price of cookies to cash register money
-            //cookie.inventory -= cookieNum; // reduce cookie inventory
             int cookiePurchaseCount = 0; // number of cookies bought
             double chanceOfPurchase = 20;
             int purchaseCount = 0;
 
-            //**********COOKIE MONSTER************//
-            int cookieMonsterChance = Utility.rndFromRange(1, 100); //cookie monster chance
-            //check if customer is the cookie monster
-            if(cookieMonsterChance == 1){
-                cookieMonster = true;
+            //check what type of customer 
+            double customerProbability = Utility.rndFromRange(1, 100);
+
+            //customer is a Family Gamer 25% chance 
+            if (customerProbability <= 25){
+                notifyObserver("Family Gamer");
+                store.factory.createCustomer("Family Gamer");
+            }
+
+            //customer is a  Kid Gamer 25% chance
+            else if (customerProbability <= 50){
+                notifyObserver("Kid Gamer");
+                store.factory.createCustomer("Kid Gamer");
+            }
+
+            //customer is a card gamer 24% chance
+            else if (customerProbability <= 74){
+                notifyObserver("Card Gamer");
+                store.factory.createCustomer("Card Gamer");
+            }
+
+            //customer is a board gamer 24% chance
+            else if (customerProbability <= 98){
+                notifyObserver("Board Gamer");
+                store.factory.createCustomer("Board Gamer");
+            }
+
+            //customer is the cookie monster 2% chance
+            else if (customerProbability <= 100){
                 notifyObserver("COOKIE MONSTER!!!");
+                store.factory.createCustomer("Cookie Monster");
+                cookieMonster = true;
+            }
 
-                //check if there is cookies in the store
-                if(store.cookie.inventory > 0){
-                    //cookie monster will eat all the cookies without paying for them
-                    notifyObserver("Cookie monster is eating " + store.cookie.inventory + " cookie(s). There are no more cookies in the inventory.");
-                    store.cookie.inventory = 0;
+            //check if there is cookies in the store
+            if(store.cookie.inventory > 0){
+                //cookie monster will eat all the cookies without paying for them
+                notifyObserver("Cookie monster is eating " + store.cookie.inventory + " cookie(s). There are no more cookies in the inventory.");
+                store.cookie.inventory = 0;
 
-                    //cookie monster will destroy 1-6 games
-                    int cookieMonsterDestroyed = Utility.rndFromRange(1, 6);
+                //cookie monster will destroy 1-6 games
+                int cookieMonsterDestroyed = Utility.rndFromRange(1, 6);
 
-                    //loop through the games cookie monster destroyed
-                    for (int i = 0; i < cookieMonsterDestroyed; i++){
-                        notifyObserver("Cookie monster is breaking a random game!");
-                        store.breakARandomGame();
-                    }
-
-                }
-                //if there are no cookies then cookie monster leaves the store
-                else{
-                    System.out.println("There are no cookies! Cookie monster is leaving the store.");
+                //loop through the games cookie monster destroyed
+                for (int i = 0; i < cookieMonsterDestroyed; i++){
+                    notifyObserver("Cookie monster is breaking a random game!");
+                    store.breakARandomGame();
                 }
 
             }
-            //for (Cookie ck:store.games) {
-            //if (purchaseCount <= 1) {   // two game purchase limit
-            //if (Utility.rndFromRange(1,100)<=chanceOfPurchase) {
-            //buying this game if it's on the shelf
+            //if there are no cookies then cookie monster leaves the store
+            else{
+                System.out.println("There are no cookies! Cookie monster is leaving the store.");
+            }
+
+
             if ((cookieNum > store.cookie.inventory) && (store.cookie.inventory < 0)) {
                 store.cookie.inventory = cookieNum - store.cookie.inventory; // customer buys whatever remaining cookies left if inventory is less than desired number of cookies
             }
@@ -195,24 +213,17 @@ public class Cashier extends Employee{
                 }
                 store.registerCash += cookieCustomerPrice;
                 store.cookie.inventory -= cookieNum;
-                //g.countSold += 1;
-                //this is where gameDecorator would go in
-                //GameDecorator decorator;
-                //move this to announcer class
+              
                 notifyObserver(name + " sold " + cookieNum + " cookies to customer " + c + " for " + Utility.asDollar(store.cookie.price));
             }
 
-            //chanceOfPurchase -= 2;
-            //}
-            //}
+            
             // customer now decides to buy games after having bought cookies
 
             //Only let customers buy games if not cookie monster
             if (cookieMonster == false){
                 for (Game g : store.games) {
                     if (purchaseCount <= 1) {   // two game purchase limit
-                        //if (cookiePurchaseCount > 0 ){ // customer bought cookies, so check if they will buy games
-                            //if (Utility.rndFromRange(1, 100) <= chanceOfPurchase * 1.2) { // chance of buying game increases 20%
                             //buying this game if it's on the shelf
                             if (g.countInventory > 0) {
                                 purchaseCount += 1;
@@ -225,7 +236,6 @@ public class Cashier extends Employee{
                                 notifyObserver(name + " sold " + g.name + " to customer " + c + " for " + Utility.asDollar(g.price));
                             }
                             chanceOfPurchase -= 2;
-                        //}
                     }
                 }
             }

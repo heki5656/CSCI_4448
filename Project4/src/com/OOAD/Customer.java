@@ -3,6 +3,7 @@ package com.OOAD;
 public class Customer {
 
     public Customer(){
+        System.out.println("Creating a customer");
 
     }
 }
