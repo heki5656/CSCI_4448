@@ -144,6 +144,8 @@ public class Cashier extends Employee{
             //check what type of customer 
             double customerProbability = Utility.rndFromRange(1, 100);
 
+            Customer customer;
+
             //customer is a Family Gamer 25% chance 
             if (customerProbability <= 25){
                 notifyObserver("Family Gamer");
