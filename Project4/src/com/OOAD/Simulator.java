@@ -40,7 +40,7 @@ public class Simulator {
             }
 
 
-        }
+    }
 
         //display summary
         store.summaryReport();

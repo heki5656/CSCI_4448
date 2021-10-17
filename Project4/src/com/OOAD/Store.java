@@ -138,7 +138,6 @@ public class Store {
         //announce the cash register amount, cookies, and the game inventory
         announcer.Announcement("Cash Register = " + Utility.asDollar(registerCash));
         announcer.Announcement("Cookies in stock: " + cookie.inventory);
-
         for (int i =0; i < games.size(); i++) {
             announcer.Announcement(games.get(i).name + " inventory: " + games.get(i).countInventory);
         }
