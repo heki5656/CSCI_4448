@@ -49,6 +49,7 @@ public class Cashier extends Employee{
         //this.announcer(name, message);  need to call a method
         //announcer.Announcement(message); /* COMMENT THIS OUT IN ORDER TO RUN */
         notifyObserver(message);
+
     }
 
     public void leaveTheStore(int day) {
@@ -69,10 +70,8 @@ public class Cashier extends Employee{
 
     public void countTheMoney(Store store) {
         //say what the starting cash is
-        //System.out.println(name+" counts the money.");
         message = name+" counts the money.";
         notifyObserver(message);
-        //System.out.println(name+" sees "+Utility.asDollar(store.registerCash)+" in the register");
         message = name+" sees "+Utility.asDollar(store.registerCash)+" in the register";
         notifyObserver(message);
 
@@ -145,7 +144,7 @@ public class Cashier extends Employee{
             int purchaseCount = 0;
 
             //check if there is cookies in the store
-            if(store.cookie.inventory > 0){
+            if(store.cookie.inventory > 0 && store.cookieMonster == true){
                 //cookie monster will eat all the cookies without paying for them
                 notifyObserver("Cookie monster is eating " + store.cookie.inventory + " cookie(s). There are no more cookies in the inventory.");
                 store.cookie.inventory = 0;
@@ -161,7 +160,7 @@ public class Cashier extends Employee{
 
             }
             //if there are no cookies then cookie monster leaves the store
-            else{
+            else if (store.cookieMonster == true){
                 System.out.println("There are no cookies! Cookie monster is leaving the store.");
             }
 
