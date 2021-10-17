@@ -49,6 +49,7 @@ public class Cashier extends Employee{
         //this.announcer(name, message);  need to call a method
         //announcer.Announcement(message); /* COMMENT THIS OUT IN ORDER TO RUN */
         notifyObserver(message);
+
     }
 
     public void leaveTheStore(int day) {
@@ -69,10 +70,8 @@ public class Cashier extends Employee{
 
     public void countTheMoney(Store store) {
         //say what the starting cash is
-        //System.out.println(name+" counts the money.");
         message = name+" counts the money.";
         notifyObserver(message);
-        //System.out.println(name+" sees "+Utility.asDollar(store.registerCash)+" in the register");
         message = name+" sees "+Utility.asDollar(store.registerCash)+" in the register";
         notifyObserver(message);
 
@@ -149,36 +148,40 @@ public class Cashier extends Employee{
             //customer is a Family Gamer 25% chance 
             if (customerProbability <= 25){
                 notifyObserver("Family Gamer");
-                store.factory.createCustomer("Family Gamer");
+                cookieMonster = false;
+                //store.factory.createCustomer("Family Gamer");
             }
 
             //customer is a  Kid Gamer 25% chance
             else if (customerProbability <= 50){
                 notifyObserver("Kid Gamer");
-                store.factory.createCustomer("Kid Gamer");
+                cookieMonster = false;
+                //store.factory.createCustomer("Kid Gamer");
             }
 
             //customer is a card gamer 24% chance
             else if (customerProbability <= 74){
                 notifyObserver("Card Gamer");
-                store.factory.createCustomer("Card Gamer");
+                cookieMonster = false;
+                //store.factory.createCustomer("Card Gamer");
             }
 
             //customer is a board gamer 24% chance
             else if (customerProbability <= 98){
                 notifyObserver("Board Gamer");
-                store.factory.createCustomer("Board Gamer");
+                cookieMonster = false;
+                //store.factory.createCustomer("Board Gamer");
             }
 
             //customer is the cookie monster 2% chance
             else if (customerProbability <= 100){
                 notifyObserver("COOKIE MONSTER!!!");
-                store.factory.createCustomer("Cookie Monster");
+                //store.factory.createCustomer("Cookie Monster");
                 cookieMonster = true;
             }
 
             //check if there is cookies in the store
-            if(store.cookie.inventory > 0){
+            if(store.cookie.inventory > 0 && cookieMonster == true){
                 //cookie monster will eat all the cookies without paying for them
                 notifyObserver("Cookie monster is eating " + store.cookie.inventory + " cookie(s). There are no more cookies in the inventory.");
                 store.cookie.inventory = 0;
@@ -194,7 +197,7 @@ public class Cashier extends Employee{
 
             }
             //if there are no cookies then cookie monster leaves the store
-            else{
+            else if (cookieMonster == true){
                 System.out.println("There are no cookies! Cookie monster is leaving the store.");
             }
 

@@ -123,4 +123,48 @@ public class Store {
         }
     }
 
+    public void robbed() {
+        announcer.Announcement("The store was robbed! The robber stole all the money, games, and cookies!!!!");
+
+        //set cookie and cash to 0
+        cookie.inventory = 0;
+        registerCash = 0;
+
+        //set game inventory to 0 for all the games
+        for (int i = 0; i < games.size(); i++){
+            games.get(i).countInventory = 0;
+        }
+
+        //announce the cash register amount, cookies, and the game inventory
+        announcer.Announcement("Cash Register = " + Utility.asDollar(registerCash));
+        announcer.Announcement("Cookies in stock: " + cookie.inventory);
+
+        for (int i =0; i < games.size(); i++) {
+            announcer.Announcement(games.get(i).name + " inventory: " + games.get(i).countInventory);
+        }
+        
+    }
+
+    public void restockRobbery() {
+        //restock all the games to 3
+        for (int i = 0; i < games.size(); i++){
+            games.get(i).countInventory = 3;
+        }
+        announcer.Announcement("Insurance payed to restock the games to inventory of 3.");
+
+        //restock cookies
+        cookie.inventory += 12;
+        announcer.Announcement("Insurance payed to restock cookies to inventory of 12.");
+        
+
+        //adding $1000 to the cash register
+        registerCash = 1000;
+        registerAdds += 1;
+        announcer.Announcement("Insurance added $1000 to the register, now at $"+ registerCash);
+    }
+
+
+
+
+
 }
