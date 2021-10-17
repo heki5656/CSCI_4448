@@ -130,8 +130,11 @@ public class Cashier extends Employee{
         return gameFinal;
     }
 
+    //the factory method for the customer
+    //moved to the store class
+
     public void openTheStore(Store store) {
-        boolean cookieMonster = false;
+        store.cookieMonster = false;
         int customerCount = 1 + getPoissonRandom(3.0);
         
         for (int c = 1; c <= customerCount; c++) {
@@ -140,42 +143,6 @@ public class Cashier extends Employee{
             int cookiePurchaseCount = 0; // number of cookies bought
             double chanceOfPurchase = 20;
             int purchaseCount = 0;
-
-            //check what type of customer 
-            double customerProbability = Utility.rndFromRange(1, 100);
-
-            Customer customer;
-
-            //customer is a Family Gamer 25% chance 
-            if (customerProbability <= 25){
-                notifyObserver("Family Gamer");
-                store.factory.createCustomer("Family Gamer");
-            }
-
-            //customer is a  Kid Gamer 25% chance
-            else if (customerProbability <= 50){
-                notifyObserver("Kid Gamer");
-                store.factory.createCustomer("Kid Gamer");
-            }
-
-            //customer is a card gamer 24% chance
-            else if (customerProbability <= 74){
-                notifyObserver("Card Gamer");
-                store.factory.createCustomer("Card Gamer");
-            }
-
-            //customer is a board gamer 24% chance
-            else if (customerProbability <= 98){
-                notifyObserver("Board Gamer");
-                store.factory.createCustomer("Board Gamer");
-            }
-
-            //customer is the cookie monster 2% chance
-            else if (customerProbability <= 100){
-                notifyObserver("COOKIE MONSTER!!!");
-                store.factory.createCustomer("Cookie Monster");
-                cookieMonster = true;
-            }
 
             //check if there is cookies in the store
             if(store.cookie.inventory > 0){
@@ -223,7 +190,7 @@ public class Cashier extends Employee{
             // customer now decides to buy games after having bought cookies
 
             //Only let customers buy games if not cookie monster
-            if (cookieMonster == false){
+            if (store.cookieMonster == false){
                 for (Game g : store.games) {
                     if (purchaseCount <= 1) {   // two game purchase limit
                             //buying this game if it's on the shelf

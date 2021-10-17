@@ -15,10 +15,14 @@ public class Store {
     Cookie cookie;
     Baker baker;
     CustomerFactory factory;
+    boolean cookieMonster = false;
 
     public Store() {
         //initialize the announcer
         announcer = new Announcer("Guy");
+
+        //initialize the customer factory
+        factory = new CustomerFactory();
 
         //initialize the cashiers
         cashiers = new ArrayList<Cashier>();
@@ -51,6 +55,45 @@ public class Store {
         baker = new Baker("Gonger");
     }
 
+    //customer comes in, so just set as a empty string
+    public void customerComes(String type){
+        //check what type of customer
+        double customerProbability = Utility.rndFromRange(1, 100);
+
+        Customer customer;
+
+        //customer is a Family Gamer 25% chance
+        if (customerProbability <= 25){
+            //notifyObserver("Family Gamer");
+            customer = factory.createCustomer("Family Gamer");
+        }
+
+        //customer is a  Kid Gamer 25% chance
+        else if (customerProbability <= 50){
+            //notifyObserver("Kid Gamer");
+            customer = factory.createCustomer("Kid Gamer");
+        }
+
+        //customer is a card gamer 24% chance
+        else if (customerProbability <= 74){
+            //notifyObserver("Card Gamer");
+            customer = factory.createCustomer("Card Gamer");
+        }
+
+        //customer is a board gamer 24% chance
+        else if (customerProbability <= 98){
+            //notifyObserver("Board Gamer");
+            customer = factory.createCustomer("Board Gamer");
+        }
+
+        //customer is the cookie monster 2% chance
+        else if (customerProbability <= 100){
+            //notifyObserver("COOKIE MONSTER!!!");
+            customer = factory.createCustomer("Cookie Monster");
+            cookieMonster = true;
+        }
+    }
+
     public void startADay(int day) {
         //pick a cashier for the day
         int n = Utility.rndFromRange(0,cashiers.size()-1);
@@ -58,6 +101,8 @@ public class Store {
 
         //need to send an announcer to the cashier so that it won't null
         activeCashier.registerObserver(announcer);
+
+        customerComes("");
 
         //have the cashier do their things
         activeCashier.arriveAtStore(day);
