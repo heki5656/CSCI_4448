@@ -20,6 +20,8 @@ public class Cashier extends Employee{
     //initialize reference variables for the baker class
     Baker baker;
 
+    int customerCount;
+
     //delegate to the behavior class
     public void performStack(ArrayList<Game> games){
         stackBehavior.stack(games);
@@ -134,7 +136,7 @@ public class Cashier extends Employee{
 
     public void openTheStore(Store store) {
         store.cookieMonster = false;
-        int customerCount = 1 + getPoissonRandom(3.0);
+        customerCount = 1 + getPoissonRandom(3.0);
         
         for (int c = 1; c <= customerCount; c++) {
             int cookieNum = Utility.rndFromRange(1, 3); // customer purchases 1-3 cookies
@@ -142,6 +144,12 @@ public class Cashier extends Employee{
             int cookiePurchaseCount = 0; // number of cookies bought
             double chanceOfPurchase = 20;
             int purchaseCount = 0;
+
+            //the customer names
+            String val = com.OOAD.Utility.selectName();
+            store.factory.customerName = val;
+            //System.out.println("selected customer " + val);
+            store.customerComes("");
 
             //check if there is cookies in the store
             if(store.cookie.inventory > 0 && store.cookieMonster == true){
@@ -182,7 +190,7 @@ public class Cashier extends Employee{
                 store.registerCash += cookieCustomerPrice;
                 store.cookie.inventory -= cookieNum;
               
-                notifyObserver(name + " sold " + cookieNum + " cookies to customer " + c + " for " + Utility.asDollar(store.cookie.price));
+                notifyObserver(name + " sold " + cookieNum + " cookies to customer " + store.factory.customerName + " for " + Utility.asDollar(store.cookie.price));
             }
 
             
@@ -201,7 +209,7 @@ public class Cashier extends Employee{
                                 //this is where gameDecorator would go in
                                 g = gameDecoratorCall(g);
                                 //move this to announcer class
-                                notifyObserver(name + " sold " + g.name + " to customer " + c + " for " + Utility.asDollar(g.price));
+                                notifyObserver(name + " sold " + g.name + " to customer " + store.factory.customerName + ", who is a " + store.factory.customerType + " for " + Utility.asDollar(g.price));
                             }
                             chanceOfPurchase -= 2;
                     }

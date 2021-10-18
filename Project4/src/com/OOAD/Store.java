@@ -104,11 +104,9 @@ public class Store {
         //need to send an announcer to the cashier so that it won't null
         activeCashier.registerObserver(announcer);
 
-        customerComes("");
-
         //have the cashier do their things
-        String val = com.OOAD.Utility.selectName(day);
-        System.out.println("selected customer " + val);
+//        String val = com.OOAD.Utility.selectName(day);
+//        System.out.println("selected customer " + val);
         activeCashier.arriveAtStore(day);
         activeCashier.checkForNewGames(this);
         activeCashier.countTheMoney(this);
