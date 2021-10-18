@@ -23,33 +23,13 @@ public interface Utility {
         return formatter.format(value);
     }
 
-    static String selectName(int day) {
-        return store.customers[(day-1) % store.customers.length];
+    static String selectName() {
+        String[] customers = new String[]{"Max", "Bruce", "Tom", "Tim", "Tam", "Sam", "Pam", "Laura", "Drake", "Rose", "Lily", "Tommy", "Bobby", "Robert", "Herbert", "Sherbert", "Kermit", "Kirby"};
+        Random r = new Random();
+        int randomString=r.nextInt(customers.length);
+        return (customers[randomString]);
 
-
-//        int len = store.customers.length;
-//
-//        String[] b = new String[(2 * len)];
-//
-//        for (int i = 0; i < len; i++) {
-//            b[i] = b[len + i] = store.customers[i];
-//        }
-//
-//        for (int i = 0; i < b.length; i++) {
-//            String searchedValue = b[i];
-//            ArrayList<String> stringList = new ArrayList<String>(Arrays.asList(store.previousCustomers));
-//
-//            if (!stringList.contains(searchedValue)) {
-//                store.previousCustomers[i] = searchedValue;
-//                return store.previousCustomers[i];
-//            }
-//            else{
-//                store.previousCustomers = new String[]{"", "", "", "", "", "", "", "", "", ""};
-//                store.previousCustomers[i] = searchedValue;
-//                return store.previousCustomers[i];
-//            }
-//        }
-//        return "";
+        //return store.customers[(day-1) % store.customers.length];
     }
 
 }
