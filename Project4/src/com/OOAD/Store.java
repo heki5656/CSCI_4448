@@ -6,6 +6,8 @@ import java.util.ArrayList;
 public class Store {
 
     Announcer announcer;
+    String[] customers = new String[]{"CustomerA", "CustomerB", "CustomerC", "CustomerD", "CustomerE"};
+    String[] previousCustomers = new String[]{"", "", "", "", "", "", "", "", "", ""};
     double registerCash; //starts at $0
     int registerAdds; //starts at 0, incremented when we add $1000
     ArrayList<Cashier> cashiers;
@@ -105,6 +107,8 @@ public class Store {
         customerComes("");
 
         //have the cashier do their things
+        String val = com.OOAD.Utility.selectName(day);
+        System.out.println("selected customer " + val);
         activeCashier.arriveAtStore(day);
         activeCashier.checkForNewGames(this);
         activeCashier.countTheMoney(this);
