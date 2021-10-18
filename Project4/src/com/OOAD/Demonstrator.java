@@ -2,8 +2,6 @@ package com.OOAD;
 
 public class Demonstrator extends Employee{
 
-
-
     public static Object demonstrator;
 
     public Demonstrator(String name) {

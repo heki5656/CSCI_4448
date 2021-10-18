@@ -1,16 +1,15 @@
 package com.OOAD;
 
 public interface Command{
-    public void execute();
+    public void execute(Demonstrator demonstrator);
 }
 
 class DemonstratorOnCommand implements Command{
     Demonstrator demonstrator;
 
-    public DemonstratorOnCommand(Demonstrator demonstrator){
-        this.demonstrator = demonstrator;
+    public DemonstratorOnCommand(){
+        
     }
-
 
      public void execute(Demonstrator demonstrator) {
         demonstrator.demonstrate();
@@ -19,8 +18,9 @@ class DemonstratorOnCommand implements Command{
 }
 
 class RecommendOnCommand implements Command{
-    public RecommendOnCommand(Demonstrator demonstrator){
-        this.demonstrator = demonstrator;
+    Demonstrator demonstrator;
+    public RecommendOnCommand(){
+        
     }
 
     public void execute(Demonstrator demonstrator) {
@@ -29,8 +29,8 @@ class RecommendOnCommand implements Command{
 }
 
 class ExplainOnCommand implements Command{
-    public ExplainOnCommand(Demonstrator demonstrator){
-        this.demonstrator = demonstrator;
+    Demonstrator demonstrator;
+    public ExplainOnCommand(){
     }
 
     public void execute(Demonstrator demonstrator){
