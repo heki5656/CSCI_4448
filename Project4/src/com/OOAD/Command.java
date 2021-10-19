@@ -5,11 +5,11 @@ public interface Command{
 }
 
 class DemonstratorOnCommand implements Command{
-    Demonstrator demonstrator;
+//     Demonstrator demonstrator;
 
-    public DemonstratorOnCommand(){
+//     public DemonstratorOnCommand(){
         
-    }
+//     }
 
      public void execute(Demonstrator demonstrator) {
         demonstrator.demonstrate();
@@ -18,10 +18,10 @@ class DemonstratorOnCommand implements Command{
 }
 
 class RecommendOnCommand implements Command{
-    Demonstrator demonstrator;
-    public RecommendOnCommand(){
+//     Demonstrator demonstrator;
+//     public RecommendOnCommand(){
         
-    }
+//     }
 
     public void execute(Demonstrator demonstrator) {
         demonstrator.recommend();
@@ -29,9 +29,9 @@ class RecommendOnCommand implements Command{
 }
 
 class ExplainOnCommand implements Command{
-    Demonstrator demonstrator;
-    public ExplainOnCommand(){
-    }
+//     Demonstrator demonstrator;
+//     public ExplainOnCommand(){
+//     }
 
     public void execute(Demonstrator demonstrator){
         demonstrator.explain();
