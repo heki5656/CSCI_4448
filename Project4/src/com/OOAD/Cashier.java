@@ -19,6 +19,9 @@ public class Cashier extends Employee{
 
     //initialize reference variables for the baker class
     Baker baker;
+    
+    Demonstrator demonstrator;
+    Command command;
 
     int customerCount;
 
@@ -248,6 +251,15 @@ public class Cashier extends Employee{
     public void closeTheStore(int day) {
         notifyObserver(name + " is closing the store");
         leaveTheStore(day);
+    }
+    
+    //-------Cashier invokes command to Demonstrator-----------
+    public void setCommand(Command command){
+        this.command = command;
+    }
+
+    public void invoke(){
+        command.execute(demonstrator);
     }
 }
 
