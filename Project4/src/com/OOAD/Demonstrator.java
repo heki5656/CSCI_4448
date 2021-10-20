@@ -8,16 +8,18 @@ public class Demonstrator extends Employee{
         super(name);
     }
 
-    public void demonstrate() {
-        System.out.print(" demonstrates");
+    public String demonstrate() {
+        return " is demonstrating";
     }
 
-    public void recommend() {
-        System.out.println("Recommending");
+    public String recommend() {
+
+        return " is recommending";
     }
 
-    public void explain() {
-        System.out.println("Explaining");
+    public String explain() {
+
+        return "is explaining";
     }
 
 }

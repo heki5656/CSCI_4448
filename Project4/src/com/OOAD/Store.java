@@ -16,7 +16,8 @@ public class Store {
     ArrayList<Game> brokenGames;
     Cookie cookie;
     Baker baker;
-    Demonstrator demonstrator;
+    //instantiate a demonstrator for the store
+    Demonstrator demonstrator = new Demonstrator(com.OOAD.Utility.selectName());
     CustomerFactory factory;
     boolean cookieMonster = false;
 

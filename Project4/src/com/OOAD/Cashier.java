@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class Cashier extends Employee{
 
-    private static final Demonstrator DemonstratorOnCommand = null;
+    //private static final Demonstrator DemonstratorOnCommand = null;
     int damageChance; //integer percentage chance of damage for vacuuming
     String stackMethod; // how does this cashier stack games
 
@@ -21,8 +21,8 @@ public class Cashier extends Employee{
     //initialize reference variables for the baker class
     Baker baker;
     
-    Demonstrator demonstrator;
-    Command command;
+    //Demonstrator demonstrator;
+    Command command[];
 
     int customerCount;
 
@@ -135,21 +135,20 @@ public class Cashier extends Employee{
         return gameFinal;
     }
 
-    //the factory method for the customer
-    //moved to the store class
-
     public void openTheStore(Store store) {
         store.cookieMonster = false;
         customerCount = 1 + getPoissonRandom(3.0);
 
         //get demonstrator name
-        String demonstratorName = com.OOAD.Utility.selectName();
+        //String demonstratorName = com.OOAD.Utility.selectName();
 
         //initalize the demonstrator
-        demonstrator = new Demonstrator(demonstratorName);
+        //demonstrator = new Demonstrator(demonstratorName);
 
         //Guy announces when the demonstrator enters the store
-        notifyObserver("" + demonstratorName + " the demonstrator has arrived at the store");
+        notifyObserver("" + store.demonstrator.name + " the demonstrator has arrived at the store");
+
+        //the game probability function stuff
 
         //Command dem = new DemonstratorOnCommand();
         //dem.execute(demonstrator);
@@ -172,13 +171,13 @@ public class Cashier extends Employee{
 
             //create a variable to see when customer is done any ready to walk into the store
             boolean done = false;
+            //boolean demonstratorUsed = false;
 
+            String gameDemoName = "";
             for (int i = 0; i < numRequests; i++){
 
-               
-
                 if (store.cookieMonster == true){
-                    //TODO need to implement the cookie monster
+                    store.demonstrator.name = com.OOAD.Utility.selectName();
                 }
 
                 //check if done is true and if so exit the loop
@@ -188,6 +187,8 @@ public class Cashier extends Employee{
 
                 //probabilty of what customers talking to demonstrator
                 double demonstratorChance = Utility.rndFromRange(1, 100);
+                //which game will be chosen
+                double gameSelection = Utility.rndFromRange(1, 12);
 
                 //check if customer wants to enter the store
                 if(demonstratorChance <= 25){
@@ -196,26 +197,22 @@ public class Cashier extends Employee{
 
                 //check if the customer wants a random game demonstrated
                 else if (demonstratorChance <= 50){
-                    notifyObserver(demonstratorName + " the demonstrator demonstrates game for customer " + val +  ".");
-                    //TODO NEED TO IMPLEMENT ADDING CHANCE TO RANDOM GAME
+                    notifyObserver(store.demonstrator.name + store.demonstrator.demonstrate() + "  for customer " + store.factory.customerName +  ".");
+                    gameDemoName = store.games.get(i).name;
                 }
 
                 //check if the customer wants a random game recommended
                 else if (demonstratorChance <= 80){
-                    notifyObserver(demonstratorName + " the demonstrator recommends game for customer " + val +  ".");
-                    //TODO NEED TO IMPLEMENT ADDING CHANCE TO RANDOM GAME
+                    notifyObserver(store.demonstrator.name + " the demonstrator recommends game for customer " + store.factory.customerName +  ".");
+                    gameDemoName = store.games.get(i).name;
                 }
 
                 //check if the customer wants a random game explained
                 else if (demonstratorChance <= 100){
-                    notifyObserver(demonstratorName + " the demonstrator explains game for customer " + val +  ".");
-                    //TODO NEED TO IMPLEMENT ADDING CHANCE TO RANDOM GAME
+                    notifyObserver(store.demonstrator.name + " the demonstrator explains game for customer " + store.factory.customerName +  ".");
+                    gameDemoName = store.games.get(i).name;
                 }
-
-
-
             }
-
 
             //check if there is cookies in the store
             if(store.cookie.inventory > 0 && store.cookieMonster == true){
@@ -259,14 +256,14 @@ public class Cashier extends Employee{
                 notifyObserver(name + " sold " + cookieNum + " cookies to customer " + store.factory.customerName + " for " + Utility.asDollar(store.cookie.price));
             }
 
-            
-            // customer now decides to buy games after having bought cookies
-
             //Only let customers buy games if not cookie monster
             if (store.cookieMonster == false){
                 for (Game g : store.games) {
                     if (purchaseCount <= 1) {   // two game purchase limit
-                            //buying this game if it's on the shelf
+                        if(gameDemoName == g.name){
+                            chanceOfPurchase += 10;
+                        }
+                        if (Utility.rndFromRange(1,100)<=chanceOfPurchase){
                             if (g.countInventory > 0) {
                                 purchaseCount += 1;
                                 store.registerCash += g.price;
@@ -277,6 +274,7 @@ public class Cashier extends Employee{
                                 //move this to announcer class
                                 notifyObserver(name + " sold " + g.name + " to customer " + store.factory.customerName + ", who is a " + store.factory.customerType + " for " + Utility.asDollar(g.price));
                             }
+                        }
                             chanceOfPurchase -= 2;
                     }
                 }
@@ -317,15 +315,6 @@ public class Cashier extends Employee{
     public void closeTheStore(int day) {
         notifyObserver(name + " is closing the store");
         leaveTheStore(day);
-    }
-    
-    //-------Cashier invokes command to Demonstrator-----------
-    public void setCommand(Command command){
-        this.command = command;
-    }
-
-    public void invoke(){
-        command.execute(demonstrator);
     }
 }
 
