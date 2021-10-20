@@ -1,14 +1,9 @@
 package com.OOAD;
 //import org.junit.Test;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Nested;
-import org.junit.jupiter.api.extension.TestWatcher;
 
-import static org.junit.jupiter.api.Assertions.assertNull;
-import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.*;
 
-//@ExtendWith(TestResultLoggerExtension.class)
 public class JUnitTesting {
     @Test
     public void testStoreObjectInstantiates(){
@@ -36,11 +31,38 @@ public class JUnitTesting {
 
     @Test
     public void testCashierObjectInstantiates(){
-        //Cashier cashier = new Cashier("Burt",);
+        Cashier cashier = new Cashier("Burt",10,new BurtStacks());
 
-        //assertNotNull(cashier);
+        assertNotNull(cashier);
 
     }
+
+    @Test
+    public void testDemonstratorObjectInstantiates(){
+        Demonstrator demonstrator = new Demonstrator("Jim");
+
+        assertNotNull(demonstrator);
+
+    }
+
+    @Test
+    public void testGameObjectInstantiates(){
+        Game game = new Game("Candyland");
+
+        assertNotNull(game);
+
+    }
+
+    @Test
+    public void testSimulatorObjectInstantiates(){
+        Simulator simulator = new Simulator();
+
+        assertNotNull(simulator);
+
+    }
+
+
+
 
 
 
