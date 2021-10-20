@@ -31,7 +31,7 @@ public interface Utility {
         return (demonstrators[randomString]);
     }
 
-    static String selectCustomerName() {
+    static String selectName() {
         String[] customers = new String[]{"Max", "Bruce", "Tom", "Tim", "Tam", "Sam", "Pam", "Laura", "Drake", "Rose", "Lily", "Tommy", "Bobby", "Robert", "Herbert", "Sherbert", "Kermit", "Kirby"};
         Random r = new Random();
         int randomString=r.nextInt(customers.length);
