@@ -5,6 +5,7 @@ import java.util.ArrayList;
 
 public class Cashier extends Employee{
 
+    private static final Demonstrator DemonstratorOnCommand = null;
     int damageChance; //integer percentage chance of damage for vacuuming
     String stackMethod; // how does this cashier stack games
 
@@ -140,6 +141,18 @@ public class Cashier extends Employee{
     public void openTheStore(Store store) {
         store.cookieMonster = false;
         customerCount = 1 + getPoissonRandom(3.0);
+
+        //get demonstrator name
+        String demonstratorName = com.OOAD.Utility.selectName();
+
+        //initalize the demonstrator
+        demonstrator = new Demonstrator(demonstratorName);
+
+        //Guy announces when the demonstrator enters the store
+        notifyObserver("" + demonstratorName + " the demonstrator has arrived at the store");
+
+        //Command dem = new DemonstratorOnCommand();
+        //dem.execute(demonstrator);
         
         for (int c = 1; c <= customerCount; c++) {
             int cookieNum = Utility.rndFromRange(1, 3); // customer purchases 1-3 cookies
@@ -153,6 +166,56 @@ public class Cashier extends Employee{
             store.factory.customerName = val;
             //System.out.println("selected customer " + val);
             store.customerComes("");
+
+            //get a number between 1-3 of how many requests the customer will ask for
+            int numRequests = Utility.rndFromRange(1, 3);
+
+            //create a variable to see when customer is done any ready to walk into the store
+            boolean done = false;
+
+            for (int i = 0; i < numRequests; i++){
+
+               
+
+                if (store.cookieMonster == true){
+                    //TODO need to implement the cookie monster
+                }
+
+                //check if done is true and if so exit the loop
+                if (done == true){
+                    break;
+                }
+
+                //probabilty of what customers talking to demonstrator
+                double demonstratorChance = Utility.rndFromRange(1, 100);
+
+                //check if customer wants to enter the store
+                if(demonstratorChance <= 25){
+                    done = true;
+                }
+
+                //check if the customer wants a random game demonstrated
+                else if (demonstratorChance <= 50){
+                    notifyObserver(demonstratorName + " the demonstrator demonstrates game for customer " + val +  ".");
+                    //TODO NEED TO IMPLEMENT ADDING CHANCE TO RANDOM GAME
+                }
+
+                //check if the customer wants a random game recommended
+                else if (demonstratorChance <= 80){
+                    notifyObserver(demonstratorName + " the demonstrator recommends game for customer " + val +  ".");
+                    //TODO NEED TO IMPLEMENT ADDING CHANCE TO RANDOM GAME
+                }
+
+                //check if the customer wants a random game explained
+                else if (demonstratorChance <= 100){
+                    notifyObserver(demonstratorName + " the demonstrator explains game for customer " + val +  ".");
+                    //TODO NEED TO IMPLEMENT ADDING CHANCE TO RANDOM GAME
+                }
+
+
+
+            }
+
 
             //check if there is cookies in the store
             if(store.cookie.inventory > 0 && store.cookieMonster == true){
@@ -218,6 +281,9 @@ public class Cashier extends Employee{
                     }
                 }
             }
+
+            //cookie monster is done so we set him to false
+            store.cookieMonster = false;
 
         }
     }
