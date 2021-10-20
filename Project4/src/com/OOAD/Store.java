@@ -16,6 +16,7 @@ public class Store {
     ArrayList<Game> brokenGames;
     Cookie cookie;
     Baker baker;
+    Demonstrator demonstrator;
     CustomerFactory factory;
     boolean cookieMonster = false;
 
@@ -25,6 +26,7 @@ public class Store {
 
         //initialize the customer factory
         factory = new CustomerFactory();
+
 
         //initialize the cashiers
         cashiers = new ArrayList<Cashier>();
@@ -46,6 +48,7 @@ public class Store {
         games.add(new BoardGame("Catan"));
         games.add(new BoardGame("Risk"));
         games.add(new BoardGame("Gloomhaven"));
+
 
         //initialize a place for broken games
         brokenGames = new ArrayList<Game>();

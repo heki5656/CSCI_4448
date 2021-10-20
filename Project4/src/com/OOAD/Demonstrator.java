@@ -9,7 +9,7 @@ public class Demonstrator extends Employee{
     }
 
     public void demonstrate() {
-        System.out.println("Demonstrating");
+        System.out.print(" demonstrates");
     }
 
     public void recommend() {
