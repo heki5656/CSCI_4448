@@ -23,8 +23,15 @@ public interface Utility {
         NumberFormat formatter = NumberFormat.getCurrencyInstance();
         return formatter.format(value);
     }
+    
+    static String selectDemonstratorName(){
+        String[] demonstrators = new String[]{"Jay", "Jim", "Joe", "John", "Jill", "Joy", "Jessica", "Jeff", "Tina", "Sal", "Ben", "Bill", "Nick", "Jan", "Mia", "Maddy", "Tracy", "Macy"};
+        Random r = new Random();
+        int randomString=r.nextInt(demonstrators.length);
+        return (demonstrators[randomString]);
+    }
 
-    static String selectName() {
+    static String selectCustomerName() {
         String[] customers = new String[]{"Max", "Bruce", "Tom", "Tim", "Tam", "Sam", "Pam", "Laura", "Drake", "Rose", "Lily", "Tommy", "Bobby", "Robert", "Herbert", "Sherbert", "Kermit", "Kirby"};
         Random r = new Random();
         int randomString=r.nextInt(customers.length);
