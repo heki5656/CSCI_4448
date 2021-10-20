@@ -22,7 +22,7 @@ public class Cashier extends Employee{
     Baker baker;
     
     //Demonstrator demonstrator;
-    Command command[];
+    Command[] commands = new Command[3];
 
     int customerCount;
 
@@ -139,12 +139,6 @@ public class Cashier extends Employee{
         store.cookieMonster = false;
         customerCount = 1 + getPoissonRandom(3.0);
 
-        //get demonstrator name
-        //String demonstratorName = com.OOAD.Utility.selectName();
-
-        //initalize the demonstrator
-        //demonstrator = new Demonstrator(demonstratorName);
-
         //Guy announces when the demonstrator enters the store
         notifyObserver("" + store.demonstrator.name + " the demonstrator has arrived at the store");
 
@@ -177,6 +171,7 @@ public class Cashier extends Employee{
             for (int i = 0; i < numRequests; i++){
 
                 if (store.cookieMonster == true){
+                    notifyObserver(store.demonstrator.name + store.demonstrator.runsAway());
                     store.demonstrator.name = com.OOAD.Utility.selectName();
                 }
 
@@ -197,20 +192,20 @@ public class Cashier extends Employee{
 
                 //check if the customer wants a random game demonstrated
                 else if (demonstratorChance <= 50){
-                    notifyObserver(store.demonstrator.name + store.demonstrator.demonstrate() + "  for customer " + store.factory.customerName +  ".");
                     gameDemoName = store.games.get(i).name;
+                    notifyObserver(store.demonstrator.name + store.demonstrator.demonstrate() + gameDemoName + "  for customer " + store.factory.customerName +  ".");
                 }
 
                 //check if the customer wants a random game recommended
                 else if (demonstratorChance <= 80){
-                    notifyObserver(store.demonstrator.name + " the demonstrator recommends game for customer " + store.factory.customerName +  ".");
                     gameDemoName = store.games.get(i).name;
+                    notifyObserver(store.demonstrator.name + store.demonstrator.recommend() + gameDemoName + store.factory.customerName +  ".");
                 }
 
                 //check if the customer wants a random game explained
                 else if (demonstratorChance <= 100){
-                    notifyObserver(store.demonstrator.name + " the demonstrator explains game for customer " + store.factory.customerName +  ".");
                     gameDemoName = store.games.get(i).name;
+                    notifyObserver(store.demonstrator.name + store.demonstrator.explain() + gameDemoName + "  for customer " + store.factory.customerName +  ".");
                 }
             }
 

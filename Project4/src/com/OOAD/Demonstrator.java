@@ -9,17 +9,21 @@ public class Demonstrator extends Employee{
     }
 
     public String demonstrate() {
-        return " is demonstrating";
+        return " is demonstrating ";
     }
 
     public String recommend() {
 
-        return " is recommending";
+        return " is recommending ";
     }
 
     public String explain() {
 
-        return "is explaining";
+        return " is explaining ";
+    }
+
+    public String runsAway(){
+        return " is running away!";
     }
 
 }
