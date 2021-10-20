@@ -101,6 +101,24 @@ public class Store {
         int n = Utility.rndFromRange(0,cashiers.size()-1);
         activeCashier = cashiers.get(n);
 
+        //the type of announcer (lazy or eager)
+        double announcerType = Utility.rndFromRange(1, 10);
+        //null or not singleton objects depending on which one is called
+        //SingletonLazyAnnouncer lazyAnnouncer = null;
+        //SingletonEagerAnnouncer eagerAnnouncer = null;
+
+        //instantiating the lazy announcer
+        SingletonLazyAnnouncer lazyAnnouncer = null;
+        SingletonEagerAnnouncer eagerAnnouncer = null;
+        if(announcerType <= 5){
+            lazyAnnouncer = lazyAnnouncer.getInstance();
+        }
+        //otherwise the eager announcer is instantiated
+        else if(announcerType <= 10){
+            eagerAnnouncer = eagerAnnouncer.getInstance();
+        }
+        announcer.announcerPersonality(lazyAnnouncer, eagerAnnouncer);
+
         //need to send an announcer to the cashier so that it won't null
         activeCashier.registerObserver(announcer);
 
