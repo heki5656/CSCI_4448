@@ -12,6 +12,7 @@ public class Game {
     public int shelfMeasure; //value to look at for sorting
     int countSold; //how many sold?
     int countOrdered; // for ordering new games transactions
+    double chanceOfPurchase = 0;
 
     public Game(String name) {
         this.name = name;

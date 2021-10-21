@@ -151,8 +151,9 @@ public class Cashier extends Employee{
             int cookieNum = Utility.rndFromRange(1, 3); // customer purchases 1-3 cookies
             double cookieCustomerPrice = store.cookie.price * cookieNum;
             int cookiePurchaseCount = 0; // number of cookies bought
-            double chanceOfPurchase = 20;
+            //double chanceOfPurchase = 20;
             int purchaseCount = 0;
+            double percentPurchase = 10;
 
             //the customer names
             String val = com.OOAD.Utility.selectName();
@@ -165,7 +166,26 @@ public class Cashier extends Employee{
 
             //create a variable to see when customer is done any ready to walk into the store
             boolean done = false;
-            //boolean demonstratorUsed = false;
+
+            //the percentage for each game being chosen
+            for(int i = 0; i < store.games.size(); i++){
+                if((store.factory.customerName == "Family Gamer") && (store.games.get(i) instanceof FamilyGame)){
+                    store.games.get(i).chanceOfPurchase += percentPurchase;
+                    percentPurchase += 10;
+                }
+                else if((store.factory.customerName == "Kid Gamer") && (store.games.get(i) instanceof KidsGame)){
+                    store.games.get(i).chanceOfPurchase += percentPurchase;
+                    percentPurchase += 10;
+                }
+                else if((store.factory.customerName == "Card Gamer") && (store.games.get(i) instanceof CardGame)){
+                    store.games.get(i).chanceOfPurchase += percentPurchase;
+                    percentPurchase += 10;
+                }
+                else if((store.factory.customerName == "Board Gamer") && (store.games.get(i) instanceof BoardGame)){
+                    store.games.get(i).chanceOfPurchase += percentPurchase;
+                    percentPurchase += 10;
+                }
+            }
 
             String gameDemoName = "";
             for (int i = 0; i < numRequests; i++){
@@ -236,14 +256,18 @@ public class Cashier extends Employee{
             }
             if (store.cookie.inventory == 0) {
                 // decrease chance of purchasing game by 10%
-                if (Utility.rndFromRange(1, 100) <= chanceOfPurchase){
-                    chanceOfPurchase = chanceOfPurchase * 0.9;
+                for(int i = 0; i < store.games.size(); i ++){
+                    if (Utility.rndFromRange(1, 100) <= store.games.get(i).chanceOfPurchase){
+                        store.games.get(i).chanceOfPurchase -= 10;
+                    }
                 }
             }
             if (store.cookie.inventory > 0) {
                 cookiePurchaseCount = cookiePurchaseCount + 1;
-                if (Utility.rndFromRange(1, 100) <= chanceOfPurchase) {
-                    chanceOfPurchase = chanceOfPurchase * 1.2;
+                for(int i = 0; i < store.games.size(); i ++){
+                    if (Utility.rndFromRange(1, 100) <= store.games.get(i).chanceOfPurchase){
+                        store.games.get(i).chanceOfPurchase += 20;
+                    }
                 }
                 store.registerCash += cookieCustomerPrice;
                 store.cookie.inventory -= cookieNum;
@@ -256,9 +280,9 @@ public class Cashier extends Employee{
                 for (Game g : store.games) {
                     if (purchaseCount <= 1) {   // two game purchase limit
                         if(gameDemoName == g.name){
-                            chanceOfPurchase += 10;
+                            g.chanceOfPurchase += 10;
                         }
-                        if (Utility.rndFromRange(1,100)<=chanceOfPurchase){
+                        if (Utility.rndFromRange(1,100)<=g.chanceOfPurchase){
                             if (g.countInventory > 0) {
                                 purchaseCount += 1;
                                 store.registerCash += g.price;
@@ -270,7 +294,7 @@ public class Cashier extends Employee{
                                 notifyObserver(name + " sold " + g.name + " to customer " + store.factory.customerName + ", who is a " + store.factory.customerType + " for " + Utility.asDollar(g.price));
                             }
                         }
-                            chanceOfPurchase -= 2;
+                            //chanceOfPurchase -= 2;
                     }
                 }
             }
