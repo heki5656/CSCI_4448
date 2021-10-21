@@ -11,7 +11,6 @@ public class Cashier extends Employee{
 
     //initialize reference variables for the stack behavior
     StackBehavior stackBehavior;
-    //Announcer announcer;
     String message;
     Observer observer;
 
@@ -138,6 +137,7 @@ public class Cashier extends Employee{
     public void openTheStore(Store store) {
         store.cookieMonster = false;
         customerCount = 1 + getPoissonRandom(3.0);
+        int dailyCookiesSold = 0;
 
         //Guy announces when the demonstrator enters the store
         notifyObserver("" + store.demonstrator.name + " the demonstrator has arrived at the store");
@@ -233,6 +233,7 @@ public class Cashier extends Employee{
             if(store.cookie.inventory > 0 && store.cookieMonster == true){
                 //cookie monster will eat all the cookies without paying for them
                 notifyObserver("Cookie monster is eating " + store.cookie.inventory + " cookie(s). There are no more cookies in the inventory.");
+                store.totalCookies += store.cookie.inventory;
                 store.cookie.inventory = 0;
 
                 //cookie monster will destroy 1-6 games
@@ -270,6 +271,7 @@ public class Cashier extends Employee{
                     }
                 }
                 store.registerCash += cookieCustomerPrice;
+                dailyCookiesSold += cookieNum;
                 store.cookie.inventory -= cookieNum;
               
                 notifyObserver(name + " sold " + cookieNum + " cookies to customer " + store.factory.customerName + " for " + Utility.asDollar(store.cookie.price));
@@ -303,6 +305,11 @@ public class Cashier extends Employee{
             store.cookieMonster = false;
 
         }
+
+        notifyObserver("Total cookies sold today: " + dailyCookiesSold);
+
+        store.totalCookiesSold += dailyCookiesSold;
+
     }
 
     public void orderNewGames(Store store) {

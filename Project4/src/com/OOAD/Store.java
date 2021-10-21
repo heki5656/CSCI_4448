@@ -20,6 +20,8 @@ public class Store {
     Demonstrator demonstrator = new Demonstrator(com.OOAD.Utility.selectName());
     CustomerFactory factory;
     boolean cookieMonster = false;
+    int totalCookies = 0;
+    int totalCookiesSold = 0;
 
     public Store() {
         //initialize the announcer
@@ -140,7 +142,7 @@ public class Store {
         activeCashier.closeTheStore(day);
     }
 
-    public void summaryReport() {
+    public void summaryReport(Store store) {
         // per game type number in inventory, number sold, total sales
         System.out.println("===Store Summary Report===");
         System.out.println("Game sales:");
@@ -161,6 +163,12 @@ public class Store {
         System.out.println("Final register funds: "+Utility.asDollar(registerCash));
         // additions to register
         System.out.println("$ added to register: "+Utility.asDollar(registerAdds*1000)+" ("+registerAdds+" adds)");
+
+        //how many cookies cookie moster ate
+        System.out.println("Total cookies Cookie Monster ate: " + store.totalCookies);
+
+        System.out.println("Total money Gronger has in his pocket: " + Utility.asDollar(store.baker.bakerWallet));
+        System.out.println("Total cookies sold: " + store.totalCookiesSold);
     }
 
     public void breakARandomGame() {
