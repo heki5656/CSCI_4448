@@ -1,1138 +1,1207 @@
 Starting simulator for 30 days
 --- Simulation starting Day 1
-Guy says: Guy has arrived at the store
-Guy says: Burt has arrived on day 1
-Guy says: Burt counts the money.
-Guy says: Burt sees $0.00 in the register
-Guy says: Burt added $1000 to the register, now at $1000.0
-Guy says: Burt vacuums the store
-Guy says: Burt broke a game!
+Lazy Guy says: Guy has arrived at the store
+Lazy Guy says: Burt has arrived on day 1
+Lazy Guy says: Burt counts the money.
+Lazy Guy says: Burt sees $0.00 in the register
+Lazy Guy says: Burt added $1000 to the register, now at $1000.0
+Lazy Guy says: Burt vacuums the store
+Lazy Guy says: Burt did not break a game!
 Burt is stacking
-Burt stacked Risk on shelf 0, game width=17
-Burt stacked Catan on shelf 1, game width=15
-Burt stacked Mousetrap on shelf 2, game width=12
-Burt stacked Candyland on shelf 3, game width=12
-Burt stacked Life on shelf 4, game width=11
-Burt stacked Gloomhaven on shelf 5, game width=10
-Burt stacked Connect Four on shelf 6, game width=8
-Burt stacked Magic on shelf 7, game width=6
-Burt stacked Monopoly on shelf 8, game width=6
-Burt stacked Clue on shelf 9, game width=6
-Burt stacked Pokémon on shelf 10, game width=5
-Burt stacked Netrunner on shelf 11, game width=4
-Guy says: Burt sold 1 cookies to customer 1 for $3.00
-Guy says: Burt sold Risk to customer 1 for $84.00
-Guy says: Burt sold Catan to customer 1 for $46.00
-Guy says: Burt sold 2 cookies to customer 2 for $3.00
-Guy says: Burt sold Risk to customer 2 for $84.00
-Guy says: Burt sold Catan to customer 2 for $46.00
-Guy says: Burt sold 2 cookies to customer 3 for $3.00
-Guy says: Burt sold Risk to customer 3 for $84.00
-Guy says: Burt sold Catan to customer 3 for $46.00
-Guy says: Burt sold 2 cookies to customer 4 for $3.00
-Guy says: Burt sold Mousetrap to customer 4 for $18.00
-Guy says: Burt sold Candyland to customer 4 for $11.00
-Guy says: Burt ordering new copies of Risk
-Guy says: Burt ordering new copies of Catan
-Guy says: Burt ordered new games for $195.00
-Guy says: Burt is closing the store
-Guy says: Burt has left on day 1
-Guy says: Guy is leaving the store
+Burt stacked Catan on shelf 0, game width=18
+Burt stacked Gloomhaven on shelf 1, game width=14
+Burt stacked Connect Four on shelf 2, game width=12
+Burt stacked Mousetrap on shelf 3, game width=10
+Burt stacked Clue on shelf 4, game width=10
+Burt stacked Risk on shelf 5, game width=10
+Burt stacked Candyland on shelf 6, game width=9
+Burt stacked Monopoly on shelf 7, game width=9
+Burt stacked Life on shelf 8, game width=7
+Burt stacked Pokémon on shelf 9, game width=5
+Burt stacked Netrunner on shelf 10, game width=5
+Burt stacked Magic on shelf 11, game width=4
+Lazy Guy says: Bruce the demonstrator has arrived at the store
+Lazy Guy says: Bruce is recommending CatanBobby.
+Lazy Guy says: Bruce is recommending GloomhavenBobby.
+Lazy Guy says: Burt sold 3 cookies to customer Bobby for $3.00
+Lazy Guy says: Burt sold 3 cookies to customer Robert for $3.00
+Lazy Guy says: Burt sold 2 cookies to customer Pam for $3.00
+Lazy Guy says: Bruce is demonstrating Catan  for customer Drake.
+Lazy Guy says: Burt sold 3 cookies to customer Drake for $3.00
+Lazy Guy says: Bruce is demonstrating Catan  for customer Sherbert.
+Lazy Guy says: Burt sold 3 cookies to customer Sherbert for $3.00
+Lazy Guy says: Burt sold Gloomhaven to customer Sherbert, who is a Family Gamer for $65.00
+Lazy Guy says: Burt did not order any games
+Lazy Guy says: Burt is closing the store
+Lazy Guy says: Burt has left on day 1
+Lazy Guy says: Guy is leaving the store
 --- Simulation starting Day 2
-Guy says: Guy has arrived at the store
-Guy says: Bart has arrived on day 2
-Guy says: Bart counts the money.
-Guy says: Bart sees $1,227.00 in the register
-Guy says: Bart vacuums the store
-Guy says: Bart did not break a game!
-Bart is stacking
-Bart stacked Risk on shelf 0, game width=17
-Bart stacked Catan on shelf 1, game width=15
-Bart stacked Candyland on shelf 2, game width=12
-Bart stacked Life on shelf 3, game width=11
-Bart stacked Gloomhaven on shelf 4, game width=10
-Bart stacked Connect Four on shelf 5, game width=8
-Bart stacked Magic on shelf 6, game width=6
-Bart stacked Monopoly on shelf 7, game width=6
-Bart stacked Clue on shelf 8, game width=6
-Bart stacked Pokémon on shelf 9, game width=5
-Bart stacked Netrunner on shelf 10, game width=4
-Bart stacked Mousetrap on shelf 11, game width=12
-Guy says: Bart sold 3 cookies to customer 1 for $3.00
-Guy says: Bart sold Risk to customer 1 for $84.00
-Guy says: Bart sold Catan to customer 1 for $46.00
-Guy says: Bart sold 2 cookies to customer 2 for $3.00
-Guy says: Bart sold Risk to customer 2 for $84.00
-Guy says: Bart sold Catan to customer 2 for $46.00
-Guy says: Bart sold 3 cookies to customer 3 for $3.00
-Guy says: Bart sold Risk to customer 3 for $84.00
-Guy says: Bart sold Catan to customer 3 for $46.00
-Guy says: Bart sold 1 cookies to customer 4 for $3.00
-Guy says: Bart sold Candyland to customer 4 for $11.00
-Guy says: Bart sold Life to customer 4 for $11.00
-Guy says: Bart ordering new copies of Risk
-Guy says: Bart ordering new copies of Catan
-Guy says: Bart ordered new games for $195.00
-Guy says: Bart is closing the store
-Guy says: Bart has left on day 2
-Guy says: Guy is leaving the store
+Lazy Guy says: The store was robbed! The robber stole all the money, games, and cookies!!!!
+Lazy Guy says: Cash Register = $0.00
+Lazy Guy says: Cookies in stock: 0
+Lazy Guy says: Catan inventory: 0
+Lazy Guy says: Gloomhaven inventory: 0
+Lazy Guy says: Connect Four inventory: 0
+Lazy Guy says: Mousetrap inventory: 0
+Lazy Guy says: Clue inventory: 0
+Lazy Guy says: Risk inventory: 0
+Lazy Guy says: Candyland inventory: 0
+Lazy Guy says: Monopoly inventory: 0
+Lazy Guy says: Life inventory: 0
+Lazy Guy says: Pokémon inventory: 0
+Lazy Guy says: Netrunner inventory: 0
+Lazy Guy says: Magic inventory: 0
+Store is closed for the day to restock.
+Lazy Guy says: Insurance payed to restock the games to inventory of 3.
+Lazy Guy says: Insurance payed to restock cookies to inventory of 12.
+Lazy Guy says: Insurance added $1000 to the register, now at $1000.0
 --- Simulation starting Day 3
-Guy says: Guy has arrived at the store
-Guy says: Burt has arrived on day 3
-Guy says: Burt counts the money.
-Guy says: Burt sees $1,453.00 in the register
-Guy says: Burt vacuums the store
-Guy says: Burt did not break a game!
+Eager Guy says: Guy has arrived at the store
+Eager Guy says: Burt has arrived on day 3
+Eager Guy says: Burt counts the money.
+Eager Guy says: Burt sees $1,000.00 in the register
+Eager Guy says: Burt vacuums the store
+Eager Guy says: Burt did not break a game!
 Burt is stacking
-Burt stacked Risk on shelf 0, game width=17
-Burt stacked Catan on shelf 1, game width=15
-Burt stacked Candyland on shelf 2, game width=12
-Burt stacked Mousetrap on shelf 3, game width=12
-Burt stacked Life on shelf 4, game width=11
-Burt stacked Gloomhaven on shelf 5, game width=10
-Burt stacked Connect Four on shelf 6, game width=8
-Burt stacked Magic on shelf 7, game width=6
-Burt stacked Monopoly on shelf 8, game width=6
-Burt stacked Clue on shelf 9, game width=6
-Burt stacked Pokémon on shelf 10, game width=5
-Burt stacked Netrunner on shelf 11, game width=4
-Guy says: Burt sold 2 cookies to customer 1 for $3.00
-Guy says: Burt sold Risk to customer 1 for $84.00
-Guy says: Burt sold Catan to customer 1 for $46.00
-Guy says: Burt sold 3 cookies to customer 2 for $3.00
-Guy says: Burt sold Risk to customer 2 for $84.00
-Guy says: Burt sold Catan to customer 2 for $46.00
-Guy says: Burt sold 2 cookies to customer 3 for $3.00
-Guy says: Burt sold Risk to customer 3 for $84.00
-Guy says: Burt sold Catan to customer 3 for $46.00
-Guy says: Burt sold 3 cookies to customer 4 for $3.00
-Guy says: Burt sold Candyland to customer 4 for $11.00
-Guy says: Burt sold Mousetrap to customer 4 for $18.00
-Guy says: Burt sold 1 cookies to customer 5 for $3.00
-Guy says: Burt sold Life to customer 5 for $11.00
-Guy says: Burt sold Gloomhaven to customer 5 for $85.00
-Guy says: Burt sold 1 cookies to customer 6 for $3.00
-Guy says: Burt sold Life to customer 6 for $11.00
-Guy says: Burt sold Gloomhaven to customer 6 for $85.00
-Guy says: Burt ordering new copies of Risk
-Guy says: Burt ordering new copies of Catan
-Guy says: Burt ordering new copies of Candyland
-Guy says: Burt ordering new copies of Mousetrap
-Guy says: Burt ordering new copies of Life
-Guy says: Burt ordered new games for $255.00
-Guy says: Burt is closing the store
-Guy says: Burt has left on day 3
-Guy says: Guy is leaving the store
+Burt stacked Catan on shelf 0, game width=18
+Burt stacked Gloomhaven on shelf 1, game width=14
+Burt stacked Connect Four on shelf 2, game width=12
+Burt stacked Mousetrap on shelf 3, game width=10
+Burt stacked Clue on shelf 4, game width=10
+Burt stacked Risk on shelf 5, game width=10
+Burt stacked Candyland on shelf 6, game width=9
+Burt stacked Monopoly on shelf 7, game width=9
+Burt stacked Life on shelf 8, game width=7
+Burt stacked Pokémon on shelf 9, game width=5
+Burt stacked Netrunner on shelf 10, game width=5
+Burt stacked Magic on shelf 11, game width=4
+Eager Guy says: Bruce the demonstrator has arrived at the store
+Eager Guy says: Burt sold 1 cookies to customer Tim for $3.00
+Eager Guy says: Bruce is demonstrating Catan  for customer Kermit.
+Eager Guy says: Burt sold 2 cookies to customer Kermit for $3.00
+Eager Guy says: Burt sold Catan to customer Kermit, who is a Card Gamer for $57.00
+Eager Guy says: Burt sold Gloomhaven to customer Kermit, who is a Card Gamer for $65.00
+Eager Guy says: Burt did not order any games
+Eager Guy says: Burt is closing the store
+Eager Guy says: Burt has left on day 3
+Eager Guy says: Guy is leaving the store
 --- Simulation starting Day 4
-Guy says: Guy has arrived at the store
-Guy says: Ernie has arrived on day 4
-Guy says: Ernie counts the money.
-Guy says: Ernie sees $1,827.00 in the register
-Guy says: Ernie vacuums the store
-Guy says: Ernie did not break a game!
-Ernie stacked Risk on shelf 0, game height=9
-Ernie stacked Catan on shelf 1, game height=9
-Ernie stacked Candyland on shelf 2, game height=9
-Ernie stacked Mousetrap on shelf 3, game height=9
-Ernie stacked Magic on shelf 4, game height=9
-Ernie stacked Monopoly on shelf 5, game height=9
-Ernie stacked Clue on shelf 6, game height=9
-Ernie stacked Life on shelf 7, game height=6
-Ernie stacked Netrunner on shelf 8, game height=6
-Ernie stacked Gloomhaven on shelf 9, game height=3
-Ernie stacked Connect Four on shelf 10, game height=3
-Ernie stacked Pokémon on shelf 11, game height=3
-Guy says: Ernie sold 2 cookies to customer 1 for $3.00
-Guy says: Ernie sold Risk to customer 1 for $84.00
-Guy says: Ernie sold Catan to customer 1 for $46.00
-Guy says: Ernie sold 2 cookies to customer 2 for $3.00
-Guy says: Ernie sold Risk to customer 2 for $84.00
-Guy says: Ernie sold Catan to customer 2 for $46.00
-Guy says: Ernie sold 3 cookies to customer 3 for $3.00
-Guy says: Ernie sold Risk to customer 3 for $84.00
-Guy says: Ernie sold Catan to customer 3 for $46.00
-Guy says: Ernie sold 3 cookies to customer 4 for $3.00
-Guy says: Ernie sold Candyland to customer 4 for $11.00
-Spare parts also purchased. Guy says: Ernie sold Mousetrap to customer 4 for $18.00
-Guy says: Ernie sold 1 cookies to customer 5 for $3.00
-Guy says: Ernie sold Candyland to customer 5 for $11.00
-Spare parts also purchased. Guy says: Ernie sold Mousetrap to customer 5 for $21.00
-Guy says: Ernie ordering new copies of Risk
-Guy says: Ernie ordering new copies of Catan
-Guy says: Ernie ordered new games for $195.00
-Guy says: Ernie is closing the store
-Guy says: Ernie has left on day 4
-Guy says: Guy is leaving the store
+Lazy Guy says: Guy has arrived at the store
+Lazy Guy says: Bart has arrived on day 4
+Lazy Guy says: Bart counts the money.
+Lazy Guy says: Bart sees $1,113.00 in the register
+Lazy Guy says: Bart vacuums the store
+Lazy Guy says: Bart did not break a game!
+Bart is stacking
+Bart stacked Catan on shelf 0, game width=18
+Bart stacked Gloomhaven on shelf 1, game width=14
+Bart stacked Connect Four on shelf 2, game width=12
+Bart stacked Mousetrap on shelf 3, game width=10
+Bart stacked Clue on shelf 4, game width=10
+Bart stacked Risk on shelf 5, game width=10
+Bart stacked Candyland on shelf 6, game width=9
+Bart stacked Monopoly on shelf 7, game width=9
+Bart stacked Life on shelf 8, game width=7
+Bart stacked Pokémon on shelf 9, game width=5
+Bart stacked Netrunner on shelf 10, game width=5
+Bart stacked Magic on shelf 11, game width=4
+Lazy Guy says: Bruce the demonstrator has arrived at the store
+Lazy Guy says: Bart sold 3 cookies to customer Rose for $3.00
+Lazy Guy says: Bruce is recommending CatanSherbert.
+Lazy Guy says: Bruce is demonstrating Gloomhaven  for customer Sherbert.
+Lazy Guy says: Bart sold 1 cookies to customer Sherbert for $3.00
+Lazy Guy says: Bart sold 2 cookies to customer Sam for $3.00
+Lazy Guy says: Bart sold Catan to customer Sam, who is a Kid Gamer for $57.00
+Lazy Guy says: Bart sold Gloomhaven to customer Sam, who is a Kid Gamer for $65.00
+Lazy Guy says: Bruce is demonstrating Catan  for customer Tom.
+Lazy Guy says: Bart sold 2 cookies to customer Tom for $3.00
+Lazy Guy says: Bruce is explaining Catan  for customer Kermit.
+Lazy Guy says: Bruce is demonstrating Gloomhaven  for customer Kermit.
+Lazy Guy says: Bruce is recommending Connect FourKermit.
+Lazy Guy says: Bart sold 1 cookies to customer Kermit for $3.00
+Lazy Guy says: Bart sold Catan to customer Kermit, who is a Family Gamer for $57.00
+Lazy Guy says: Bart sold Gloomhaven to customer Kermit, who is a Family Gamer for $65.00
+Lazy Guy says: Bart ordering new copies of Catan
+Lazy Guy says: Bart ordering new copies of Gloomhaven
+Lazy Guy says: Bart ordered new games for $183.00
+Lazy Guy says: Bart is closing the store
+Lazy Guy says: Bart has left on day 4
+Lazy Guy says: Guy is leaving the store
 --- Simulation starting Day 5
-Guy says: Guy has arrived at the store
-Guy says: Bart has arrived on day 5
-Guy says: Bart counts the money.
-Guy says: Bart sees $2,098.00 in the register
-Guy says: Bart vacuums the store
-Guy says: Bart did not break a game!
-Bart is stacking
-Bart stacked Risk on shelf 0, game width=17
-Bart stacked Catan on shelf 1, game width=15
-Bart stacked Mousetrap on shelf 2, game width=12
-Bart stacked Life on shelf 3, game width=11
-Bart stacked Connect Four on shelf 4, game width=8
-Bart stacked Magic on shelf 5, game width=6
-Bart stacked Monopoly on shelf 6, game width=6
-Bart stacked Clue on shelf 7, game width=6
-Bart stacked Pokémon on shelf 8, game width=5
-Bart stacked Netrunner on shelf 9, game width=4
-Bart stacked Candyland on shelf 10, game width=9
-Bart stacked Gloomhaven on shelf 11, game width=3
-Guy says: Bart sold 2 cookies to customer 1 for $3.00
-Guy says: Bart sold Risk to customer 1 for $84.00
-Guy says: Bart sold Catan to customer 1 for $46.00
-Guy says: Bart sold 3 cookies to customer 2 for $3.00
-Guy says: Bart sold Risk to customer 2 for $84.00
-Guy says: Bart sold Catan to customer 2 for $46.00
-Guy says: Bart did not order any games
-Guy says: Bart is closing the store
-Guy says: Bart has left on day 5
-Guy says: Guy is leaving the store
+Eager Guy says: Guy has arrived at the store
+Eager Guy says: Burt has arrived on day 5
+Eager Guy says: Burt counts the money.
+Eager Guy says: Burt sees $1,183.00 in the register
+Eager Guy says: Burt vacuums the store
+Eager Guy says: Burt did not break a game!
+Burt is stacking
+Burt stacked Catan on shelf 0, game width=18
+Burt stacked Gloomhaven on shelf 1, game width=14
+Burt stacked Connect Four on shelf 2, game width=12
+Burt stacked Mousetrap on shelf 3, game width=10
+Burt stacked Clue on shelf 4, game width=10
+Burt stacked Risk on shelf 5, game width=10
+Burt stacked Candyland on shelf 6, game width=9
+Burt stacked Monopoly on shelf 7, game width=9
+Burt stacked Life on shelf 8, game width=7
+Burt stacked Pokémon on shelf 9, game width=5
+Burt stacked Netrunner on shelf 10, game width=5
+Burt stacked Magic on shelf 11, game width=4
+Eager Guy says: Bruce the demonstrator has arrived at the store
+Eager Guy says: Bruce is recommending CatanSherbert.
+Eager Guy says: Burt sold 3 cookies to customer Sherbert for $3.00
+Eager Guy says: Burt sold Catan to customer Sherbert, who is a Board Gamer for $57.00
+Eager Guy says: Burt sold Gloomhaven to customer Sherbert, who is a Board Gamer for $65.00
+Eager Guy says: Burt sold 3 cookies to customer Tam for $3.00
+Eager Guy says: Burt sold Catan to customer Tam, who is a Board Gamer for $57.00
+Eager Guy says: Burt sold Gloomhaven to customer Tam, who is a Board Gamer for $65.00
+Eager Guy says: Burt sold 1 cookies to customer Kermit for $3.00
+Eager Guy says: Burt sold Catan to customer Kermit, who is a Card Gamer for $57.00
+Special token also purchased. Eager Guy says: Burt sold Gloomhaven to customer Kermit, who is a Card Gamer for $65.00
+Eager Guy says: Bruce is explaining Catan  for customer Bobby.
+Eager Guy says: Bruce is explaining Gloomhaven  for customer Bobby.
+Eager Guy says: Bruce is demonstrating Connect Four  for customer Bobby.
+Eager Guy says: Burt sold 2 cookies to customer Bobby for $3.00
+Eager Guy says: Bruce is explaining Catan  for customer Sherbert.
+Eager Guy says: Bruce is demonstrating Gloomhaven  for customer Sherbert.
+Eager Guy says: Bruce is recommending Connect FourSherbert.
+Eager Guy says: Burt sold 2 cookies to customer Sherbert for $3.00
+Eager Guy says: Burt ordering new copies of Catan
+Eager Guy says: Burt ordering new copies of Gloomhaven
+Eager Guy says: Burt ordered new games for $186.75
+Eager Guy says: Burt is closing the store
+Eager Guy says: Burt has left on day 5
+Eager Guy says: Guy is leaving the store
 --- Simulation starting Day 6
-Guy says: Guy has arrived at the store
-Guy says: Burt has arrived on day 6
-Guy says: Burt counts the money.
-Guy says: Burt sees $2,355.00 in the register
-Guy says: Burt vacuums the store
-Guy says: Burt did not break a game!
+Eager Guy says: Guy has arrived at the store
+Eager Guy says: Burt has arrived on day 6
+Eager Guy says: Burt counts the money.
+Eager Guy says: Burt sees $1,377.25 in the register
+Eager Guy says: Burt vacuums the store
+Eager Guy says: Burt did not break a game!
 Burt is stacking
-Burt stacked Risk on shelf 0, game width=17
-Burt stacked Catan on shelf 1, game width=15
-Burt stacked Mousetrap on shelf 2, game width=12
-Burt stacked Candyland on shelf 3, game width=12
-Burt stacked Life on shelf 4, game width=11
-Burt stacked Gloomhaven on shelf 5, game width=10
-Burt stacked Connect Four on shelf 6, game width=8
-Burt stacked Magic on shelf 7, game width=6
-Burt stacked Monopoly on shelf 8, game width=6
-Burt stacked Clue on shelf 9, game width=6
-Burt stacked Pokémon on shelf 10, game width=5
-Burt stacked Netrunner on shelf 11, game width=4
-Guy says: Burt sold 2 cookies to customer 1 for $3.00
-Guy says: Burt sold Risk to customer 1 for $84.00
-Guy says: Burt sold Catan to customer 1 for $46.00
-Guy says: Burt sold 1 cookies to customer 2 for $3.00
-Guy says: Burt sold Mousetrap to customer 2 for $24.00
-Guy says: Burt sold Candyland to customer 2 for $11.00
-Guy says: Burt ordering new copies of Risk
-Guy says: Burt ordering new copies of Catan
-Guy says: Burt ordering new copies of Mousetrap
-Guy says: Burt ordering new copies of Candyland
-Guy says: Burt ordered new games for $247.50
-Guy says: Burt is closing the store
-Guy says: Burt has left on day 6
-Guy says: Guy is leaving the store
+Burt stacked Catan on shelf 0, game width=18
+Burt stacked Gloomhaven on shelf 1, game width=14
+Burt stacked Connect Four on shelf 2, game width=12
+Burt stacked Mousetrap on shelf 3, game width=10
+Burt stacked Clue on shelf 4, game width=10
+Burt stacked Risk on shelf 5, game width=10
+Burt stacked Candyland on shelf 6, game width=9
+Burt stacked Monopoly on shelf 7, game width=9
+Burt stacked Life on shelf 8, game width=7
+Burt stacked Pokémon on shelf 9, game width=5
+Burt stacked Netrunner on shelf 10, game width=5
+Burt stacked Magic on shelf 11, game width=4
+Eager Guy says: Bruce the demonstrator has arrived at the store
+Eager Guy says: Bruce is recommending CatanKermit.
+Eager Guy says: Bruce is demonstrating Gloomhaven  for customer Kermit.
+Eager Guy says: Burt sold 3 cookies to customer Kermit for $3.00
+Eager Guy says: Burt sold Catan to customer Kermit, who is a Family Gamer for $57.00
+Special token also purchased. Eager Guy says: Burt sold Gloomhaven to customer Kermit, who is a Family Gamer for $67.50
+Eager Guy says: Bruce is demonstrating Catan  for customer Herbert.
+Eager Guy says: Bruce is recommending GloomhavenHerbert.
+Eager Guy says: Bruce is explaining Connect Four  for customer Herbert.
+Eager Guy says: Burt sold 2 cookies to customer Herbert for $3.00
+Eager Guy says: Burt sold Catan to customer Herbert, who is a Kid Gamer for $57.00
+Eager Guy says: Burt sold Gloomhaven to customer Herbert, who is a Kid Gamer for $70.00
+Eager Guy says: Bruce is explaining Catan  for customer Herbert.
+Eager Guy says: Bruce is recommending GloomhavenHerbert.
+Eager Guy says: Burt sold 3 cookies to customer Herbert for $3.00
+Eager Guy says: Burt sold Catan to customer Herbert, who is a Family Gamer for $57.00
+Eager Guy says: Burt sold Gloomhaven to customer Herbert, who is a Family Gamer for $70.00
+Eager Guy says: Bruce is explaining Catan  for customer Rose.
+Eager Guy says: Burt sold 1 cookies to customer Rose for $3.00
+Eager Guy says: Burt sold Connect Four to customer Rose, who is a Kid Gamer for $8.00
+Eager Guy says: Burt ordering new copies of Catan
+Eager Guy says: Burt ordering new copies of Gloomhaven
+Eager Guy says: Burt ordered new games for $190.50
+Eager Guy says: Burt is closing the store
+Eager Guy says: Burt has left on day 6
+Eager Guy says: Guy is leaving the store
 --- Simulation starting Day 7
-Guy says: Guy has arrived at the store
-Guy says: Burt has arrived on day 7
-Guy says: Burt counts the money.
-Guy says: Burt sees $2,263.50 in the register
-Guy says: Burt vacuums the store
-Guy says: Burt did not break a game!
+Eager Guy says: Guy has arrived at the store
+Eager Guy says: Burt has arrived on day 7
+Eager Guy says: Burt counts the money.
+Eager Guy says: Burt sees $1,582.25 in the register
+Eager Guy says: Burt vacuums the store
+Eager Guy says: Burt did not break a game!
 Burt is stacking
-Burt stacked Risk on shelf 0, game width=17
-Burt stacked Catan on shelf 1, game width=15
-Burt stacked Mousetrap on shelf 2, game width=12
-Burt stacked Candyland on shelf 3, game width=12
-Burt stacked Life on shelf 4, game width=11
-Burt stacked Gloomhaven on shelf 5, game width=10
-Burt stacked Connect Four on shelf 6, game width=8
-Burt stacked Magic on shelf 7, game width=6
-Burt stacked Monopoly on shelf 8, game width=6
-Burt stacked Clue on shelf 9, game width=6
-Burt stacked Pokémon on shelf 10, game width=5
-Burt stacked Netrunner on shelf 11, game width=4
-Guy says: Burt sold 2 cookies to customer 1 for $3.00
-Guy says: Burt sold Risk to customer 1 for $84.00
-Guy says: Burt sold Catan to customer 1 for $46.00
-Guy says: Burt sold 2 cookies to customer 2 for $3.00
-Guy says: Burt sold Risk to customer 2 for $84.00
-Guy says: Burt sold Catan to customer 2 for $46.00
-Guy says: Burt sold 3 cookies to customer 3 for $3.00
-Guy says: Burt sold Risk to customer 3 for $84.00
-Guy says: Burt sold Catan to customer 3 for $46.00
-Guy says: Burt sold 1 cookies to customer 4 for $3.00
-Guy says: Burt sold Mousetrap to customer 4 for $24.00
-Guy says: Burt sold Candyland to customer 4 for $11.00
-Guy says: Burt ordering new copies of Risk
-Guy says: Burt ordering new copies of Catan
-Guy says: Burt ordered new games for $195.00
-Guy says: Burt is closing the store
-Guy says: Burt has left on day 7
-Guy says: Guy is leaving the store
+Burt stacked Catan on shelf 0, game width=18
+Burt stacked Gloomhaven on shelf 1, game width=14
+Burt stacked Connect Four on shelf 2, game width=12
+Burt stacked Mousetrap on shelf 3, game width=10
+Burt stacked Clue on shelf 4, game width=10
+Burt stacked Risk on shelf 5, game width=10
+Burt stacked Candyland on shelf 6, game width=9
+Burt stacked Monopoly on shelf 7, game width=9
+Burt stacked Life on shelf 8, game width=7
+Burt stacked Pokémon on shelf 9, game width=5
+Burt stacked Netrunner on shelf 10, game width=5
+Burt stacked Magic on shelf 11, game width=4
+Eager Guy says: Bruce the demonstrator has arrived at the store
+Eager Guy says: Bruce is demonstrating Catan  for customer Sherbert.
+Eager Guy says: Bruce is recommending GloomhavenSherbert.
+Eager Guy says: Burt sold 2 cookies to customer Sherbert for $3.00
+Eager Guy says: Burt sold Catan to customer Sherbert, who is a Family Gamer for $57.00
+Eager Guy says: Burt sold Gloomhaven to customer Sherbert, who is a Family Gamer for $70.00
+Eager Guy says: Burt did not order any games
+Eager Guy says: Burt is closing the store
+Eager Guy says: Burt has left on day 7
+Eager Guy says: Guy is leaving the store
 --- Simulation starting Day 8
-Guy says: Guy has arrived at the store
-Guy says: Burt has arrived on day 8
-Guy says: Burt counts the money.
-Guy says: Burt sees $2,499.50 in the register
-Guy says: Burt vacuums the store
-Guy says: Burt did not break a game!
-Burt is stacking
-Burt stacked Risk on shelf 0, game width=17
-Burt stacked Catan on shelf 1, game width=15
-Burt stacked Mousetrap on shelf 2, game width=12
-Burt stacked Candyland on shelf 3, game width=12
-Burt stacked Life on shelf 4, game width=11
-Burt stacked Gloomhaven on shelf 5, game width=10
-Burt stacked Connect Four on shelf 6, game width=8
-Burt stacked Magic on shelf 7, game width=6
-Burt stacked Monopoly on shelf 8, game width=6
-Burt stacked Clue on shelf 9, game width=6
-Burt stacked Pokémon on shelf 10, game width=5
-Burt stacked Netrunner on shelf 11, game width=4
-Guy says: Burt sold 2 cookies to customer 1 for $3.00
-Guy says: Burt sold Risk to customer 1 for $84.00
-Guy says: Burt sold Catan to customer 1 for $46.00
-Guy says: Burt sold 1 cookies to customer 2 for $3.00
-Guy says: Burt sold Risk to customer 2 for $84.00
-Guy says: Burt sold Catan to customer 2 for $46.00
-Guy says: Burt did not order any games
-Guy says: Burt is closing the store
-Guy says: Burt has left on day 8
-Guy says: Guy is leaving the store
+Eager Guy says: Guy has arrived at the store
+Eager Guy says: Bart has arrived on day 8
+Eager Guy says: Bart counts the money.
+Eager Guy says: Bart sees $1,697.25 in the register
+Eager Guy says: Bart vacuums the store
+Eager Guy says: Bart did not break a game!
+Bart is stacking
+Bart stacked Catan on shelf 0, game width=18
+Bart stacked Gloomhaven on shelf 1, game width=14
+Bart stacked Connect Four on shelf 2, game width=12
+Bart stacked Mousetrap on shelf 3, game width=10
+Bart stacked Clue on shelf 4, game width=10
+Bart stacked Risk on shelf 5, game width=10
+Bart stacked Candyland on shelf 6, game width=9
+Bart stacked Monopoly on shelf 7, game width=9
+Bart stacked Life on shelf 8, game width=7
+Bart stacked Pokémon on shelf 9, game width=5
+Bart stacked Netrunner on shelf 10, game width=5
+Bart stacked Magic on shelf 11, game width=4
+Eager Guy says: Bruce the demonstrator has arrived at the store
+Eager Guy says: Bart sold 3 cookies to customer Max for $3.00
+Eager Guy says: Bart sold Catan to customer Max, who is a Card Gamer for $57.00
+Eager Guy says: Bart sold Gloomhaven to customer Max, who is a Card Gamer for $70.00
+Eager Guy says: Bruce is explaining Catan  for customer Tim.
+Eager Guy says: Bart sold 3 cookies to customer Tim for $3.00
+Eager Guy says: Bart sold Catan to customer Tim, who is a Kid Gamer for $57.00
+Eager Guy says: Bart sold Gloomhaven to customer Tim, who is a Kid Gamer for $70.00
+Eager Guy says: Bruce is explaining Catan  for customer Herbert.
+Eager Guy says: Bruce is demonstrating Gloomhaven  for customer Herbert.
+Eager Guy says: Bruce is explaining Connect Four  for customer Herbert.
+Eager Guy says: Bart sold 1 cookies to customer Herbert for $3.00
+Eager Guy says: Bart sold Connect Four to customer Herbert, who is a Family Gamer for $8.00
+Eager Guy says: Bruce is explaining Catan  for customer Bobby.
+Eager Guy says: Bruce is recommending GloomhavenBobby.
+Eager Guy says: Bart sold 1 cookies to customer Bobby for $3.00
+Eager Guy says: Bart sold Connect Four to customer Bobby, who is a Card Gamer for $8.00
+Eager Guy says: Bruce is recommending CatanRobert.
+Eager Guy says: Bart sold 3 cookies to customer Robert for $3.00
+Eager Guy says: Bart sold 3 cookies to customer Kirby for $3.00
+Eager Guy says: Bart ordering new copies of Catan
+Eager Guy says: Bart ordering new copies of Gloomhaven
+Eager Guy says: Bart ordering new copies of Connect Four
+Eager Guy says: Bart ordered new games for $202.50
+Eager Guy says: Bart is closing the store
+Eager Guy says: Bart has left on day 8
+Eager Guy says: Guy is leaving the store
 --- Simulation starting Day 9
-Guy says: Guy has arrived at the store
-Guy says: Bart has arrived on day 9
-Guy says: Bart counts the money.
-Guy says: Bart sees $2,750.50 in the register
-Guy says: Bart vacuums the store
-Guy says: Bart did not break a game!
-Bart is stacking
-Bart stacked Catan on shelf 0, game width=15
-Bart stacked Mousetrap on shelf 1, game width=12
-Bart stacked Candyland on shelf 2, game width=12
-Bart stacked Life on shelf 3, game width=11
-Bart stacked Connect Four on shelf 4, game width=8
-Bart stacked Magic on shelf 5, game width=6
-Bart stacked Monopoly on shelf 6, game width=6
-Bart stacked Clue on shelf 7, game width=6
-Bart stacked Pokémon on shelf 8, game width=5
-Bart stacked Netrunner on shelf 9, game width=4
-Bart stacked Risk on shelf 10, game width=17
-Bart stacked Gloomhaven on shelf 11, game width=10
-Guy says: Bart sold 1 cookies to customer 1 for $3.00
-Guy says: Bart sold Catan to customer 1 for $46.00
-Spare parts also purchased. Guy says: Bart sold Mousetrap to customer 1 for $24.00
-Guy says: Bart ordering new copies of Catan
-Guy says: Bart ordered new games for $69.00
-Guy says: Bart is closing the store
-Guy says: Bart has left on day 9
-Guy says: Guy is leaving the store
+Eager Guy says: Guy has arrived at the store
+Eager Guy says: Burt has arrived on day 9
+Eager Guy says: Burt counts the money.
+Eager Guy says: Burt sees $1,788.75 in the register
+Eager Guy says: Burt vacuums the store
+Eager Guy says: Burt did not break a game!
+Burt is stacking
+Burt stacked Catan on shelf 0, game width=18
+Burt stacked Gloomhaven on shelf 1, game width=14
+Burt stacked Connect Four on shelf 2, game width=12
+Burt stacked Mousetrap on shelf 3, game width=10
+Burt stacked Clue on shelf 4, game width=10
+Burt stacked Risk on shelf 5, game width=10
+Burt stacked Candyland on shelf 6, game width=9
+Burt stacked Monopoly on shelf 7, game width=9
+Burt stacked Life on shelf 8, game width=7
+Burt stacked Pokémon on shelf 9, game width=5
+Burt stacked Netrunner on shelf 10, game width=5
+Burt stacked Magic on shelf 11, game width=4
+Eager Guy says: Bruce the demonstrator has arrived at the store
+Eager Guy says: Burt sold 3 cookies to customer Kermit for $3.00
+Eager Guy says: Burt sold Catan to customer Kermit, who is a Kid Gamer for $57.00
+Eager Guy says: Burt sold Gloomhaven to customer Kermit, who is a Kid Gamer for $70.00
+Eager Guy says: Bruce is recommending CatanLaura.
+Eager Guy says: Burt sold 3 cookies to customer Laura for $3.00
+Eager Guy says: Burt sold Catan to customer Laura, who is a Card Gamer for $57.00
+Eager Guy says: Burt sold Gloomhaven to customer Laura, who is a Card Gamer for $70.00
+Eager Guy says: Burt did not order any games
+Eager Guy says: Burt is closing the store
+Eager Guy says: Burt has left on day 9
+Eager Guy says: Guy is leaving the store
 --- Simulation starting Day 10
-Guy says: Guy has arrived at the store
-Guy says: Bart has arrived on day 10
-Guy says: Bart counts the money.
-Guy says: Bart sees $2,736.50 in the register
-Guy says: Bart vacuums the store
-Guy says: Bart did not break a game!
-Bart is stacking
-Bart stacked Catan on shelf 0, game width=15
-Bart stacked Candyland on shelf 1, game width=12
-Bart stacked Life on shelf 2, game width=11
-Bart stacked Gloomhaven on shelf 3, game width=10
-Bart stacked Connect Four on shelf 4, game width=8
-Bart stacked Magic on shelf 5, game width=6
-Bart stacked Monopoly on shelf 6, game width=6
-Bart stacked Clue on shelf 7, game width=6
-Bart stacked Pokémon on shelf 8, game width=5
-Bart stacked Netrunner on shelf 9, game width=4
-Bart stacked Mousetrap on shelf 10, game width=12
-Bart stacked Risk on shelf 11, game width=17
-Guy says: Bart sold 2 cookies to customer 1 for $3.00
-Guy says: Bart sold Catan to customer 1 for $46.00
-Guy says: Bart sold Candyland to customer 1 for $11.00
-Guy says: Bart sold 1 cookies to customer 2 for $3.00
-Guy says: Bart sold Catan to customer 2 for $46.00
-Guy says: Bart sold Candyland to customer 2 for $11.00
-Guy says: Bart ordering new copies of Candyland
-Guy says: Bart ordered new games for $16.50
-Guy says: Bart is closing the store
-Guy says: Bart has left on day 10
-Guy says: Guy is leaving the store
+Lazy Guy says: Guy has arrived at the store
+Lazy Guy says: Burt has arrived on day 10
+Lazy Guy says: Burt counts the money.
+Lazy Guy says: Burt sees $2,042.75 in the register
+Lazy Guy says: Burt vacuums the store
+Lazy Guy says: Burt did not break a game!
+Burt is stacking
+Burt stacked Catan on shelf 0, game width=18
+Burt stacked Gloomhaven on shelf 1, game width=14
+Burt stacked Connect Four on shelf 2, game width=12
+Burt stacked Mousetrap on shelf 3, game width=10
+Burt stacked Clue on shelf 4, game width=10
+Burt stacked Risk on shelf 5, game width=10
+Burt stacked Candyland on shelf 6, game width=9
+Burt stacked Monopoly on shelf 7, game width=9
+Burt stacked Life on shelf 8, game width=7
+Burt stacked Pokémon on shelf 9, game width=5
+Burt stacked Netrunner on shelf 10, game width=5
+Burt stacked Magic on shelf 11, game width=4
+Lazy Guy says: Bruce the demonstrator has arrived at the store
+Lazy Guy says: Bruce is running away!
+Lazy Guy says: Bobby is recommending CatanTim.
+Lazy Guy says: Cookie monster is eating 54 cookie(s). There are no more cookies in the inventory.
+Lazy Guy says: Cookie monster is breaking a random game!
+Lazy Guy says: Cookie monster is breaking a random game!
+Lazy Guy says: Cookie monster is breaking a random game!
+Lazy Guy says: Cookie monster is breaking a random game!
+Lazy Guy says: Bobby is demonstrating Catan  for customer Lily.
+Lazy Guy says: Burt sold Catan to customer Lily, who is a Kid Gamer for $57.00
+Lazy Guy says: Burt sold Gloomhaven to customer Lily, who is a Kid Gamer for $70.00
+Lazy Guy says: Burt sold Connect Four to customer Sam, who is a Card Gamer for $8.00
+Lazy Guy says: Burt ordering new copies of Catan
+Lazy Guy says: Burt ordering new copies of Gloomhaven
+Lazy Guy says: Burt ordered new games for $190.50
+Lazy Guy says: Burt is closing the store
+Lazy Guy says: Burt has left on day 10
+Lazy Guy says: Guy is leaving the store
 --- Simulation starting Day 11
-Guy says: Guy has arrived at the store
-Guy says: Ernie has arrived on day 11
-Guy says: Ernie counts the money.
-Guy says: Ernie sees $2,825.00 in the register
-Guy says: Ernie vacuums the store
-Guy says: Ernie did not break a game!
-Ernie stacked Candyland on shelf 0, game height=9
-Ernie stacked Magic on shelf 1, game height=9
-Ernie stacked Monopoly on shelf 2, game height=9
-Ernie stacked Clue on shelf 3, game height=9
-Ernie stacked Life on shelf 4, game height=6
-Ernie stacked Netrunner on shelf 5, game height=6
-Ernie stacked Catan on shelf 6, game height=3
-Ernie stacked Gloomhaven on shelf 7, game height=3
-Ernie stacked Connect Four on shelf 8, game height=3
-Ernie stacked Pokémon on shelf 9, game height=3
-Ernie stacked Mousetrap on shelf 10, game height=3
-Ernie stacked Risk on shelf 11, game height=3
-Guy says: Ernie sold 3 cookies to customer 1 for $3.00
-Guy says: Ernie sold Candyland to customer 1 for $11.00
-Guy says: Ernie sold Magic to customer 1 for $27.00
-Guy says: Ernie sold 3 cookies to customer 2 for $3.00
-Guy says: Ernie sold Candyland to customer 2 for $11.00
-Guy says: Ernie sold Magic to customer 2 for $27.00
-Guy says: Ernie did not order any games
-Guy says: Ernie is closing the store
-Guy says: Ernie has left on day 11
-Guy says: Guy is leaving the store
+Eager Guy says: Guy has arrived at the store
+Eager Guy says: Ernie has arrived on day 11
+Eager Guy says: Ernie counts the money.
+Eager Guy says: Ernie sees $1,969.25 in the register
+Eager Guy says: Ernie vacuums the store
+Eager Guy says: Ernie did not break a game!
+Ernie stacked Catan on shelf 0, game height=18
+Ernie stacked Gloomhaven on shelf 1, game height=15
+Ernie stacked Risk on shelf 2, game height=15
+Ernie stacked Pokémon on shelf 3, game height=9
+Ernie stacked Clue on shelf 4, game height=6
+Ernie stacked Candyland on shelf 5, game height=6
+Ernie stacked Netrunner on shelf 6, game height=6
+Ernie stacked Magic on shelf 7, game height=6
+Ernie stacked Life on shelf 8, game height=4
+Ernie stacked Mousetrap on shelf 9, game height=2
+Ernie stacked Monopoly on shelf 10, game height=2
+Ernie stacked Connect Four on shelf 11, game height=1
+Eager Guy says: Bobby the demonstrator has arrived at the store
+Eager Guy says: Bobby is demonstrating Catan  for customer Kirby.
+Eager Guy says: Ernie sold 3 cookies to customer Kirby for $3.00
+Eager Guy says: Ernie sold Catan to customer Kirby, who is a Kid Gamer for $57.00
+Eager Guy says: Ernie sold Gloomhaven to customer Kirby, who is a Kid Gamer for $70.00
+Eager Guy says: Bobby is recommending CatanLily.
+Eager Guy says: Ernie sold 1 cookies to customer Lily for $3.00
+Eager Guy says: Ernie sold Catan to customer Lily, who is a Board Gamer for $57.00
+Eager Guy says: Ernie sold Gloomhaven to customer Lily, who is a Board Gamer for $70.00
+Eager Guy says: Bobby is recommending CatanKermit.
+Eager Guy says: Bobby is explaining Gloomhaven  for customer Kermit.
+Eager Guy says: Bobby is explaining Risk  for customer Kermit.
+Eager Guy says: Ernie sold 2 cookies to customer Kermit for $3.00
+Eager Guy says: Ernie sold Catan to customer Kermit, who is a Kid Gamer for $57.00
+Special token also purchased. Eager Guy says: Ernie sold Gloomhaven to customer Kermit, who is a Kid Gamer for $70.00
+Eager Guy says: Bobby is recommending CatanTom.
+Eager Guy says: Bobby is recommending GloomhavenTom.
+Eager Guy says: Ernie sold 2 cookies to customer Tom for $3.00
+Eager Guy says: Ernie sold Connect Four to customer Tom, who is a Kid Gamer for $8.00
+Eager Guy says: Ernie ordering new copies of Catan
+Eager Guy says: Ernie ordering new copies of Gloomhaven
+Eager Guy says: Ernie ordering new copies of Connect Four
+Eager Guy says: Ernie ordered new games for $206.25
+Eager Guy says: Ernie is closing the store
+Eager Guy says: Ernie has left on day 11
+Eager Guy says: Guy is leaving the store
 --- Simulation starting Day 12
-Guy says: Guy has arrived at the store
-Guy says: Burt has arrived on day 12
-Guy says: Burt counts the money.
-Guy says: Burt sees $2,901.00 in the register
-Guy says: Burt vacuums the store
-Guy says: Burt did not break a game!
-Burt is stacking
-Burt stacked Risk on shelf 0, game width=17
-Burt stacked Catan on shelf 1, game width=15
-Burt stacked Candyland on shelf 2, game width=12
-Burt stacked Mousetrap on shelf 3, game width=12
-Burt stacked Life on shelf 4, game width=11
-Burt stacked Gloomhaven on shelf 5, game width=10
-Burt stacked Connect Four on shelf 6, game width=8
-Burt stacked Magic on shelf 7, game width=6
-Burt stacked Monopoly on shelf 8, game width=6
-Burt stacked Clue on shelf 9, game width=6
-Burt stacked Pokémon on shelf 10, game width=5
-Burt stacked Netrunner on shelf 11, game width=4
-Guy says: Burt sold 3 cookies to customer 1 for $3.00
-Guy says: Burt sold Risk to customer 1 for $84.00
-Guy says: Burt sold Catan to customer 1 for $46.00
-Guy says: Burt sold 3 cookies to customer 2 for $3.00
-Guy says: Burt sold Candyland to customer 2 for $11.00
-Spare parts also purchased. Guy says: Burt sold Mousetrap to customer 2 for $27.00
-Guy says: Burt sold 3 cookies to customer 3 for $3.00
-Guy says: Burt sold Life to customer 3 for $11.00
-Guy says: Burt sold Gloomhaven to customer 3 for $85.00
-Guy says: Burt sold 3 cookies to customer 4 for $3.00
-Guy says: Burt sold Life to customer 4 for $11.00
-Guy says: Burt sold Connect Four to customer 4 for $9.00
-Guy says: Burt ordering new copies of Risk
-Guy says: Burt ordering new copies of Catan
-Guy says: Burt ordering new copies of Candyland
-Guy says: Burt ordering new copies of Mousetrap
-Guy says: Burt ordering new copies of Gloomhaven
-Guy says: Burt ordered new games for $384.00
-Guy says: Burt is closing the store
-Guy says: Burt has left on day 12
-Guy says: Guy is leaving the store
+Eager Guy says: Guy has arrived at the store
+Eager Guy says: Bart has arrived on day 12
+Eager Guy says: Bart counts the money.
+Eager Guy says: Bart sees $2,158.00 in the register
+Eager Guy says: Bart vacuums the store
+Eager Guy says: Bart did not break a game!
+Bart is stacking
+Bart stacked Catan on shelf 0, game width=18
+Bart stacked Gloomhaven on shelf 1, game width=14
+Bart stacked Connect Four on shelf 2, game width=12
+Bart stacked Risk on shelf 3, game width=10
+Bart stacked Clue on shelf 4, game width=10
+Bart stacked Mousetrap on shelf 5, game width=10
+Bart stacked Candyland on shelf 6, game width=9
+Bart stacked Monopoly on shelf 7, game width=9
+Bart stacked Life on shelf 8, game width=7
+Bart stacked Pokémon on shelf 9, game width=5
+Bart stacked Netrunner on shelf 10, game width=5
+Bart stacked Magic on shelf 11, game width=4
+Eager Guy says: Bobby the demonstrator has arrived at the store
+Eager Guy says: Bobby is demonstrating Catan  for customer Tommy.
+Eager Guy says: Bobby is explaining Gloomhaven  for customer Tommy.
+Eager Guy says: Bart sold 2 cookies to customer Tommy for $3.00
+Eager Guy says: Bart sold Catan to customer Tommy, who is a Family Gamer for $57.00
+Eager Guy says: Bart sold Gloomhaven to customer Tommy, who is a Family Gamer for $72.50
+Eager Guy says: Bobby is demonstrating Catan  for customer Lily.
+Eager Guy says: Bobby is demonstrating Gloomhaven  for customer Lily.
+Eager Guy says: Bart sold 1 cookies to customer Lily for $3.00
+Eager Guy says: Bart sold Catan to customer Lily, who is a Family Gamer for $57.00
+Eager Guy says: Bart sold Gloomhaven to customer Lily, who is a Family Gamer for $72.50
+Eager Guy says: Bart sold 1 cookies to customer Tim for $3.00
+Eager Guy says: Bart sold Catan to customer Tim, who is a Card Gamer for $57.00
+Eager Guy says: Bart sold Gloomhaven to customer Tim, who is a Card Gamer for $72.50
+Eager Guy says: Bart ordering new copies of Catan
+Eager Guy says: Bart ordering new copies of Gloomhaven
+Eager Guy says: Bart ordered new games for $194.25
+Eager Guy says: Bart is closing the store
+Eager Guy says: Bart has left on day 12
+Eager Guy says: Guy is leaving the store
 --- Simulation starting Day 13
-Guy says: Guy has arrived at the store
-Guy says: Bart has arrived on day 13
-Guy says: Bart counts the money.
-Guy says: Bart sees $2,819.00 in the register
-Guy says: Bart vacuums the store
-Guy says: Bart did not break a game!
-Bart is stacking
-Bart stacked Risk on shelf 0, game width=17
-Bart stacked Catan on shelf 1, game width=15
-Bart stacked Candyland on shelf 2, game width=12
-Bart stacked Mousetrap on shelf 3, game width=12
-Bart stacked Gloomhaven on shelf 4, game width=10
-Bart stacked Connect Four on shelf 5, game width=8
-Bart stacked Monopoly on shelf 6, game width=6
-Bart stacked Clue on shelf 7, game width=6
-Bart stacked Pokémon on shelf 8, game width=5
-Bart stacked Netrunner on shelf 9, game width=4
-Bart stacked Life on shelf 10, game width=11
-Bart stacked Magic on shelf 11, game width=6
-Guy says: Bart sold 1 cookies to customer 1 for $3.00
-Guy says: Bart sold Risk to customer 1 for $84.00
-Guy says: Bart sold Catan to customer 1 for $46.00
-Guy says: Bart sold 1 cookies to customer 2 for $3.00
-Guy says: Bart sold Risk to customer 2 for $84.00
-Guy says: Bart sold Catan to customer 2 for $46.00
-Guy says: Bart sold 2 cookies to customer 3 for $3.00
-Guy says: Bart sold Risk to customer 3 for $84.00
-Guy says: Bart sold Catan to customer 3 for $46.00
-Guy says: Bart sold 3 cookies to customer 4 for $3.00
-Guy says: Bart sold Candyland to customer 4 for $11.00
-Guy says: Bart sold Mousetrap to customer 4 for $30.00
-Guy says: Bart ordering new copies of Risk
-Guy says: Bart ordering new copies of Catan
-Guy says: Bart ordered new games for $195.00
-Guy says: Bart is closing the store
-Guy says: Bart has left on day 13
-Guy says: Guy is leaving the store
+Lazy Guy says: Guy has arrived at the store
+Lazy Guy says: Ernie has arrived on day 13
+Lazy Guy says: Ernie counts the money.
+Lazy Guy says: Ernie sees $2,346.25 in the register
+Lazy Guy says: Ernie vacuums the store
+Lazy Guy says: Ernie did not break a game!
+Ernie stacked Catan on shelf 0, game height=18
+Ernie stacked Gloomhaven on shelf 1, game height=15
+Ernie stacked Risk on shelf 2, game height=15
+Ernie stacked Pokémon on shelf 3, game height=9
+Ernie stacked Clue on shelf 4, game height=6
+Ernie stacked Candyland on shelf 5, game height=6
+Ernie stacked Netrunner on shelf 6, game height=6
+Ernie stacked Magic on shelf 7, game height=6
+Ernie stacked Life on shelf 8, game height=4
+Ernie stacked Connect Four on shelf 9, game height=3
+Ernie stacked Mousetrap on shelf 10, game height=2
+Ernie stacked Monopoly on shelf 11, game height=2
+Lazy Guy says: Bobby the demonstrator has arrived at the store
+Lazy Guy says: Ernie sold 3 cookies to customer Tam for $3.00
+Lazy Guy says: Ernie sold Catan to customer Tam, who is a Family Gamer for $57.00
+Special token also purchased. Lazy Guy says: Ernie sold Gloomhaven to customer Tam, who is a Family Gamer for $72.50
+Lazy Guy says: Bobby is recommending CatanDrake.
+Lazy Guy says: Ernie sold 3 cookies to customer Drake for $3.00
+Lazy Guy says: Ernie sold Catan to customer Drake, who is a Kid Gamer for $57.00
+Special token also purchased. Lazy Guy says: Ernie sold Gloomhaven to customer Drake, who is a Kid Gamer for $75.00
+Lazy Guy says: Bobby is recommending CatanPam.
+Lazy Guy says: Ernie sold 2 cookies to customer Pam for $3.00
+Lazy Guy says: Ernie sold Catan to customer Pam, who is a Board Gamer for $57.00
+Lazy Guy says: Ernie sold Gloomhaven to customer Pam, who is a Board Gamer for $77.50
+Lazy Guy says: Bobby is recommending CatanSherbert.
+Lazy Guy says: Ernie sold 3 cookies to customer Sherbert for $3.00
+Lazy Guy says: Ernie sold Connect Four to customer Sherbert, who is a Family Gamer for $8.00
+Lazy Guy says: Ernie sold 1 cookies to customer Bobby for $3.00
+Lazy Guy says: Ernie sold Connect Four to customer Bobby, who is a Card Gamer for $8.00
+Lazy Guy says: Ernie ordering new copies of Catan
+Lazy Guy says: Ernie ordering new copies of Gloomhaven
+Lazy Guy says: Ernie ordered new games for $201.75
+Lazy Guy says: Ernie is closing the store
+Lazy Guy says: Ernie has left on day 13
+Lazy Guy says: Guy is leaving the store
 --- Simulation starting Day 14
-Guy says: Guy has arrived at the store
-Guy says: Ernie has arrived on day 14
-Guy says: Ernie counts the money.
-Guy says: Ernie sees $3,058.00 in the register
-Guy says: Ernie vacuums the store
-Guy says: Ernie did not break a game!
-Ernie stacked Risk on shelf 0, game height=9
-Ernie stacked Catan on shelf 1, game height=9
-Ernie stacked Gloomhaven on shelf 2, game height=9
-Ernie stacked Monopoly on shelf 3, game height=9
-Ernie stacked Clue on shelf 4, game height=9
-Ernie stacked Candyland on shelf 5, game height=6
-Ernie stacked Mousetrap on shelf 6, game height=6
-Ernie stacked Netrunner on shelf 7, game height=6
-Ernie stacked Pokémon on shelf 8, game height=3
-Ernie stacked Magic on shelf 9, game height=3
-Ernie stacked Connect Four on shelf 10, game height=2
-Ernie stacked Life on shelf 11, game height=2
-Guy says: Ernie sold 3 cookies to customer 1 for $3.00
-Guy says: Ernie sold Risk to customer 1 for $84.00
-Guy says: Ernie sold Catan to customer 1 for $46.00
-Guy says: Ernie sold 3 cookies to customer 2 for $3.00
-Guy says: Ernie sold Risk to customer 2 for $84.00
-Guy says: Ernie sold Catan to customer 2 for $46.00
-Guy says: Ernie sold 3 cookies to customer 3 for $3.00
-Guy says: Ernie sold Risk to customer 3 for $84.00
-Guy says: Ernie sold Catan to customer 3 for $46.00
-Guy says: Ernie sold 2 cookies to customer 4 for $3.00
-Guy says: Ernie sold Gloomhaven to customer 4 for $85.00
-Special token also purchased. Guy says: Ernie sold Monopoly to customer 4 for $16.00
-Guy says: Ernie ordering new copies of Risk
-Guy says: Ernie ordering new copies of Catan
-Guy says: Ernie ordered new games for $195.00
-Guy says: Ernie is closing the store
-Guy says: Ernie has left on day 14
-Guy says: Guy is leaving the store
---- Simulation starting Day 15
-Guy says: Guy has arrived at the store
-Guy says: Ernie has arrived on day 15
-Guy says: Ernie counts the money.
-Guy says: Ernie sees $3,369.00 in the register
-Guy says: Ernie vacuums the store
-Guy says: Ernie did not break a game!
-Ernie stacked Risk on shelf 0, game height=9
-Ernie stacked Catan on shelf 1, game height=9
-Ernie stacked Clue on shelf 2, game height=9
-Ernie stacked Gloomhaven on shelf 3, game height=6
-Ernie stacked Monopoly on shelf 4, game height=6
-Ernie stacked Candyland on shelf 5, game height=6
-Ernie stacked Mousetrap on shelf 6, game height=6
-Ernie stacked Netrunner on shelf 7, game height=6
-Ernie stacked Pokémon on shelf 8, game height=3
-Ernie stacked Magic on shelf 9, game height=3
-Ernie stacked Connect Four on shelf 10, game height=2
-Ernie stacked Life on shelf 11, game height=2
-Guy says: Ernie sold 3 cookies to customer 1 for $3.00
-Guy says: Ernie sold Risk to customer 1 for $84.00
-Guy says: Ernie sold Catan to customer 1 for $46.00
-Guy says: Ernie sold 3 cookies to customer 2 for $3.00
-Guy says: Ernie sold Risk to customer 2 for $84.00
-Guy says: Ernie sold Catan to customer 2 for $46.00
-Guy says: Ernie did not order any games
-Guy says: Ernie is closing the store
-Guy says: Ernie has left on day 15
-Guy says: Guy is leaving the store
---- Simulation starting Day 16
-Guy says: Guy has arrived at the store
-Guy says: Ernie has arrived on day 16
-Guy says: Ernie counts the money.
-Guy says: Ernie sees $3,629.00 in the register
-Guy says: Ernie vacuums the store
-Guy says: Ernie did not break a game!
-Ernie stacked Clue on shelf 0, game height=9
-Ernie stacked Gloomhaven on shelf 1, game height=6
-Ernie stacked Monopoly on shelf 2, game height=6
-Ernie stacked Candyland on shelf 3, game height=6
-Ernie stacked Mousetrap on shelf 4, game height=6
-Ernie stacked Netrunner on shelf 5, game height=6
-Ernie stacked Risk on shelf 6, game height=3
-Ernie stacked Catan on shelf 7, game height=3
-Ernie stacked Pokémon on shelf 8, game height=3
-Ernie stacked Magic on shelf 9, game height=3
-Ernie stacked Connect Four on shelf 10, game height=2
-Ernie stacked Life on shelf 11, game height=2
-Guy says: Ernie sold 3 cookies to customer 1 for $3.00
-Guy says: Ernie sold Clue to customer 1 for $20.00
-Guy says: Ernie sold Gloomhaven to customer 1 for $85.00
-Guy says: Ernie sold 1 cookies to customer 2 for $3.00
-Guy says: Ernie sold Clue to customer 2 for $20.00
-Guy says: Ernie sold Gloomhaven to customer 2 for $85.00
-Guy says: Ernie sold 1 cookies to customer 3 for $3.00
-Guy says: Ernie sold Clue to customer 3 for $20.00
-Special token also purchased. Guy says: Ernie sold Monopoly to customer 3 for $17.00
-Guy says: Ernie sold 2 cookies to customer 4 for $3.00
-Guy says: Ernie sold Monopoly to customer 4 for $18.00
-Guy says: Ernie sold Candyland to customer 4 for $11.00
-Guy says: Ernie sold 2 cookies to customer 5 for $3.00
-Guy says: Ernie sold Candyland to customer 5 for $11.00
-Guy says: Ernie sold Mousetrap to customer 5 for $30.00
-Guy says: Ernie sold 2 cookies to customer 6 for $3.00
-Guy says: Ernie sold Mousetrap to customer 6 for $30.00
-Guy says: Ernie sold Netrunner to customer 6 for $34.00
-Guy says: Ernie ordering new copies of Clue
-Guy says: Ernie ordering new copies of Gloomhaven
-Guy says: Ernie ordering new copies of Monopoly
-Guy says: Ernie ordering new copies of Candyland
-Guy says: Ernie ordering new copies of Mousetrap
-Guy says: Ernie ordered new games for $246.00
-Guy says: Ernie is closing the store
-Guy says: Ernie has left on day 16
-Guy says: Guy is leaving the store
---- Simulation starting Day 17
-Guy says: Guy has arrived at the store
-Guy says: Bart has arrived on day 17
-Guy says: Bart counts the money.
-Guy says: Bart sees $3,779.00 in the register
-Guy says: Bart vacuums the store
-Guy says: Bart did not break a game!
-Bart is stacking
-Bart stacked Catan on shelf 0, game width=15
-Bart stacked Candyland on shelf 1, game width=12
-Bart stacked Mousetrap on shelf 2, game width=12
-Bart stacked Gloomhaven on shelf 3, game width=10
-Bart stacked Connect Four on shelf 4, game width=8
-Bart stacked Clue on shelf 5, game width=6
-Bart stacked Monopoly on shelf 6, game width=6
-Bart stacked Pokémon on shelf 7, game width=5
-Bart stacked Netrunner on shelf 8, game width=4
-Bart stacked Risk on shelf 9, game width=3
-Bart stacked Magic on shelf 10, game width=3
-Bart stacked Life on shelf 11, game width=2
-Guy says: Bart sold 2 cookies to customer 1 for $3.00
-Guy says: Bart sold Catan to customer 1 for $46.00
-Guy says: Bart sold Candyland to customer 1 for $11.00
-Guy says: Bart sold 1 cookies to customer 2 for $3.00
-Guy says: Bart sold Candyland to customer 2 for $11.00
-Guy says: Bart sold Mousetrap to customer 2 for $30.00
-Guy says: Bart sold 1 cookies to customer 3 for $3.00
-Guy says: Bart sold Candyland to customer 3 for $11.00
-Spare parts also purchased. Guy says: Bart sold Mousetrap to customer 3 for $30.00
-Guy says: Bart sold 2 cookies to customer 4 for $3.00
-Guy says: Bart sold Mousetrap to customer 4 for $33.00
-Guy says: Bart sold Gloomhaven to customer 4 for $85.00
-Guy says: Bart ordering new copies of Catan
-Guy says: Bart ordering new copies of Candyland
-Guy says: Bart ordering new copies of Mousetrap
-Guy says: Bart ordered new games for $135.00
-Guy says: Bart is closing the store
-Guy says: Bart has left on day 17
-Guy says: Guy is leaving the store
---- Simulation starting Day 18
-Guy says: Guy has arrived at the store
-Guy says: Bart has arrived on day 18
-Guy says: Bart counts the money.
-Guy says: Bart sees $3,901.00 in the register
-Guy says: Bart vacuums the store
-Guy says: Bart did not break a game!
-Bart is stacking
-Bart stacked Catan on shelf 0, game width=15
-Bart stacked Candyland on shelf 1, game width=12
-Bart stacked Mousetrap on shelf 2, game width=12
-Bart stacked Gloomhaven on shelf 3, game width=10
-Bart stacked Connect Four on shelf 4, game width=8
-Bart stacked Clue on shelf 5, game width=6
-Bart stacked Monopoly on shelf 6, game width=6
-Bart stacked Magic on shelf 7, game width=6
-Bart stacked Pokémon on shelf 8, game width=5
-Bart stacked Netrunner on shelf 9, game width=4
-Bart stacked Risk on shelf 10, game width=3
-Bart stacked Life on shelf 11, game width=2
-Guy says: Bart sold 3 cookies to customer 1 for $3.00
-Guy says: Bart sold Catan to customer 1 for $46.00
-Guy says: Bart sold Candyland to customer 1 for $11.00
-Guy says: Bart sold 3 cookies to customer 2 for $3.00
-Guy says: Bart sold Catan to customer 2 for $46.00
-Guy says: Bart sold Candyland to customer 2 for $11.00
-Guy says: Bart sold 3 cookies to customer 3 for $3.00
-Guy says: Bart sold Catan to customer 3 for $46.00
-Guy says: Bart sold Candyland to customer 3 for $11.00
-Guy says: Bart ordering new copies of Catan
-Guy says: Bart ordering new copies of Candyland
-Guy says: Bart ordered new games for $85.50
-Guy says: Bart is closing the store
-Guy says: Bart has left on day 18
-Guy says: Guy is leaving the store
---- Simulation starting Day 19
-Guy says: Guy has arrived at the store
-Guy says: Bart has arrived on day 19
-Guy says: Bart counts the money.
-Guy says: Bart sees $3,995.50 in the register
-Guy says: Bart vacuums the store
-Guy says: Bart did not break a game!
-Bart is stacking
-Bart stacked Catan on shelf 0, game width=15
-Bart stacked Candyland on shelf 1, game width=12
-Bart stacked Mousetrap on shelf 2, game width=12
-Bart stacked Life on shelf 3, game width=11
-Bart stacked Gloomhaven on shelf 4, game width=10
-Bart stacked Connect Four on shelf 5, game width=8
-Bart stacked Clue on shelf 6, game width=6
-Bart stacked Monopoly on shelf 7, game width=6
-Bart stacked Pokémon on shelf 8, game width=5
-Bart stacked Netrunner on shelf 9, game width=4
-Bart stacked Magic on shelf 10, game width=6
-Bart stacked Risk on shelf 11, game width=3
-Guy says: Bart sold 3 cookies to customer 1 for $3.00
-Guy says: Bart sold Catan to customer 1 for $46.00
-Guy says: Bart sold Candyland to customer 1 for $11.00
-Guy says: Bart sold 2 cookies to customer 2 for $3.00
-Guy says: Bart sold Catan to customer 2 for $46.00
-Guy says: Bart sold Candyland to customer 2 for $11.00
-Guy says: Bart sold 2 cookies to customer 3 for $3.00
-Guy says: Bart sold Catan to customer 3 for $46.00
-Guy says: Bart sold Candyland to customer 3 for $11.00
-Guy says: Bart sold 3 cookies to customer 4 for $3.00
-Guy says: Bart sold Mousetrap to customer 4 for $33.00
-Guy says: Bart sold Life to customer 4 for $11.00
-Guy says: Bart ordering new copies of Catan
-Guy says: Bart ordering new copies of Candyland
-Guy says: Bart ordering new copies of Life
-Guy says: Bart ordered new games for $102.00
-Guy says: Bart is closing the store
-Guy says: Bart has left on day 19
-Guy says: Guy is leaving the store
---- Simulation starting Day 20
-Guy says: Guy has arrived at the store
-Guy says: Burt has arrived on day 20
-Guy says: Burt counts the money.
-Guy says: Burt sees $4,120.50 in the register
-Guy says: Burt vacuums the store
-Guy says: Burt did not break a game!
+Lazy Guy says: Guy has arrived at the store
+Lazy Guy says: Burt has arrived on day 14
+Lazy Guy says: Burt counts the money.
+Lazy Guy says: Burt sees $2,574.50 in the register
+Lazy Guy says: Burt vacuums the store
+Lazy Guy says: Burt did not break a game!
 Burt is stacking
-Burt stacked Risk on shelf 0, game width=17
-Burt stacked Catan on shelf 1, game width=15
-Burt stacked Candyland on shelf 2, game width=12
-Burt stacked Mousetrap on shelf 3, game width=12
-Burt stacked Life on shelf 4, game width=11
-Burt stacked Gloomhaven on shelf 5, game width=10
-Burt stacked Connect Four on shelf 6, game width=8
-Burt stacked Clue on shelf 7, game width=6
-Burt stacked Monopoly on shelf 8, game width=6
-Burt stacked Magic on shelf 9, game width=6
-Burt stacked Pokémon on shelf 10, game width=5
-Burt stacked Netrunner on shelf 11, game width=4
-Guy says: Burt sold 1 cookies to customer 1 for $3.00
-Guy says: Burt sold Risk to customer 1 for $84.00
-Guy says: Burt sold Catan to customer 1 for $46.00
-Guy says: Burt sold 2 cookies to customer 2 for $3.00
-Guy says: Burt sold Catan to customer 2 for $46.00
-Guy says: Burt sold Candyland to customer 2 for $11.00
-Guy says: Burt sold 3 cookies to customer 3 for $3.00
-Guy says: Burt sold Catan to customer 3 for $46.00
-Guy says: Burt sold Candyland to customer 3 for $11.00
-Guy says: Burt sold 2 cookies to customer 4 for $3.00
-Guy says: Burt sold Candyland to customer 4 for $11.00
-Spare parts also purchased. Guy says: Burt sold Mousetrap to customer 4 for $33.00
-Guy says: Burt ordering new copies of Risk
-Guy says: Burt ordering new copies of Catan
-Guy says: Burt ordering new copies of Candyland
-Guy says: Burt ordered new games for $211.50
-Guy says: Burt is closing the store
-Guy says: Burt has left on day 20
-Guy says: Guy is leaving the store
---- Simulation starting Day 21
-Guy says: Guy has arrived at the store
-Guy says: Bart has arrived on day 21
-Guy says: Bart counts the money.
-Guy says: Bart sees $4,203.00 in the register
-Guy says: Bart vacuums the store
-Guy says: Bart did not break a game!
+Burt stacked Catan on shelf 0, game width=18
+Burt stacked Gloomhaven on shelf 1, game width=14
+Burt stacked Connect Four on shelf 2, game width=12
+Burt stacked Risk on shelf 3, game width=10
+Burt stacked Clue on shelf 4, game width=10
+Burt stacked Mousetrap on shelf 5, game width=10
+Burt stacked Candyland on shelf 6, game width=9
+Burt stacked Monopoly on shelf 7, game width=9
+Burt stacked Life on shelf 8, game width=7
+Burt stacked Pokémon on shelf 9, game width=5
+Burt stacked Netrunner on shelf 10, game width=5
+Burt stacked Magic on shelf 11, game width=4
+Lazy Guy says: Bobby the demonstrator has arrived at the store
+Lazy Guy says: Burt sold 1 cookies to customer Pam for $3.00
+Lazy Guy says: Burt sold Catan to customer Pam, who is a Kid Gamer for $57.00
+Special token also purchased. Lazy Guy says: Burt sold Gloomhaven to customer Pam, who is a Kid Gamer for $77.50
+Lazy Guy says: Bobby is recommending CatanBruce.
+Lazy Guy says: Burt sold 2 cookies to customer Bruce for $3.00
+Lazy Guy says: Burt sold Catan to customer Bruce, who is a Kid Gamer for $57.00
+Special token also purchased. Lazy Guy says: Burt sold Gloomhaven to customer Bruce, who is a Kid Gamer for $80.00
+Lazy Guy says: Bobby is demonstrating Catan  for customer Bruce.
+Lazy Guy says: Burt sold 2 cookies to customer Bruce for $3.00
+Lazy Guy says: Burt sold Catan to customer Bruce, who is a Board Gamer for $57.00
+Lazy Guy says: Burt sold Gloomhaven to customer Bruce, who is a Board Gamer for $82.50
+Lazy Guy says: Burt ordering new copies of Catan
+Lazy Guy says: Burt ordering new copies of Gloomhaven
+Lazy Guy says: Burt ordered new games for $209.25
+Lazy Guy says: Burt is closing the store
+Lazy Guy says: Burt has left on day 14
+Lazy Guy says: Guy is leaving the store
+--- Simulation starting Day 15
+Eager Guy says: Guy has arrived at the store
+Eager Guy says: Burt has arrived on day 15
+Eager Guy says: Burt counts the money.
+Eager Guy says: Burt sees $2,773.25 in the register
+Eager Guy says: Burt vacuums the store
+Eager Guy says: Burt did not break a game!
+Burt is stacking
+Burt stacked Catan on shelf 0, game width=18
+Burt stacked Gloomhaven on shelf 1, game width=14
+Burt stacked Connect Four on shelf 2, game width=12
+Burt stacked Risk on shelf 3, game width=10
+Burt stacked Clue on shelf 4, game width=10
+Burt stacked Mousetrap on shelf 5, game width=10
+Burt stacked Candyland on shelf 6, game width=9
+Burt stacked Monopoly on shelf 7, game width=9
+Burt stacked Life on shelf 8, game width=7
+Burt stacked Pokémon on shelf 9, game width=5
+Burt stacked Netrunner on shelf 10, game width=5
+Burt stacked Magic on shelf 11, game width=4
+Eager Guy says: Bobby the demonstrator has arrived at the store
+Eager Guy says: Burt sold 1 cookies to customer Robert for $3.00
+Eager Guy says: Burt sold Catan to customer Robert, who is a Board Gamer for $57.00
+Special token also purchased. Eager Guy says: Burt sold Gloomhaven to customer Robert, who is a Board Gamer for $82.50
+Eager Guy says: Bobby is demonstrating Catan  for customer Tom.
+Eager Guy says: Bobby is demonstrating Gloomhaven  for customer Tom.
+Eager Guy says: Burt sold 3 cookies to customer Tom for $3.00
+Eager Guy says: Burt sold Catan to customer Tom, who is a Board Gamer for $57.00
+Eager Guy says: Burt sold Gloomhaven to customer Tom, who is a Board Gamer for $85.00
+Eager Guy says: Bobby is explaining Catan  for customer Tim.
+Eager Guy says: Burt sold 2 cookies to customer Tim for $3.00
+Eager Guy says: Burt sold Catan to customer Tim, who is a Card Gamer for $57.00
+Eager Guy says: Burt sold Gloomhaven to customer Tim, who is a Card Gamer for $85.00
+Eager Guy says: Burt ordering new copies of Catan
+Eager Guy says: Burt ordering new copies of Gloomhaven
+Eager Guy says: Burt ordered new games for $213.00
+Eager Guy says: Burt is closing the store
+Eager Guy says: Burt has left on day 15
+Eager Guy says: Guy is leaving the store
+--- Simulation starting Day 16
+Eager Guy says: Guy has arrived at the store
+Eager Guy says: Bart has arrived on day 16
+Eager Guy says: Bart counts the money.
+Eager Guy says: Bart sees $2,983.75 in the register
+Eager Guy says: Bart vacuums the store
+Eager Guy says: Bart did not break a game!
 Bart is stacking
-Bart stacked Risk on shelf 0, game width=17
-Bart stacked Catan on shelf 1, game width=15
-Bart stacked Candyland on shelf 2, game width=12
-Bart stacked Life on shelf 3, game width=11
-Bart stacked Gloomhaven on shelf 4, game width=10
-Bart stacked Connect Four on shelf 5, game width=8
-Bart stacked Clue on shelf 6, game width=6
-Bart stacked Monopoly on shelf 7, game width=6
+Bart stacked Catan on shelf 0, game width=18
+Bart stacked Gloomhaven on shelf 1, game width=14
+Bart stacked Risk on shelf 2, game width=10
+Bart stacked Clue on shelf 3, game width=10
+Bart stacked Mousetrap on shelf 4, game width=10
+Bart stacked Candyland on shelf 5, game width=9
+Bart stacked Monopoly on shelf 6, game width=9
+Bart stacked Life on shelf 7, game width=7
 Bart stacked Pokémon on shelf 8, game width=5
-Bart stacked Netrunner on shelf 9, game width=4
-Bart stacked Mousetrap on shelf 10, game width=12
-Bart stacked Magic on shelf 11, game width=6
-Guy says: Bart sold 1 cookies to customer 1 for $3.00
-Guy says: Bart sold Risk to customer 1 for $84.00
-Guy says: Bart sold Catan to customer 1 for $46.00
-Guy says: Bart sold 1 cookies to customer 2 for $3.00
-Guy says: Bart sold Risk to customer 2 for $84.00
-Guy says: Bart sold Catan to customer 2 for $46.00
-Guy says: Bart sold 1 cookies to customer 3 for $3.00
-Guy says: Bart sold Risk to customer 3 for $84.00
-Guy says: Bart sold Catan to customer 3 for $46.00
-Guy says: Bart sold 2 cookies to customer 4 for $3.00
-Guy says: Bart sold Candyland to customer 4 for $11.00
-Guy says: Bart sold Life to customer 4 for $11.00
-Guy says: Bart sold 1 cookies to customer 5 for $3.00
-Guy says: Bart sold Candyland to customer 5 for $11.00
-Guy says: Bart sold Life to customer 5 for $11.00
-Guy says: Bart ordering new copies of Risk
-Guy says: Bart ordering new copies of Catan
-Guy says: Bart ordered new games for $195.00
-Guy says: Bart is closing the store
-Guy says: Bart has left on day 21
-Guy says: Guy is leaving the store
+Bart stacked Netrunner on shelf 9, game width=5
+Bart stacked Magic on shelf 10, game width=4
+Bart stacked Connect Four on shelf 11, game width=12
+Eager Guy says: Bobby the demonstrator has arrived at the store
+Eager Guy says: Bobby is explaining Catan  for customer Pam.
+Eager Guy says: Bart sold 3 cookies to customer Pam for $3.00
+Eager Guy says: Bart sold Catan to customer Pam, who is a Kid Gamer for $57.00
+Eager Guy says: Bart sold Gloomhaven to customer Pam, who is a Kid Gamer for $85.00
+Eager Guy says: Bart sold 2 cookies to customer Drake for $3.00
+Eager Guy says: Bart sold Catan to customer Drake, who is a Kid Gamer for $57.00
+Special token also purchased. Eager Guy says: Bart sold Gloomhaven to customer Drake, who is a Kid Gamer for $85.00
+Eager Guy says: Bobby is demonstrating Catan  for customer Bobby.
+Eager Guy says: Bart sold 3 cookies to customer Bobby for $3.00
+Eager Guy says: Bart sold Catan to customer Bobby, who is a Kid Gamer for $57.00
+Eager Guy says: Bart sold Gloomhaven to customer Bobby, who is a Kid Gamer for $87.50
+Eager Guy says: Bart ordering new copies of Catan
+Eager Guy says: Bart ordering new copies of Gloomhaven
+Eager Guy says: Bart ordered new games for $216.75
+Eager Guy says: Bart is closing the store
+Eager Guy says: Bart has left on day 16
+Eager Guy says: Guy is leaving the store
+--- Simulation starting Day 17
+Eager Guy says: Guy has arrived at the store
+Eager Guy says: Burt has arrived on day 17
+Eager Guy says: Burt counts the money.
+Eager Guy says: Burt sees $3,201.50 in the register
+Eager Guy says: Burt vacuums the store
+Eager Guy says: Burt did not break a game!
+Burt is stacking
+Burt stacked Catan on shelf 0, game width=18
+Burt stacked Gloomhaven on shelf 1, game width=14
+Burt stacked Connect Four on shelf 2, game width=12
+Burt stacked Risk on shelf 3, game width=10
+Burt stacked Clue on shelf 4, game width=10
+Burt stacked Mousetrap on shelf 5, game width=10
+Burt stacked Candyland on shelf 6, game width=9
+Burt stacked Monopoly on shelf 7, game width=9
+Burt stacked Life on shelf 8, game width=7
+Burt stacked Pokémon on shelf 9, game width=5
+Burt stacked Netrunner on shelf 10, game width=5
+Burt stacked Magic on shelf 11, game width=4
+Eager Guy says: Bobby the demonstrator has arrived at the store
+Eager Guy says: Bobby is recommending CatanBruce.
+Eager Guy says: Burt sold 1 cookies to customer Bruce for $3.00
+Eager Guy says: Burt sold Catan to customer Bruce, who is a Family Gamer for $57.00
+Eager Guy says: Burt sold Gloomhaven to customer Bruce, who is a Family Gamer for $87.50
+Eager Guy says: Burt sold 2 cookies to customer Drake for $3.00
+Eager Guy says: Burt sold Catan to customer Drake, who is a Family Gamer for $57.00
+Special token also purchased. Eager Guy says: Burt sold Gloomhaven to customer Drake, who is a Family Gamer for $87.50
+Eager Guy says: Burt sold 2 cookies to customer Herbert for $3.00
+Eager Guy says: Burt sold Catan to customer Herbert, who is a Board Gamer for $57.00
+Eager Guy says: Burt sold Gloomhaven to customer Herbert, who is a Board Gamer for $90.00
+Eager Guy says: Bobby is demonstrating Catan  for customer Tom.
+Eager Guy says: Bobby is explaining Gloomhaven  for customer Tom.
+Eager Guy says: Burt sold 3 cookies to customer Tom for $3.00
+Eager Guy says: Burt sold Connect Four to customer Tom, who is a Kid Gamer for $8.00
+Eager Guy says: Bobby is demonstrating Catan  for customer Tam.
+Eager Guy says: Bobby is recommending GloomhavenTam.
+Eager Guy says: Bobby is explaining Connect Four  for customer Tam.
+Eager Guy says: Burt sold 1 cookies to customer Tam for $3.00
+Eager Guy says: Bobby is demonstrating Catan  for customer Lily.
+Eager Guy says: Burt sold 2 cookies to customer Lily for $3.00
+Eager Guy says: Burt ordering new copies of Catan
+Eager Guy says: Burt ordering new copies of Gloomhaven
+Eager Guy says: Burt ordering new copies of Connect Four
+Eager Guy says: Burt ordered new games for $232.50
+Eager Guy says: Burt is closing the store
+Eager Guy says: Burt has left on day 17
+Eager Guy says: Guy is leaving the store
+--- Simulation starting Day 18
+Lazy Guy says: Guy has arrived at the store
+Lazy Guy says: Burt has arrived on day 18
+Lazy Guy says: Burt counts the money.
+Lazy Guy says: Burt sees $3,428.00 in the register
+Lazy Guy says: Burt vacuums the store
+Lazy Guy says: Burt did not break a game!
+Burt is stacking
+Burt stacked Catan on shelf 0, game width=18
+Burt stacked Gloomhaven on shelf 1, game width=14
+Burt stacked Connect Four on shelf 2, game width=12
+Burt stacked Risk on shelf 3, game width=10
+Burt stacked Clue on shelf 4, game width=10
+Burt stacked Mousetrap on shelf 5, game width=10
+Burt stacked Candyland on shelf 6, game width=9
+Burt stacked Monopoly on shelf 7, game width=9
+Burt stacked Life on shelf 8, game width=7
+Burt stacked Pokémon on shelf 9, game width=5
+Burt stacked Netrunner on shelf 10, game width=5
+Burt stacked Magic on shelf 11, game width=4
+Lazy Guy says: Bobby the demonstrator has arrived at the store
+Lazy Guy says: Bobby is running away!
+Lazy Guy says: Cookie monster is eating 42 cookie(s). There are no more cookies in the inventory.
+Lazy Guy says: Cookie monster is breaking a random game!
+Lazy Guy says: Burt sold Catan to customer Pam, who is a Board Gamer for $57.00
+Lazy Guy says: Burt sold Gloomhaven to customer Pam, who is a Board Gamer for $90.00
+Lazy Guy says: Drake is demonstrating Catan  for customer Max.
+Lazy Guy says: Burt sold Catan to customer Max, who is a Kid Gamer for $57.00
+Special token also purchased. Lazy Guy says: Burt sold Gloomhaven to customer Max, who is a Kid Gamer for $90.00
+Lazy Guy says: Burt ordering new copies of Catan
+Lazy Guy says: Burt ordered new games for $85.50
+Lazy Guy says: Burt is closing the store
+Lazy Guy says: Burt has left on day 18
+Lazy Guy says: Guy is leaving the store
+--- Simulation starting Day 19
+Lazy Guy says: Guy has arrived at the store
+Lazy Guy says: Bart has arrived on day 19
+Lazy Guy says: Bart counts the money.
+Lazy Guy says: Bart sees $3,618.50 in the register
+Lazy Guy says: Bart vacuums the store
+Lazy Guy says: Bart did not break a game!
+Bart is stacking
+Bart stacked Catan on shelf 0, game width=18
+Bart stacked Connect Four on shelf 1, game width=12
+Bart stacked Risk on shelf 2, game width=10
+Bart stacked Clue on shelf 3, game width=10
+Bart stacked Mousetrap on shelf 4, game width=10
+Bart stacked Candyland on shelf 5, game width=9
+Bart stacked Monopoly on shelf 6, game width=9
+Bart stacked Life on shelf 7, game width=7
+Bart stacked Pokémon on shelf 8, game width=5
+Bart stacked Netrunner on shelf 9, game width=5
+Bart stacked Magic on shelf 10, game width=4
+Bart stacked Gloomhaven on shelf 11, game width=14
+Lazy Guy says: Drake the demonstrator has arrived at the store
+Lazy Guy says: Bart sold 3 cookies to customer Sam for $3.00
+Lazy Guy says: Bart sold Catan to customer Sam, who is a Family Gamer for $57.00
+Lazy Guy says: Bart sold Connect Four to customer Sam, who is a Family Gamer for $8.00
+Lazy Guy says: Drake is explaining Catan  for customer Sam.
+Lazy Guy says: Drake is demonstrating Connect Four  for customer Sam.
+Lazy Guy says: Drake is recommending RiskSam.
+Lazy Guy says: Bart sold 1 cookies to customer Sam for $3.00
+Lazy Guy says: Bart sold Catan to customer Sam, who is a Board Gamer for $57.00
+Lazy Guy says: Bart sold Connect Four to customer Sam, who is a Board Gamer for $8.00
+Lazy Guy says: Drake is recommending CatanKirby.
+Lazy Guy says: Drake is demonstrating Connect Four  for customer Kirby.
+Lazy Guy says: Bart sold 3 cookies to customer Kirby for $3.00
+Lazy Guy says: Bart sold Catan to customer Kirby, who is a Board Gamer for $57.00
+Lazy Guy says: Bart sold Connect Four to customer Kirby, who is a Board Gamer for $8.00
+Lazy Guy says: Drake is explaining Catan  for customer Kirby.
+Lazy Guy says: Drake is recommending Connect FourKirby.
+Lazy Guy says: Bart sold 2 cookies to customer Kirby for $3.00
+Special token also purchased. Lazy Guy says: Bart sold Gloomhaven to customer Kirby, who is a Board Gamer for $92.50
+Lazy Guy says: Bart sold 2 cookies to customer Sherbert for $3.00
+Lazy Guy says: Drake is explaining Catan  for customer Bruce.
+Lazy Guy says: Bart sold 1 cookies to customer Bruce for $3.00
+Lazy Guy says: Bart ordering new copies of Catan
+Lazy Guy says: Bart ordering new copies of Connect Four
+Lazy Guy says: Bart ordering new copies of Gloomhaven
+Lazy Guy says: Bart ordered new games for $240.00
+Lazy Guy says: Bart is closing the store
+Lazy Guy says: Bart has left on day 19
+Lazy Guy says: Guy is leaving the store
+--- Simulation starting Day 20
+Lazy Guy says: Guy has arrived at the store
+Lazy Guy says: Ernie has arrived on day 20
+Lazy Guy says: Ernie counts the money.
+Lazy Guy says: Ernie sees $3,684.00 in the register
+Lazy Guy says: Ernie vacuums the store
+Lazy Guy says: Ernie did not break a game!
+Ernie stacked Catan on shelf 0, game height=18
+Ernie stacked Risk on shelf 1, game height=15
+Ernie stacked Gloomhaven on shelf 2, game height=15
+Ernie stacked Pokémon on shelf 3, game height=9
+Ernie stacked Clue on shelf 4, game height=6
+Ernie stacked Candyland on shelf 5, game height=6
+Ernie stacked Netrunner on shelf 6, game height=6
+Ernie stacked Magic on shelf 7, game height=6
+Ernie stacked Life on shelf 8, game height=4
+Ernie stacked Connect Four on shelf 9, game height=3
+Ernie stacked Mousetrap on shelf 10, game height=2
+Ernie stacked Monopoly on shelf 11, game height=2
+Lazy Guy says: Drake the demonstrator has arrived at the store
+Lazy Guy says: Drake is demonstrating Catan  for customer Drake.
+Lazy Guy says: Drake is demonstrating Risk  for customer Drake.
+Lazy Guy says: Ernie sold 2 cookies to customer Drake for $3.00
+Lazy Guy says: Ernie sold Catan to customer Drake, who is a Board Gamer for $57.00
+Lazy Guy says: Ernie sold Gloomhaven to customer Drake, who is a Board Gamer for $95.00
+Lazy Guy says: Ernie sold 3 cookies to customer Kirby for $3.00
+Lazy Guy says: Ernie sold Catan to customer Kirby, who is a Family Gamer for $57.00
+Lazy Guy says: Ernie sold Risk to customer Kirby, who is a Family Gamer for $80.00
+Lazy Guy says: Ernie did not order any games
+Lazy Guy says: Ernie is closing the store
+Lazy Guy says: Ernie has left on day 20
+Lazy Guy says: Guy is leaving the store
+--- Simulation starting Day 21
+Eager Guy says: Guy has arrived at the store
+Eager Guy says: Burt has arrived on day 21
+Eager Guy says: Burt counts the money.
+Eager Guy says: Burt sees $3,970.00 in the register
+Eager Guy says: Burt vacuums the store
+Eager Guy says: Burt did not break a game!
+Burt is stacking
+Burt stacked Catan on shelf 0, game width=18
+Burt stacked Gloomhaven on shelf 1, game width=14
+Burt stacked Connect Four on shelf 2, game width=12
+Burt stacked Risk on shelf 3, game width=10
+Burt stacked Clue on shelf 4, game width=10
+Burt stacked Mousetrap on shelf 5, game width=10
+Burt stacked Candyland on shelf 6, game width=9
+Burt stacked Monopoly on shelf 7, game width=9
+Burt stacked Life on shelf 8, game width=7
+Burt stacked Pokémon on shelf 9, game width=5
+Burt stacked Netrunner on shelf 10, game width=5
+Burt stacked Magic on shelf 11, game width=4
+Eager Guy says: Drake the demonstrator has arrived at the store
+Eager Guy says: Drake is recommending CatanBruce.
+Eager Guy says: Burt sold 3 cookies to customer Bruce for $3.00
+Eager Guy says: Burt sold Catan to customer Bruce, who is a Family Gamer for $57.00
+Eager Guy says: Burt sold Gloomhaven to customer Bruce, who is a Family Gamer for $95.00
+Eager Guy says: Burt ordering new copies of Catan
+Eager Guy says: Burt ordered new games for $85.50
+Eager Guy says: Burt is closing the store
+Eager Guy says: Burt has left on day 21
+Eager Guy says: Guy is leaving the store
 --- Simulation starting Day 22
-Guy says: Guy has arrived at the store
-Guy says: Ernie has arrived on day 22
-Guy says: Ernie counts the money.
-Guy says: Ernie sees $4,442.00 in the register
-Guy says: Ernie vacuums the store
-Guy says: Ernie did not break a game!
-Ernie stacked Risk on shelf 0, game height=9
-Ernie stacked Catan on shelf 1, game height=9
-Ernie stacked Clue on shelf 2, game height=9
-Ernie stacked Monopoly on shelf 3, game height=9
-Ernie stacked Gloomhaven on shelf 4, game height=6
-Ernie stacked Netrunner on shelf 5, game height=4
-Ernie stacked Candyland on shelf 6, game height=3
-Ernie stacked Pokémon on shelf 7, game height=3
-Ernie stacked Mousetrap on shelf 8, game height=3
-Ernie stacked Magic on shelf 9, game height=3
-Ernie stacked Life on shelf 10, game height=2
-Ernie stacked Connect Four on shelf 11, game height=2
-Guy says: Ernie sold 3 cookies to customer 1 for $3.00
-Guy says: Ernie sold Risk to customer 1 for $84.00
-Guy says: Ernie sold Catan to customer 1 for $46.00
-Guy says: Ernie sold 2 cookies to customer 2 for $3.00
-Guy says: Ernie sold Risk to customer 2 for $84.00
-Guy says: Ernie sold Catan to customer 2 for $46.00
-Guy says: Ernie sold 3 cookies to customer 3 for $3.00
-Guy says: Ernie sold Risk to customer 3 for $84.00
-Guy says: Ernie sold Catan to customer 3 for $46.00
-Guy says: Ernie sold 1 cookies to customer 4 for $3.00
-Guy says: Ernie sold Clue to customer 4 for $20.00
-Special token also purchased. Guy says: Ernie sold Monopoly to customer 4 for $18.00
-Guy says: Ernie sold 1 cookies to customer 5 for $3.00
-Guy says: Ernie sold Clue to customer 5 for $20.00
-Special token also purchased. Guy says: Ernie sold Monopoly to customer 5 for $19.00
-Guy says: Ernie ordering new copies of Risk
-Guy says: Ernie ordering new copies of Catan
-Guy says: Ernie ordered new games for $195.00
-Guy says: Ernie is closing the store
-Guy says: Ernie has left on day 22
-Guy says: Guy is leaving the store
+Eager Guy says: Guy has arrived at the store
+Eager Guy says: Ernie has arrived on day 22
+Eager Guy says: Ernie counts the money.
+Eager Guy says: Ernie sees $4,027.50 in the register
+Eager Guy says: Ernie vacuums the store
+Eager Guy says: Ernie did not break a game!
+Ernie stacked Catan on shelf 0, game height=18
+Ernie stacked Risk on shelf 1, game height=10
+Ernie stacked Pokémon on shelf 2, game height=9
+Ernie stacked Clue on shelf 3, game height=6
+Ernie stacked Candyland on shelf 4, game height=6
+Ernie stacked Netrunner on shelf 5, game height=6
+Ernie stacked Magic on shelf 6, game height=6
+Ernie stacked Gloomhaven on shelf 7, game height=5
+Ernie stacked Life on shelf 8, game height=4
+Ernie stacked Connect Four on shelf 9, game height=3
+Ernie stacked Mousetrap on shelf 10, game height=2
+Ernie stacked Monopoly on shelf 11, game height=2
+Eager Guy says: Drake the demonstrator has arrived at the store
+Eager Guy says: Drake is recommending CatanRobert.
+Eager Guy says: Ernie sold 3 cookies to customer Robert for $3.00
+Eager Guy says: Ernie sold Catan to customer Robert, who is a Card Gamer for $57.00
+Eager Guy says: Ernie sold Gloomhaven to customer Robert, who is a Card Gamer for $95.00
+Eager Guy says: Drake is explaining Catan  for customer Drake.
+Eager Guy says: Ernie sold 2 cookies to customer Drake for $3.00
+Eager Guy says: Ernie sold Catan to customer Drake, who is a Card Gamer for $57.00
+Eager Guy says: Ernie sold Connect Four to customer Drake, who is a Card Gamer for $8.00
+Eager Guy says: Drake is explaining Catan  for customer Bobby.
+Eager Guy says: Ernie sold 3 cookies to customer Bobby for $3.00
+Eager Guy says: Ernie sold Catan to customer Bobby, who is a Family Gamer for $57.00
+Eager Guy says: Ernie sold Connect Four to customer Bobby, who is a Family Gamer for $8.00
+Eager Guy says: Ernie sold 3 cookies to customer Tim for $3.00
+Eager Guy says: Ernie sold Risk to customer Tim, who is a Board Gamer for $80.00
+Eager Guy says: Ernie sold Connect Four to customer Tim, who is a Board Gamer for $8.00
+Eager Guy says: Drake is recommending CatanLaura.
+Eager Guy says: Drake is explaining Risk  for customer Laura.
+Eager Guy says: Ernie sold 3 cookies to customer Laura for $3.00
+Eager Guy says: Ernie ordering new copies of Catan
+Eager Guy says: Ernie ordering new copies of Gloomhaven
+Eager Guy says: Ernie ordering new copies of Connect Four
+Eager Guy says: Ernie ordered new games for $240.00
+Eager Guy says: Ernie is closing the store
+Eager Guy says: Ernie has left on day 22
+Eager Guy says: Guy is leaving the store
 --- Simulation starting Day 23
-Guy says: Guy has arrived at the store
-Guy says: Ernie has arrived on day 23
-Guy says: Ernie counts the money.
-Guy says: Ernie sees $4,726.00 in the register
-Guy says: Ernie vacuums the store
-Guy says: Ernie did not break a game!
-Ernie stacked Risk on shelf 0, game height=9
-Ernie stacked Catan on shelf 1, game height=9
-Ernie stacked Gloomhaven on shelf 2, game height=6
-Ernie stacked Netrunner on shelf 3, game height=4
-Ernie stacked Clue on shelf 4, game height=3
-Ernie stacked Monopoly on shelf 5, game height=3
-Ernie stacked Candyland on shelf 6, game height=3
-Ernie stacked Pokémon on shelf 7, game height=3
-Ernie stacked Mousetrap on shelf 8, game height=3
-Ernie stacked Magic on shelf 9, game height=3
-Ernie stacked Life on shelf 10, game height=2
-Ernie stacked Connect Four on shelf 11, game height=2
-Guy says: Ernie sold 2 cookies to customer 1 for $3.00
-Guy says: Ernie sold Risk to customer 1 for $84.00
-Guy says: Ernie sold Catan to customer 1 for $46.00
-Guy says: Ernie sold 3 cookies to customer 2 for $3.00
-Guy says: Ernie sold Risk to customer 2 for $84.00
-Guy says: Ernie sold Catan to customer 2 for $46.00
-Guy says: Ernie did not order any games
-Guy says: Ernie is closing the store
-Guy says: Ernie has left on day 23
-Guy says: Guy is leaving the store
+Eager Guy says: Guy has arrived at the store
+Eager Guy says: Bart has arrived on day 23
+Eager Guy says: Bart counts the money.
+Eager Guy says: Bart sees $4,181.50 in the register
+Eager Guy says: Bart vacuums the store
+Eager Guy says: Bart did not break a game!
+Bart is stacking
+Bart stacked Catan on shelf 0, game width=18
+Bart stacked Gloomhaven on shelf 1, game width=14
+Bart stacked Connect Four on shelf 2, game width=12
+Bart stacked Clue on shelf 3, game width=10
+Bart stacked Mousetrap on shelf 4, game width=10
+Bart stacked Candyland on shelf 5, game width=9
+Bart stacked Monopoly on shelf 6, game width=9
+Bart stacked Life on shelf 7, game width=7
+Bart stacked Pokémon on shelf 8, game width=5
+Bart stacked Netrunner on shelf 9, game width=5
+Bart stacked Magic on shelf 10, game width=4
+Bart stacked Risk on shelf 11, game width=10
+Eager Guy says: Drake the demonstrator has arrived at the store
+Eager Guy says: Drake is demonstrating Catan  for customer Drake.
+Eager Guy says: Bart sold 1 cookies to customer Drake for $3.00
+Eager Guy says: Bart sold Catan to customer Drake, who is a Family Gamer for $57.00
+Eager Guy says: Bart sold Gloomhaven to customer Drake, who is a Family Gamer for $95.00
+Eager Guy says: Drake is explaining Catan  for customer Drake.
+Eager Guy says: Bart sold 2 cookies to customer Drake for $3.00
+Eager Guy says: Bart sold Catan to customer Drake, who is a Family Gamer for $57.00
+Eager Guy says: Bart sold Gloomhaven to customer Drake, who is a Family Gamer for $95.00
+Eager Guy says: Drake is demonstrating Catan  for customer Sam.
+Eager Guy says: Drake is explaining Gloomhaven  for customer Sam.
+Eager Guy says: Drake is recommending Connect FourSam.
+Eager Guy says: Bart sold 2 cookies to customer Sam for $3.00
+Eager Guy says: Bart sold Catan to customer Sam, who is a Kid Gamer for $57.00
+Eager Guy says: Bart sold Gloomhaven to customer Sam, who is a Kid Gamer for $95.00
+Eager Guy says: Drake is recommending CatanPam.
+Eager Guy says: Drake is recommending GloomhavenPam.
+Eager Guy says: Drake is explaining Connect Four  for customer Pam.
+Eager Guy says: Bart sold 3 cookies to customer Pam for $3.00
+Eager Guy says: Bart sold Connect Four to customer Pam, who is a Kid Gamer for $8.00
+Eager Guy says: Bart sold Risk to customer Pam, who is a Kid Gamer for $80.00
+Eager Guy says: Drake is recommending CatanTam.
+Eager Guy says: Bart sold 1 cookies to customer Tam for $3.00
+Eager Guy says: Bart sold Connect Four to customer Tam, who is a Family Gamer for $8.00
+Eager Guy says: Bart ordering new copies of Catan
+Eager Guy says: Bart ordering new copies of Gloomhaven
+Eager Guy says: Bart ordering new copies of Risk
+Eager Guy says: Bart ordered new games for $348.00
+Eager Guy says: Bart is closing the store
+Eager Guy says: Bart has left on day 23
+Eager Guy says: Guy is leaving the store
 --- Simulation starting Day 24
-Guy says: Guy has arrived at the store
-Guy says: Ernie has arrived on day 24
-Guy says: Ernie counts the money.
-Guy says: Ernie sees $4,983.00 in the register
-Guy says: Ernie vacuums the store
-Guy says: Ernie did not break a game!
-Ernie stacked Gloomhaven on shelf 0, game height=6
-Ernie stacked Netrunner on shelf 1, game height=4
-Ernie stacked Risk on shelf 2, game height=3
-Ernie stacked Catan on shelf 3, game height=3
-Ernie stacked Clue on shelf 4, game height=3
-Ernie stacked Monopoly on shelf 5, game height=3
-Ernie stacked Candyland on shelf 6, game height=3
-Ernie stacked Pokémon on shelf 7, game height=3
-Ernie stacked Mousetrap on shelf 8, game height=3
-Ernie stacked Magic on shelf 9, game height=3
-Ernie stacked Life on shelf 10, game height=2
-Ernie stacked Connect Four on shelf 11, game height=2
-Guy says: Ernie sold 2 cookies to customer 1 for $3.00
-Guy says: Ernie sold Gloomhaven to customer 1 for $85.00
-Special card also purchased. Guy says: Ernie sold Netrunner to customer 1 for $34.00
-Guy says: Ernie sold 2 cookies to customer 2 for $3.00
-Guy says: Ernie sold Gloomhaven to customer 2 for $85.00
-Guy says: Ernie sold Netrunner to customer 2 for $36.00
-Guy says: Ernie sold 3 cookies to customer 3 for $3.00
-Guy says: Ernie sold Risk to customer 3 for $84.00
-Guy says: Ernie sold Catan to customer 3 for $46.00
-Guy says: Ernie sold 1 cookies to customer 4 for $3.00
-Guy says: Ernie sold Clue to customer 4 for $20.00
-Guy says: Ernie sold Monopoly to customer 4 for $20.00
-Guy says: Ernie ordering new copies of Gloomhaven
-Guy says: Ernie ordering new copies of Netrunner
-Guy says: Ernie ordering new copies of Risk
-Guy says: Ernie ordering new copies of Catan
-Guy says: Ernie ordering new copies of Clue
-Guy says: Ernie ordering new copies of Monopoly
-Guy says: Ernie ordered new games for $436.50
-Guy says: Ernie is closing the store
-Guy says: Ernie has left on day 24
-Guy says: Guy is leaving the store
+Lazy Guy says: Guy has arrived at the store
+Lazy Guy says: Burt has arrived on day 24
+Lazy Guy says: Burt counts the money.
+Lazy Guy says: Burt sees $4,394.50 in the register
+Lazy Guy says: Burt vacuums the store
+Lazy Guy says: Burt did not break a game!
+Burt is stacking
+Burt stacked Catan on shelf 0, game width=18
+Burt stacked Gloomhaven on shelf 1, game width=14
+Burt stacked Connect Four on shelf 2, game width=12
+Burt stacked Clue on shelf 3, game width=10
+Burt stacked Mousetrap on shelf 4, game width=10
+Burt stacked Risk on shelf 5, game width=10
+Burt stacked Candyland on shelf 6, game width=9
+Burt stacked Monopoly on shelf 7, game width=9
+Burt stacked Life on shelf 8, game width=7
+Burt stacked Pokémon on shelf 9, game width=5
+Burt stacked Netrunner on shelf 10, game width=5
+Burt stacked Magic on shelf 11, game width=4
+Lazy Guy says: Drake the demonstrator has arrived at the store
+Lazy Guy says: Burt sold 3 cookies to customer Lily for $3.00
+Lazy Guy says: Burt sold Catan to customer Lily, who is a Card Gamer for $57.00
+Lazy Guy says: Burt sold Gloomhaven to customer Lily, who is a Card Gamer for $95.00
+Lazy Guy says: Drake is recommending CatanRose.
+Lazy Guy says: Drake is recommending GloomhavenRose.
+Lazy Guy says: Burt sold 2 cookies to customer Rose for $3.00
+Lazy Guy says: Burt sold Catan to customer Rose, who is a Board Gamer for $57.00
+Special token also purchased. Lazy Guy says: Burt sold Gloomhaven to customer Rose, who is a Board Gamer for $95.00
+Lazy Guy says: Drake is demonstrating Catan  for customer Lily.
+Lazy Guy says: Drake is explaining Gloomhaven  for customer Lily.
+Lazy Guy says: Burt sold 2 cookies to customer Lily for $3.00
+Lazy Guy says: Burt sold Catan to customer Lily, who is a Card Gamer for $57.00
+Lazy Guy says: Burt sold Gloomhaven to customer Lily, who is a Card Gamer for $97.50
+Lazy Guy says: Drake is demonstrating Catan  for customer Kermit.
+Lazy Guy says: Drake is explaining Gloomhaven  for customer Kermit.
+Lazy Guy says: Burt sold 2 cookies to customer Kermit for $3.00
+Lazy Guy says: Burt sold Connect Four to customer Kermit, who is a Family Gamer for $8.00
+Lazy Guy says: Burt sold Risk to customer Kermit, who is a Family Gamer for $80.00
+Lazy Guy says: Burt ordering new copies of Catan
+Lazy Guy says: Burt ordering new copies of Gloomhaven
+Lazy Guy says: Burt ordering new copies of Connect Four
+Lazy Guy says: Burt ordered new games for $243.75
+Lazy Guy says: Burt is closing the store
+Lazy Guy says: Burt has left on day 24
+Lazy Guy says: Guy is leaving the store
 --- Simulation starting Day 25
-Guy says: Guy has arrived at the store
-Guy says: Ernie has arrived on day 25
-Guy says: Ernie counts the money.
-Guy says: Ernie sees $4,962.50 in the register
-Guy says: Ernie vacuums the store
-Guy says: Ernie did not break a game!
-Ernie stacked Gloomhaven on shelf 0, game height=9
-Ernie stacked Risk on shelf 1, game height=9
-Ernie stacked Catan on shelf 2, game height=9
-Ernie stacked Clue on shelf 3, game height=9
-Ernie stacked Monopoly on shelf 4, game height=9
-Ernie stacked Netrunner on shelf 5, game height=6
-Ernie stacked Candyland on shelf 6, game height=3
-Ernie stacked Pokémon on shelf 7, game height=3
-Ernie stacked Mousetrap on shelf 8, game height=3
-Ernie stacked Magic on shelf 9, game height=3
-Ernie stacked Life on shelf 10, game height=2
-Ernie stacked Connect Four on shelf 11, game height=2
-Guy says: Ernie sold 3 cookies to customer 1 for $3.00
-Special token also purchased. Guy says: Ernie sold Gloomhaven to customer 1 for $85.00
-Guy says: Ernie sold Risk to customer 1 for $84.00
-Guy says: Ernie sold 1 cookies to customer 2 for $3.00
-Guy says: Ernie sold Gloomhaven to customer 2 for $87.50
-Guy says: Ernie sold Risk to customer 2 for $84.00
-Guy says: Ernie sold 3 cookies to customer 3 for $3.00
-Guy says: Ernie sold Gloomhaven to customer 3 for $87.50
-Guy says: Ernie sold Risk to customer 3 for $84.00
-Guy says: Ernie sold 2 cookies to customer 4 for $3.00
-Guy says: Ernie sold Catan to customer 4 for $46.00
-Guy says: Ernie sold Clue to customer 4 for $20.00
-Guy says: Ernie ordering new copies of Gloomhaven
-Guy says: Ernie ordering new copies of Risk
-Guy says: Ernie ordered new games for $257.25
-Guy says: Ernie is closing the store
-Guy says: Ernie has left on day 25
-Guy says: Guy is leaving the store
+Eager Guy says: Guy has arrived at the store
+Eager Guy says: Burt has arrived on day 25
+Eager Guy says: Burt counts the money.
+Eager Guy says: Burt sees $4,706.25 in the register
+Eager Guy says: Burt vacuums the store
+Eager Guy says: Burt did not break a game!
+Burt is stacking
+Burt stacked Catan on shelf 0, game width=18
+Burt stacked Gloomhaven on shelf 1, game width=14
+Burt stacked Connect Four on shelf 2, game width=12
+Burt stacked Clue on shelf 3, game width=10
+Burt stacked Mousetrap on shelf 4, game width=10
+Burt stacked Risk on shelf 5, game width=10
+Burt stacked Candyland on shelf 6, game width=9
+Burt stacked Monopoly on shelf 7, game width=9
+Burt stacked Life on shelf 8, game width=7
+Burt stacked Pokémon on shelf 9, game width=5
+Burt stacked Netrunner on shelf 10, game width=5
+Burt stacked Magic on shelf 11, game width=4
+Eager Guy says: Drake the demonstrator has arrived at the store
+Eager Guy says: Drake is explaining Catan  for customer Robert.
+Eager Guy says: Drake is recommending GloomhavenRobert.
+Eager Guy says: Drake is demonstrating Connect Four  for customer Robert.
+Eager Guy says: Burt sold 1 cookies to customer Robert for $3.00
+Eager Guy says: Burt sold Catan to customer Robert, who is a Family Gamer for $57.00
+Eager Guy says: Burt sold Gloomhaven to customer Robert, who is a Family Gamer for $97.50
+Eager Guy says: Drake is demonstrating Catan  for customer Lily.
+Eager Guy says: Burt sold 2 cookies to customer Lily for $3.00
+Eager Guy says: Burt sold Catan to customer Lily, who is a Board Gamer for $57.00
+Eager Guy says: Burt sold Gloomhaven to customer Lily, who is a Board Gamer for $97.50
+Eager Guy says: Burt sold 3 cookies to customer Lily for $3.00
+Eager Guy says: Burt sold Catan to customer Lily, who is a Kid Gamer for $57.00
+Eager Guy says: Burt sold Gloomhaven to customer Lily, who is a Kid Gamer for $97.50
+Eager Guy says: Burt ordering new copies of Catan
+Eager Guy says: Burt ordering new copies of Gloomhaven
+Eager Guy says: Burt ordered new games for $231.75
+Eager Guy says: Burt is closing the store
+Eager Guy says: Burt has left on day 25
+Eager Guy says: Guy is leaving the store
 --- Simulation starting Day 26
-Guy says: Guy has arrived at the store
-Guy says: Bart has arrived on day 26
-Guy says: Bart counts the money.
-Guy says: Bart sees $5,292.25 in the register
-Guy says: Bart vacuums the store
-Guy says: Bart did not break a game!
+Eager Guy says: Guy has arrived at the store
+Eager Guy says: Bart has arrived on day 26
+Eager Guy says: Bart counts the money.
+Eager Guy says: Bart sees $4,938.00 in the register
+Eager Guy says: Bart vacuums the store
+Eager Guy says: Bart did not break a game!
 Bart is stacking
-Bart stacked Risk on shelf 0, game width=17
-Bart stacked Catan on shelf 1, game width=15
-Bart stacked Gloomhaven on shelf 2, game width=10
-Bart stacked Connect Four on shelf 3, game width=8
-Bart stacked Clue on shelf 4, game width=6
-Bart stacked Monopoly on shelf 5, game width=6
-Bart stacked Magic on shelf 6, game width=6
-Bart stacked Pokémon on shelf 7, game width=5
-Bart stacked Netrunner on shelf 8, game width=4
-Bart stacked Candyland on shelf 9, game width=3
-Bart stacked Mousetrap on shelf 10, game width=3
-Bart stacked Life on shelf 11, game width=2
-Guy says: Bart sold 1 cookies to customer 1 for $3.00
-Guy says: Bart sold Risk to customer 1 for $84.00
-Guy says: Bart sold Catan to customer 1 for $46.00
-Guy says: Bart sold 1 cookies to customer 2 for $3.00
-Guy says: Bart sold Risk to customer 2 for $84.00
-Guy says: Bart sold Catan to customer 2 for $46.00
-Guy says: Bart sold 2 cookies to customer 3 for $3.00
-Guy says: Bart sold Risk to customer 3 for $84.00
-Special token also purchased. Guy says: Bart sold Gloomhaven to customer 3 for $87.50
-Guy says: Bart sold 2 cookies to customer 4 for $3.00
-Special token also purchased. Guy says: Bart sold Gloomhaven to customer 4 for $90.00
-Guy says: Bart sold Connect Four to customer 4 for $9.00
-Guy says: Bart sold 2 cookies to customer 5 for $3.00
-Guy says: Bart sold Gloomhaven to customer 5 for $92.50
-Guy says: Bart sold Connect Four to customer 5 for $9.00
-Guy says: Bart sold 2 cookies to customer 6 for $3.00
-Guy says: Bart sold Clue to customer 6 for $20.00
-Special token also purchased. Guy says: Bart sold Monopoly to customer 6 for $20.00
-Guy says: Bart ordering new copies of Risk
-Guy says: Bart ordering new copies of Catan
-Guy says: Bart ordering new copies of Gloomhaven
-Guy says: Bart ordering new copies of Connect Four
-Guy says: Bart ordered new games for $347.25
-Guy says: Bart is closing the store
-Guy says: Bart has left on day 26
-Guy says: Guy is leaving the store
+Bart stacked Catan on shelf 0, game width=18
+Bart stacked Gloomhaven on shelf 1, game width=14
+Bart stacked Connect Four on shelf 2, game width=12
+Bart stacked Clue on shelf 3, game width=10
+Bart stacked Mousetrap on shelf 4, game width=10
+Bart stacked Risk on shelf 5, game width=10
+Bart stacked Candyland on shelf 6, game width=9
+Bart stacked Monopoly on shelf 7, game width=9
+Bart stacked Life on shelf 8, game width=7
+Bart stacked Pokémon on shelf 9, game width=5
+Bart stacked Netrunner on shelf 10, game width=5
+Bart stacked Magic on shelf 11, game width=4
+Eager Guy says: Drake the demonstrator has arrived at the store
+Eager Guy says: Drake is demonstrating Catan  for customer Sam.
+Eager Guy says: Bart sold 2 cookies to customer Sam for $3.00
+Eager Guy says: Bart sold Catan to customer Sam, who is a Kid Gamer for $57.00
+Special token also purchased. Eager Guy says: Bart sold Gloomhaven to customer Sam, who is a Kid Gamer for $97.50
+Eager Guy says: Drake is explaining Catan  for customer Laura.
+Eager Guy says: Bart sold 1 cookies to customer Laura for $3.00
+Eager Guy says: Bart sold Catan to customer Laura, who is a Card Gamer for $57.00
+Eager Guy says: Bart sold Gloomhaven to customer Laura, who is a Card Gamer for $100.00
+Eager Guy says: Drake is recommending CatanBruce.
+Eager Guy says: Bart sold 3 cookies to customer Bruce for $3.00
+Eager Guy says: Bart sold Catan to customer Bruce, who is a Family Gamer for $57.00
+Eager Guy says: Bart sold Gloomhaven to customer Bruce, who is a Family Gamer for $100.00
+Eager Guy says: Drake is recommending CatanTim.
+Eager Guy says: Drake is explaining Gloomhaven  for customer Tim.
+Eager Guy says: Drake is recommending Connect FourTim.
+Eager Guy says: Bart sold 2 cookies to customer Tim for $3.00
+Eager Guy says: Bart sold Connect Four to customer Tim, who is a Family Gamer for $8.00
+Eager Guy says: Bart sold Risk to customer Tim, who is a Family Gamer for $80.00
+Eager Guy says: Bart ordering new copies of Catan
+Eager Guy says: Bart ordering new copies of Gloomhaven
+Eager Guy says: Bart ordered new games for $235.50
+Eager Guy says: Bart is closing the store
+Eager Guy says: Bart has left on day 26
+Eager Guy says: Guy is leaving the store
 --- Simulation starting Day 27
-Guy says: Guy has arrived at the store
-Guy says: Bart has arrived on day 27
-Guy says: Bart counts the money.
-Guy says: Bart sees $5,629.00 in the register
-Guy says: Bart vacuums the store
-Guy says: Bart did not break a game!
+Lazy Guy says: Guy has arrived at the store
+Lazy Guy says: Bart has arrived on day 27
+Lazy Guy says: Bart counts the money.
+Lazy Guy says: Bart sees $5,265.00 in the register
+Lazy Guy says: Bart vacuums the store
+Lazy Guy says: Bart did not break a game!
 Bart is stacking
-Bart stacked Risk on shelf 0, game width=17
-Bart stacked Catan on shelf 1, game width=15
-Bart stacked Mousetrap on shelf 2, game width=12
-Bart stacked Gloomhaven on shelf 3, game width=10
-Bart stacked Connect Four on shelf 4, game width=8
-Bart stacked Monopoly on shelf 5, game width=6
-Bart stacked Pokémon on shelf 6, game width=5
-Bart stacked Netrunner on shelf 7, game width=4
-Bart stacked Clue on shelf 8, game width=6
-Bart stacked Magic on shelf 9, game width=6
-Bart stacked Candyland on shelf 10, game width=3
-Bart stacked Life on shelf 11, game width=2
-Guy says: Bart sold 3 cookies to customer 1 for $3.00
-Guy says: Bart sold Risk to customer 1 for $84.00
-Guy says: Bart sold Catan to customer 1 for $46.00
-Guy says: Bart sold 1 cookies to customer 2 for $3.00
-Guy says: Bart sold Risk to customer 2 for $84.00
-Guy says: Bart sold Catan to customer 2 for $46.00
-Guy says: Bart did not order any games
-Guy says: Bart is closing the store
-Guy says: Bart has left on day 27
-Guy says: Guy is leaving the store
+Bart stacked Catan on shelf 0, game width=18
+Bart stacked Gloomhaven on shelf 1, game width=14
+Bart stacked Connect Four on shelf 2, game width=12
+Bart stacked Clue on shelf 3, game width=10
+Bart stacked Mousetrap on shelf 4, game width=10
+Bart stacked Candyland on shelf 5, game width=9
+Bart stacked Monopoly on shelf 6, game width=9
+Bart stacked Life on shelf 7, game width=7
+Bart stacked Pokémon on shelf 8, game width=5
+Bart stacked Netrunner on shelf 9, game width=5
+Bart stacked Magic on shelf 10, game width=4
+Bart stacked Risk on shelf 11, game width=10
+Lazy Guy says: Drake the demonstrator has arrived at the store
+Lazy Guy says: Drake is explaining Catan  for customer Rose.
+Lazy Guy says: Bart sold 1 cookies to customer Rose for $3.00
+Lazy Guy says: Bart sold Catan to customer Rose, who is a Kid Gamer for $57.00
+Lazy Guy says: Bart sold Gloomhaven to customer Rose, who is a Kid Gamer for $100.00
+Lazy Guy says: Drake is explaining Catan  for customer Tommy.
+Lazy Guy says: Bart sold 1 cookies to customer Tommy for $3.00
+Lazy Guy says: Bart sold Catan to customer Tommy, who is a Card Gamer for $57.00
+Lazy Guy says: Bart sold Gloomhaven to customer Tommy, who is a Card Gamer for $100.00
+Lazy Guy says: Drake is recommending CatanKermit.
+Lazy Guy says: Drake is recommending GloomhavenKermit.
+Lazy Guy says: Bart sold 3 cookies to customer Kermit for $3.00
+Lazy Guy says: Bart sold Catan to customer Kermit, who is a Card Gamer for $57.00
+Lazy Guy says: Bart sold Gloomhaven to customer Kermit, who is a Card Gamer for $100.00
+Lazy Guy says: Drake is explaining Catan  for customer Sherbert.
+Lazy Guy says: Drake is recommending GloomhavenSherbert.
+Lazy Guy says: Bart sold 2 cookies to customer Sherbert for $3.00
+Lazy Guy says: Bart sold Connect Four to customer Sherbert, who is a Board Gamer for $8.00
+Lazy Guy says: Bart sold Risk to customer Sherbert, who is a Board Gamer for $80.00
+Lazy Guy says: Bart sold 1 cookies to customer Kermit for $3.00
+Lazy Guy says: Bart sold Connect Four to customer Kermit, who is a Kid Gamer for $8.00
+Lazy Guy says: Bart ordering new copies of Catan
+Lazy Guy says: Bart ordering new copies of Gloomhaven
+Lazy Guy says: Bart ordering new copies of Connect Four
+Lazy Guy says: Bart ordering new copies of Risk
+Lazy Guy says: Bart ordered new games for $367.50
+Lazy Guy says: Bart is closing the store
+Lazy Guy says: Bart has left on day 27
+Lazy Guy says: Guy is leaving the store
 --- Simulation starting Day 28
-Guy says: Guy has arrived at the store
-Guy says: Ernie has arrived on day 28
-Guy says: Ernie counts the money.
-Guy says: Ernie sees $5,883.00 in the register
-Guy says: Ernie vacuums the store
-Guy says: Ernie did not break a game!
-Ernie stacked Gloomhaven on shelf 0, game height=9
-Ernie stacked Monopoly on shelf 1, game height=6
-Ernie stacked Netrunner on shelf 2, game height=6
-Ernie stacked Risk on shelf 3, game height=3
-Ernie stacked Catan on shelf 4, game height=3
-Ernie stacked Mousetrap on shelf 5, game height=3
-Ernie stacked Connect Four on shelf 6, game height=3
-Ernie stacked Pokémon on shelf 7, game height=3
-Ernie stacked Clue on shelf 8, game height=3
-Ernie stacked Magic on shelf 9, game height=3
-Ernie stacked Candyland on shelf 10, game height=3
-Ernie stacked Life on shelf 11, game height=2
-Guy says: Ernie sold 3 cookies to customer 1 for $3.00
-Guy says: Ernie sold Gloomhaven to customer 1 for $92.50
-Guy says: Ernie sold Monopoly to customer 1 for $21.00
-Guy says: Ernie sold 2 cookies to customer 2 for $3.00
-Special token also purchased. Guy says: Ernie sold Gloomhaven to customer 2 for $92.50
-Guy says: Ernie sold Monopoly to customer 2 for $21.00
-Guy says: Ernie sold 2 cookies to customer 3 for $3.00
-Guy says: Ernie sold Gloomhaven to customer 3 for $95.00
-Guy says: Ernie sold Netrunner to customer 3 for $36.00
-Guy says: Ernie sold 2 cookies to customer 4 for $3.00
-Special card also purchased. Guy says: Ernie sold Netrunner to customer 4 for $36.00
-Guy says: Ernie sold Risk to customer 4 for $84.00
-Guy says: Ernie sold 3 cookies to customer 5 for $3.00
-Guy says: Ernie sold Netrunner to customer 5 for $38.00
-Guy says: Ernie sold Catan to customer 5 for $46.00
-Guy says: Ernie sold 3 cookies to customer 6 for $3.00
-Guy says: Ernie sold Mousetrap to customer 6 for $36.00
-Guy says: Ernie sold Connect Four to customer 6 for $9.00
-Guy says: Ernie ordering new copies of Gloomhaven
-Guy says: Ernie ordering new copies of Monopoly
-Guy says: Ernie ordering new copies of Netrunner
-Guy says: Ernie ordering new copies of Risk
-Guy says: Ernie ordering new copies of Catan
-Guy says: Ernie ordering new copies of Mousetrap
-Guy says: Ernie ordered new games for $480.00
-Guy says: Ernie is closing the store
-Guy says: Ernie has left on day 28
-Guy says: Guy is leaving the store
+Eager Guy says: Guy has arrived at the store
+Eager Guy says: Ernie has arrived on day 28
+Eager Guy says: Ernie counts the money.
+Eager Guy says: Ernie sees $5,470.50 in the register
+Eager Guy says: Ernie vacuums the store
+Eager Guy says: Ernie did not break a game!
+Ernie stacked Catan on shelf 0, game height=18
+Ernie stacked Gloomhaven on shelf 1, game height=15
+Ernie stacked Risk on shelf 2, game height=15
+Ernie stacked Pokémon on shelf 3, game height=9
+Ernie stacked Clue on shelf 4, game height=6
+Ernie stacked Candyland on shelf 5, game height=6
+Ernie stacked Netrunner on shelf 6, game height=6
+Ernie stacked Magic on shelf 7, game height=6
+Ernie stacked Life on shelf 8, game height=4
+Ernie stacked Connect Four on shelf 9, game height=3
+Ernie stacked Mousetrap on shelf 10, game height=2
+Ernie stacked Monopoly on shelf 11, game height=2
+Eager Guy says: Drake the demonstrator has arrived at the store
+Eager Guy says: Drake is recommending CatanSam.
+Eager Guy says: Ernie sold 1 cookies to customer Sam for $3.00
+Eager Guy says: Ernie sold Catan to customer Sam, who is a Board Gamer for $57.00
+Eager Guy says: Ernie sold Gloomhaven to customer Sam, who is a Board Gamer for $100.00
+Eager Guy says: Ernie did not order any games
+Eager Guy says: Ernie is closing the store
+Eager Guy says: Ernie has left on day 28
+Eager Guy says: Guy is leaving the store
 --- Simulation starting Day 29
-Guy says: Guy has arrived at the store
-Guy says: Ernie has arrived on day 29
-Guy says: Ernie counts the money.
-Guy says: Ernie sees $6,037.00 in the register
-Guy says: Ernie vacuums the store
-Guy says: Ernie did not break a game!
-Ernie stacked Gloomhaven on shelf 0, game height=9
-Ernie stacked Monopoly on shelf 1, game height=9
-Ernie stacked Risk on shelf 2, game height=9
-Ernie stacked Catan on shelf 3, game height=9
-Ernie stacked Mousetrap on shelf 4, game height=9
-Ernie stacked Netrunner on shelf 5, game height=6
-Ernie stacked Pokémon on shelf 6, game height=3
-Ernie stacked Clue on shelf 7, game height=3
-Ernie stacked Magic on shelf 8, game height=3
-Ernie stacked Candyland on shelf 9, game height=3
-Ernie stacked Connect Four on shelf 10, game height=2
-Ernie stacked Life on shelf 11, game height=2
-Guy says: Ernie sold 1 cookies to customer 1 for $3.00
-Guy says: Ernie sold Gloomhaven to customer 1 for $95.00
-Guy says: Ernie sold Monopoly to customer 1 for $21.00
-Guy says: COOKIE MONSTER!!!
-Guy says: Cookie monster is eating 132 cookie(s). There are no more cookies in the inventory.
-Guy says: Cookie monster is breaking a random game!
-Guy says: Cookie monster is breaking a random game!
-Guy says: Cookie monster is breaking a random game!
-Guy says: Cookie monster is breaking a random game!
-Guy says: Ernie ordering new copies of Magic
-Guy says: Ernie ordering new copies of Candyland
-Guy says: Ernie ordering new copies of Life
-Guy says: Ernie ordered new games for $73.50
-Guy says: Ernie is closing the store
-Guy says: Ernie has left on day 29
-Guy says: Guy is leaving the store
+Eager Guy says: Guy has arrived at the store
+Eager Guy says: Bart has arrived on day 29
+Eager Guy says: Bart counts the money.
+Eager Guy says: Bart sees $5,612.50 in the register
+Eager Guy says: Bart vacuums the store
+Eager Guy says: Bart did not break a game!
+Bart is stacking
+Bart stacked Catan on shelf 0, game width=18
+Bart stacked Gloomhaven on shelf 1, game width=14
+Bart stacked Connect Four on shelf 2, game width=12
+Bart stacked Risk on shelf 3, game width=10
+Bart stacked Clue on shelf 4, game width=10
+Bart stacked Mousetrap on shelf 5, game width=10
+Bart stacked Candyland on shelf 6, game width=9
+Bart stacked Monopoly on shelf 7, game width=9
+Bart stacked Life on shelf 8, game width=7
+Bart stacked Pokémon on shelf 9, game width=5
+Bart stacked Netrunner on shelf 10, game width=5
+Bart stacked Magic on shelf 11, game width=4
+Eager Guy says: Drake the demonstrator has arrived at the store
+Eager Guy says: Drake is recommending CatanKermit.
+Eager Guy says: Drake is explaining Gloomhaven  for customer Kermit.
+Eager Guy says: Bart sold 3 cookies to customer Kermit for $3.00
+Eager Guy says: Bart sold Catan to customer Kermit, who is a Board Gamer for $57.00
+Eager Guy says: Bart sold Gloomhaven to customer Kermit, who is a Board Gamer for $100.00
+Eager Guy says: Drake is explaining Catan  for customer Max.
+Eager Guy says: Drake is recommending GloomhavenMax.
+Eager Guy says: Bart sold 2 cookies to customer Max for $3.00
+Eager Guy says: Bart sold Catan to customer Max, who is a Family Gamer for $57.00
+Special token also purchased. Eager Guy says: Bart sold Gloomhaven to customer Max, who is a Family Gamer for $100.00
+Eager Guy says: Bart ordering new copies of Catan
+Eager Guy says: Bart ordering new copies of Gloomhaven
+Eager Guy says: Bart ordered new games for $239.25
+Eager Guy says: Bart is closing the store
+Eager Guy says: Bart has left on day 29
+Eager Guy says: Guy is leaving the store
 --- Simulation starting Day 30
-Guy says: Guy has arrived at the store
-Guy says: Ernie has arrived on day 30
-Guy says: Ernie counts the money.
-Guy says: Ernie sees $6,064.50 in the register
-Guy says: Ernie vacuums the store
-Guy says: Ernie did not break a game!
-Ernie stacked Risk on shelf 0, game height=9
-Ernie stacked Catan on shelf 1, game height=9
-Ernie stacked Mousetrap on shelf 2, game height=9
-Ernie stacked Magic on shelf 3, game height=9
-Ernie stacked Candyland on shelf 4, game height=9
-Ernie stacked Gloomhaven on shelf 5, game height=6
-Ernie stacked Monopoly on shelf 6, game height=6
-Ernie stacked Life on shelf 7, game height=6
-Ernie stacked Netrunner on shelf 8, game height=4
-Ernie stacked Pokémon on shelf 9, game height=3
-Ernie stacked Clue on shelf 10, game height=3
-Ernie stacked Connect Four on shelf 11, game height=2
-Guy says: Ernie sold 2 cookies to customer 1 for $3.00
-Guy says: Ernie sold Risk to customer 1 for $84.00
-Guy says: Ernie sold Catan to customer 1 for $46.00
-Guy says: Ernie sold 3 cookies to customer 2 for $3.00
-Guy says: Ernie sold Risk to customer 2 for $84.00
-Guy says: Ernie sold Catan to customer 2 for $46.00
-Guy says: Ernie sold 1 cookies to customer 3 for $3.00
-Guy says: Ernie sold Risk to customer 3 for $84.00
-Guy says: Ernie sold Catan to customer 3 for $46.00
-Guy says: Ernie sold 2 cookies to customer 4 for $3.00
-Spare parts also purchased. Guy says: Ernie sold Mousetrap to customer 4 for $36.00
-Guy says: Ernie sold Magic to customer 4 for $27.00
-Guy says: Ernie sold 3 cookies to customer 5 for $3.00
-Guy says: Ernie sold Mousetrap to customer 5 for $39.00
-Guy says: Ernie sold Magic to customer 5 for $27.00
-Guy says: Ernie ordering new copies of Risk
-Guy says: Ernie ordering new copies of Catan
-Guy says: Ernie ordered new games for $195.00
-Guy says: Ernie is closing the store
-Guy says: Ernie has left on day 30
-Guy says: Guy is leaving the store
+Lazy Guy says: Guy has arrived at the store
+Lazy Guy says: Burt has arrived on day 30
+Lazy Guy says: Burt counts the money.
+Lazy Guy says: Burt sees $5,684.25 in the register
+Lazy Guy says: Burt vacuums the store
+Lazy Guy says: Burt did not break a game!
+Burt is stacking
+Burt stacked Catan on shelf 0, game width=18
+Burt stacked Gloomhaven on shelf 1, game width=14
+Burt stacked Connect Four on shelf 2, game width=12
+Burt stacked Risk on shelf 3, game width=10
+Burt stacked Clue on shelf 4, game width=10
+Burt stacked Mousetrap on shelf 5, game width=10
+Burt stacked Candyland on shelf 6, game width=9
+Burt stacked Monopoly on shelf 7, game width=9
+Burt stacked Life on shelf 8, game width=7
+Burt stacked Pokémon on shelf 9, game width=5
+Burt stacked Netrunner on shelf 10, game width=5
+Burt stacked Magic on shelf 11, game width=4
+Lazy Guy says: Drake the demonstrator has arrived at the store
+Lazy Guy says: Burt sold 2 cookies to customer Rose for $3.00
+Lazy Guy says: Burt sold Catan to customer Rose, who is a Board Gamer for $57.00
+Lazy Guy says: Burt sold Gloomhaven to customer Rose, who is a Board Gamer for $102.50
+Lazy Guy says: Drake is explaining Catan  for customer Tam.
+Lazy Guy says: Burt sold 1 cookies to customer Tam for $3.00
+Lazy Guy says: Burt sold Catan to customer Tam, who is a Card Gamer for $57.00
+Lazy Guy says: Burt sold Gloomhaven to customer Tam, who is a Card Gamer for $102.50
+Lazy Guy says: Drake is explaining Catan  for customer Robert.
+Lazy Guy says: Drake is recommending GloomhavenRobert.
+Lazy Guy says: Drake is demonstrating Connect Four  for customer Robert.
+Lazy Guy says: Burt sold 3 cookies to customer Robert for $3.00
+Lazy Guy says: Burt sold Catan to customer Robert, who is a Family Gamer for $57.00
+Special token also purchased. Lazy Guy says: Burt sold Gloomhaven to customer Robert, who is a Family Gamer for $102.50
+Lazy Guy says: Burt ordering new copies of Catan
+Lazy Guy says: Burt ordering new copies of Gloomhaven
+Lazy Guy says: Burt ordered new games for $243.00
+Lazy Guy says: Burt is closing the store
+Lazy Guy says: Burt has left on day 30
+Lazy Guy says: Guy is leaving the store
 ===Store Summary Report===
 Game sales:
 Game	Inventory	Sold	Total $
-Risk	0	51	$4,284.00
-Catan	0	60	$2,760.00
-Mousetrap	1	19	$741.00
-Magic	1	4	$108.00
-Candyland	3	29	$319.00
-Gloomhaven	2	19	$1,805.00
-Monopoly	2	10	$210.00
-Life	3	8	$88.00
-Netrunner	2	6	$228.00
+Catan	0	68	$3,876.00
+Gloomhaven	0	64	$6,720.00
+Connect Four	3	20	$160.00
+Risk	3	6	$480.00
+Clue	3	0	$0.00
+Mousetrap	2	0	$0.00
+Candyland	3	0	$0.00
+Monopoly	2	0	$0.00
+Life	2	0	$0.00
 Pokémon	3	0	$0.00
-Clue	1	8	$160.00
-Connect Four	2	4	$36.00
+Netrunner	3	0	$0.00
+Magic	3	0	$0.00
 Broken games:
 Game	Count
+Connect Four	1
 Mousetrap	1
-Magic	1
-Candyland	1
-Netrunner	1
 Life	1
-Final register funds: $6,403.50
-$ added to register: $1,000.00 (1 adds)
+Monopoly	1
+Catan	1
+Final register funds: $5,919.75
+$ added to register: $2,000.00 (2 adds)
