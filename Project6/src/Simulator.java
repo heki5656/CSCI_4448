@@ -1,5 +1,6 @@
 package Project6.src;
 
+//Mostly took from Bruce Montgomery
 public class Simulator {
     public void run(int days) {
 

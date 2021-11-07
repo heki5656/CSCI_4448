@@ -2,21 +2,21 @@ package Project6.src;
 import java.util.Scanner;
 
 public class Farm {
-    String map = "[.............]";
+    String map = "[.............]"; //TODO NEED TO IMPLEMENT MAP
 
     public Farm(){
         //create the mayor (observer)
-
-
     }
 
     //set up the players farm
     public Player setUp(){
-        Scanner myObj = new Scanner(System.in);  // Create a Scanner object
+
+        //create a scanner object
+        Scanner myObj = new Scanner(System.in);
 
         System.out.println("Welcome to Stardew Horizon Simulator.");
 
-        //Get the players name
+        //get the players name
         System.out.println("Enter your farmers name: ");
         String name = myObj.nextLine();
 
@@ -45,7 +45,8 @@ public class Farm {
     }
 
     public int availableActions(){
-        Scanner myObj = new Scanner(System.in);  // Create a Scanner object
+        //create a Scanner object
+        Scanner myObj = new Scanner(System.in);
 
         //display the available action choices
         System.out.println("Available actions (please enter the # of the action you would like to select:)");

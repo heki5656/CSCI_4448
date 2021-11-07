@@ -1,5 +1,6 @@
 package Project6.src;
 
+//Took from Bruce Montgomery
 public class Main {
     // How many days in a run?
     final static int NUMBER_OF_DAYS = 30;
