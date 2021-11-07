@@ -9,6 +9,7 @@ public class Simulator {
         for (int day = 1; day <= days; day++) {
 
             System.out.println("--- Simulation starting Day " + day);
+            System.out.println("Test")
         }
     }
 }
