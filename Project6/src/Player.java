@@ -7,8 +7,8 @@ public class Player {
     int seedInventory; //Maybe move to class Seed
 
     public Player(String name, String farmName){
-        String name = name;
-        String farmName = farmName;
+        this.name = name;
+        this.farmName = farmName;
         double money = 0;
         int seedInventory = 0; //Maybe move to class Seed
     }

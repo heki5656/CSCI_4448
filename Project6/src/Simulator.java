@@ -3,6 +3,8 @@ package Project6.src;
 public class Simulator {
     public void run(int days) {
 
+        Farm farm = new Farm();
+
         //run for n days
         for (int day = 1; day <= days; day++) {
 
