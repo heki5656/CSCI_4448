@@ -3,21 +3,20 @@ package Project6.src;
 public class Simulator {
     public void run(int days) {
 
+        //create a new Farm object
         Farm farm = new Farm();
+
+        //create a Player object, and setUp the name and farm name for player in farm.setUp()
+        Player player = farm.setUp();
+
 
         //run for n days
         for (int day = 1; day <= days; day++) {
 
             System.out.println("--- Starting Day " + day);
 
-            //check if first day
-            if (day == 1){
-
-                //go to the first day in farm, to get everything set up
-                farm.firstDay();
-
-                System.out.println("This is your first day.");
-            }
+            //start a day on the farm
+            farm.startADay(player);
 
 
         }
