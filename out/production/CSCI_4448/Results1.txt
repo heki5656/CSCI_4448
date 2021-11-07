@@ -1,0 +1,5 @@
+Input string: Helen Kim
+EEHIKLMN
+
+Input string: Lakshya Jaishankar
+AAAAAHHIJKKLNRSSY

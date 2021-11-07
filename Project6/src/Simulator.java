@@ -10,6 +10,10 @@ public class Simulator {
 
             //check if first day
             if (day == 1){
+
+                //go to the first day in farm, to get everything set up
+                farm.firstDay();
+
                 System.out.println("This is your first day.");
             }
 
