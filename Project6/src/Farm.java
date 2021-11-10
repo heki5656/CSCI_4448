@@ -4,8 +4,13 @@ import java.util.Scanner;
 public class Farm {
     String map = "[.............]"; //TODO NEED TO IMPLEMENT MAP
 
-    public Farm(){
+    Observer observer; //creating mayor observer object
+
+    public void Farm(){
         //create the mayor (observer)
+        mayor = new Announcer("Mayor");
+        SingletonMayor singletonMayor = null;
+        mayor = singletonMayor.getMayor();
     }
 
     //set up the players farm
@@ -90,6 +95,8 @@ public class Farm {
 
             //player wants to tend to their farm
             else if (choice == 2){
+                System.out.println("The mayor has a message for player");
+                mayor.Announcement("Add 10g to your inventory for tending your farm. Every day that you complete farm work, you will earn 10g.")
                 System.out.println("Player wants to tend to their farm");
             }
 
