@@ -3,7 +3,13 @@ import java.util.Scanner;
 import java.util.ArrayList;
 
 public class Farm {
-    String map = "[.............]"; //TODO NEED TO IMPLEMENT MAP
+    String FarmMap = new String[30][20];
+    //generating the initial map
+    for(int row = 0; row < 30; row ++){
+        for(int col = 0; col < 20; col++){
+            FarmMap[row][col] = "/";
+        }
+    }
 
     Observer observer; //creating mayor observer object
 
@@ -59,7 +65,13 @@ public class Farm {
         System.out.println("Money: " + player.money + "g");
         System.out.println("Total inventory: " + player.seedInventory);
         System.out.println("Weather: "); //TODO NEED TO IMPLEMENT WEATHER
-        System.out.println("Farm Map: " + map);
+        System.out.println("Farm Map: ");
+        for(int row = 0; row < 30; row ++){
+            for(int col = 0; col < 20; col++){
+                System.out.print(FarmMap[row][col]);
+            }
+            System.out.println();
+        }
     }
 
     public int availableActions(){
