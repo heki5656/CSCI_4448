@@ -3,13 +3,14 @@ import java.util.Scanner;
 import java.util.ArrayList;
 
 public class Farm {
-    String FarmMap = new String[30][20];
+    String [][]FarmMap = new String[30][20];
     //generating the initial map
-    for(int row = 0; row < 30; row ++){
-        for(int col = 0; col < 20; col++){
-            FarmMap[row][col] = "/";
-        }
-    }
+    // for(int row = 0; row < 30; row ++){
+    //     for(int col = 0; col < 20; col++){
+    //         FarmMap[row][col] = "/";
+    //     }
+    
+    
 
     Observer observer; //creating mayor observer object
 
