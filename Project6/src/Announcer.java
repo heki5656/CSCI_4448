@@ -1,11 +1,12 @@
 package Project6.src;
 import java.util.*;
 
-public class Announcer extends Player implements Observer{
+//the announcer shouldn't extend the player
+public class Announcer implements Observer{
     SingletonMayor mayor;
 
     public Announcer(String name) {
-        super(name);
+
     }
 
     public void Announcement(String message){

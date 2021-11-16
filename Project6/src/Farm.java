@@ -3,27 +3,15 @@ import java.util.Scanner;
 import java.util.ArrayList;
 
 public class Farm {
-    String [][]FarmMap = new String[30][20];
-    //generating the initial map
-    // for(int row = 0; row < 30; row ++){
-    //     for(int col = 0; col < 20; col++){
-    //         FarmMap[row][col] = "/";
-    //     }
-    
-    
-
     Observer observer; //creating mayor observer object
-
 
     //TODO ALL COSTS, PRICES, AND STATUS NEED TO BE CHANGED FOR SEEDS
     //instantiate the seed objects
-    Seed carrot = new Seed("carrot", 20, 30, 0/10);
-    Seed turnip = new Seed("turnip", 20, 30, 0/10);
-    Seed onion = new Seed("onion", 20, 30, 0/10);
-    Seed pumpkin = new Seed("pumpkin", 20, 30, 0/10);
-    Seed potato = new Seed("potato", 20, 30, 0/10);
-
-    
+    Seed carrot = new Seed("carrot", "*", 16, 30, 0/8);
+    Seed turnip = new Seed("turnip", "*", 10, 20, 0/4);
+    Seed onion = new Seed("onion", "*", 16, 30, 0/8);
+    Seed pumpkin = new Seed("pumpkin", "*", 12, 25, 0/6);
+    Seed potato = new Seed("potato", "*", 10, 20, 0/4);
 
     public void Farm(){
         //create the mayor (observer) ****COMMENTED OUT TO RUN ****
@@ -51,6 +39,7 @@ public class Farm {
 
         //create a new player object
         Player player = new Player(name, farmName);
+        player.generateMap();
 
         //print out the farmers name, and the farms name
         System.out.println("Welcome farmer " + player.name);
@@ -67,9 +56,9 @@ public class Farm {
         System.out.println("Total inventory: " + player.seedInventory);
         System.out.println("Weather: "); //TODO NEED TO IMPLEMENT WEATHER
         System.out.println("Farm Map: ");
-        for(int row = 0; row < 30; row ++){
-            for(int col = 0; col < 20; col++){
-                System.out.print(FarmMap[row][col]);
+        for(int row = 0; row < 10; row ++){
+            for(int col = 0; col < 30; col++){
+                System.out.print(player.FarmMap[row][col].seedImage);
             }
             System.out.println();
         }
