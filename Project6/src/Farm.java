@@ -45,6 +45,13 @@ public class Farm {
         System.out.println("Welcome farmer " + player.name);
         System.out.println("You have arrived at " + player.farmName);
 
+        //instantiate the player's seed array so that it isn't null
+        player.seedInventory[0] = carrot;
+        player.seedInventory[1] = turnip;
+        player.seedInventory[2] = onion;
+        player.seedInventory[3] = pumpkin;
+        player.seedInventory[4] = potato;
+
         return player;
 
     }
@@ -244,6 +251,10 @@ public class Farm {
         return choice;
     }
 
+    public void PlantASeed(){
+
+    }
+
 
     public void startADay(Player player){
         //create a variable that keeps track of how many actions player is allowed to do in a day
@@ -296,6 +307,13 @@ public class Farm {
                 System.out.println("The mayor has a message for player");
                 //mayor.Announcement("Add 10g to your inventory for tending your farm. Every day that you complete farm work, you will earn 10g.");
                 System.out.println("Player wants to tend to their farm");
+                //TODO: edit these above print outs later on
+
+                System.out.println(player.name + "'s inventory: ");
+                for(int s = 0; s < 5; s++){
+                    System.out.println(player.seedInventory[s].type + " " + player.seedInventory[s].inventory);
+                }
+                //TODO: make it keep running unless the player wants to go back
             }
 
             //player wants to go fishing

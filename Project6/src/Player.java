@@ -4,7 +4,9 @@ public class Player {
     String name;
     String farmName;
     double money;
-    int seedInventory; //Maybe move to class Seed
+    //int seedInventory; //Maybe move to class Seed
+    //player has an array to store all of their seeds
+    Seed[] seedInventory = new Seed[5];
     Seed [][]FarmMap = new Seed[10][30];
 
     public Player(String name, String farmName){
