@@ -7,11 +7,11 @@ public class Farm {
 
     //TODO ALL COSTS, PRICES, AND STATUS NEED TO BE CHANGED FOR SEEDS
     //instantiate the seed objects
-    Seed carrot = new Seed("carrot", "*", 16, 30, 0/8);
-    Seed turnip = new Seed("turnip", "*", 10, 20, 0/4);
-    Seed onion = new Seed("onion", "*", 16, 30, 0/8);
-    Seed pumpkin = new Seed("pumpkin", "*", 12, 25, 0/6);
-    Seed potato = new Seed("potato", "*", 10, 20, 0/4);
+    Seed carrot = new Seed("carrot", "*", 16, 30, 0/8, 0);
+    Seed turnip = new Seed("turnip", "*", 10, 20, 0/4, 0);
+    Seed onion = new Seed("onion", "*", 16, 30, 0/8, 0);
+    Seed pumpkin = new Seed("pumpkin", "*", 12, 25, 0/6, 0);
+    Seed potato = new Seed("potato", "*", 10, 20, 0/4, 0);
 
     public void Farm(){
         //create the mayor (observer) ****COMMENTED OUT TO RUN ****
@@ -60,7 +60,11 @@ public class Farm {
     public void morningReport(Player player){
         System.out.println("--------- " + player.name + "'s stats ---------");
         System.out.println("Money: " + player.money + "g");
-        System.out.println("Total inventory: " + player.seedInventory);
+        //System.out.println("Total inventory: " + player.seedInventory);
+        System.out.println(player.name + "'s inventory: ");
+        for(int e = 0; e < 5; e++){
+            System.out.println(player.seedInventory[e].type + " " + player.seedInventory[e].inventory);
+        }
         System.out.println("Weather: "); //TODO NEED TO IMPLEMENT WEATHER
         System.out.println("Farm Map: ");
         for(int row = 0; row < 10; row ++){
@@ -314,6 +318,58 @@ public class Farm {
                     System.out.println(player.seedInventory[s].type + " " + player.seedInventory[s].inventory);
                 }
                 //TODO: make it keep running unless the player wants to go back
+                //options to plant or tend to the seeds
+                System.out.println("Please enter what you would like to do on your farm:");
+                System.out.println("1. Water your field");
+                System.out.println("2. Plant seeds from your inventory");
+
+                Scanner myObj = new Scanner(System.in);
+                int FarmChoice = myObj.nextInt();
+
+                if(FarmChoice == 1){
+                    //water the plants
+                    for(int w = 0; w < 5; w++){
+                        player.seedInventory[w].quality++;
+                    }
+                    System.out.println(player.name + "'s crops have been watered for the day!");
+                }
+                else if(FarmChoice == 2){
+                    //planting the seeds randomly (for now just plant all the seeds in the inventory)
+                    int totalSeeds = 0;
+                    for(int k = 0; k < 5; k++){
+                        totalSeeds = totalSeeds + player.seedInventory[k].inventory;
+                    }
+                    if(totalSeeds == 0){
+                        System.out.println("You have no seeds! :(");
+                    }
+                    else{
+                        for(int s = 0; s < 5; s++){
+                            //totalSeeds = totalSeeds + player.seedInventory[s].inventory;
+                            while(player.seedInventory[s].inventory !=0){
+                                boolean emptySlot = false;
+                                int random_row = 0;
+                                int random_col = 0;
+                                while(emptySlot == false){
+                                    random_row = (int)Math.floor(Math.random()*(10-0+1)+0);
+                                    random_col= (int)Math.floor(Math.random()*(30-0+1)+0);
+                                    if(player.FarmMap[random_col][random_col].type != ""){
+                                        emptySlot = true;
+                                    }
+                                }
+                                //now the actual planting part
+                                player.FarmMap[random_row][random_col] = player.seedInventory[s];
+                                player.seedInventory[s].inventory --;
+                            }
+                        }
+                    }
+                }
+                else if(FarmChoice == 2){
+                    //plant the seeds randomly in open plots
+
+                }
+                else{
+                    System.out.println("Invalid input");
+                }
             }
 
             //player wants to go fishing

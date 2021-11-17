@@ -18,7 +18,7 @@ public class Player {
 
     public void generateMap(){
         //generating the initial map
-        Seed initialSeed = new Seed("", "~", 0.00, 0.00, 0);
+        Seed initialSeed = new Seed("", "~", 0.00, 0.00, 0, 0);
         for(int row = 0; row < 10; row++){
             for(int col = 0; col < 30; col++){
                 FarmMap[row][col] = initialSeed;
