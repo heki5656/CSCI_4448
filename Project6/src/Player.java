@@ -3,7 +3,7 @@ package Project6.src;
 public class Player {
     String name;
     String farmName;
-    double money = 100;
+    double money;
     //int seedInventory; //Maybe move to class Seed
     //player has an array to store all of their seeds
     Seed[] seedInventory = new Seed[5];
