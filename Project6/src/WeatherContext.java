@@ -1,7 +1,7 @@
 package Project6.src;
 import java.util.*;
 
-public class WeatherContext {
+public class WeatherContext { // weather interface will be separately implemented to accommodate the needed functions shown on the uml diagram.
     //private WeatherStrategy strategy;
     //String[] weather = {"freezing", "sunny", "windy", "rainy"};
     List<String> weather = Arrays.asList("freezing", "sunny", "rainy");
@@ -25,8 +25,8 @@ public class WeatherContext {
 //        this.strategy = strategy;
 //    }
 
-    public int executeStrategy(int num1, int num2){
-        //return strategy.doOperation(num1, num2);
+    public int executeStrategy(){
+        //return strategy.completeOperation();
         return 1;
     }
 }
