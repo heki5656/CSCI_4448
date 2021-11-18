@@ -1,5 +1,7 @@
 package Project6.src;
 
+
+//TODO: make sure the player starts with like 5 turnip seeds or something
 public class Player {
     String name;
     String farmName;

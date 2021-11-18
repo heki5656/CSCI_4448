@@ -255,11 +255,6 @@ public class Farm {
         return choice;
     }
 
-    public void PlantASeed(){
-
-    }
-
-
     public void startADay(Player player){
         //create a variable that keeps track of how many actions player is allowed to do in a day
         int numberOfActions = 3;
