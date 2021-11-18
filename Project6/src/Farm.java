@@ -1,6 +1,7 @@
 package Project6.src;
 import java.util.Scanner;
 import java.util.ArrayList;
+import java.util.*;
 
 public class Farm {
     Observer observer; //creating mayor observer object
@@ -344,14 +345,14 @@ public class Farm {
                     else{
                         for(int s = 0; s < 5; s++){
                             //totalSeeds = totalSeeds + player.seedInventory[s].inventory;
-                            while(player.seedInventory[s].inventory !=0){
+                            for(int j = 0; j < player.seedInventory[s].inventory; j++){
                                 boolean emptySlot = false;
                                 int random_row = 0;
                                 int random_col = 0;
                                 while(emptySlot == false){
-                                    random_row = (int)Math.floor(Math.random()*(10-0+1)+0);
-                                    random_col= (int)Math.floor(Math.random()*(30-0+1)+0);
-                                    if(player.FarmMap[random_col][random_col].type != ""){
+                                    random_row = (int)Math.random() * (9 - 0 + 1) + 0;
+                                    random_col= (int)Math.random() * (29 - 0 + 1) + 0;
+                                    if(player.FarmMap[random_col][random_col].type == ""){
                                         emptySlot = true;
                                     }
                                 }
