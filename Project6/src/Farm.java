@@ -53,6 +53,9 @@ public class Farm {
         player.seedInventory[3] = pumpkin;
         player.seedInventory[4] = potato;
 
+        //Player starts with 5 turnip seeds
+        player.seedInventory[1].inventory = player.seedInventory[1].inventory + 5;
+
         return player;
 
     }
@@ -357,6 +360,13 @@ public class Farm {
                                 player.seedInventory[s].inventory --;
                             }
                         }
+                    }
+                    //print out the map after the seeds have been planted
+                    for(int row = 0; row < 10; row ++){
+                        for(int col = 0; col < 30; col++){
+                            System.out.print(player.FarmMap[row][col].seedImage);
+                        }
+                        System.out.println();
                     }
                 }
                 else if(FarmChoice == 2){
