@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class Farm {
     Observer observer; //creating mayor observer object
+    Fishing fishing = new Fishing();
 
     //TODO ALL COSTS, PRICES, AND STATUS NEED TO BE CHANGED FOR SEEDS
     //instantiate the seed objects
@@ -370,6 +371,13 @@ public class Farm {
             //player wants to go fishing
             else if (choice == 3){
                 System.out.println("Player want to go fishing at the pond");
+                boolean froze = fishing.isFrozen();
+                if (froze == true){
+                    System.out.println("Pond is frozen - come back to fish when it's warmer.");
+                }
+                else{
+                    fishing.reelInCatch();
+                }
             }
         }
 
