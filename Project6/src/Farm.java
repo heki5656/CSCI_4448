@@ -84,6 +84,7 @@ public class Farm {
         //create a Scanner object
         Scanner myObj = new Scanner(System.in);
 
+        
         //display the available action choices
         System.out.println("Available actions (please enter the # of the action you would like to select:)");
         System.out.println("1. Go to the plaza");
@@ -334,6 +335,15 @@ public class Farm {
                     System.out.println(player.name + "'s crops have been watered for the day!");
                 }
                 else if(FarmChoice == 2){
+                    for(int row = 0; row < 10; row++){
+                        for(int col = 0; col < 30; col++){
+                            System.out.print(player.FarmMap[row][col].seedImage);
+                        }
+
+                        System.out.println("");
+
+                        
+                    }
                     //planting the seeds randomly (for now just plant all the seeds in the inventory)
                     int totalSeeds = 0;
                     for(int k = 0; k < 5; k++){
@@ -345,14 +355,20 @@ public class Farm {
                     else{
                         for(int s = 0; s < 5; s++){
                             //totalSeeds = totalSeeds + player.seedInventory[s].inventory;
-                            for(int j = 0; j < player.seedInventory[s].inventory; j++){
+
+                            //create a variable to hold the inventory
+                            int inventory = player.seedInventory[s].inventory;
+
+                            for(int j = 0; j < inventory; j++){
                                 boolean emptySlot = false;
                                 int random_row = 0;
                                 int random_col = 0;
                                 while(emptySlot == false){
-                                    random_row = (int)Math.random() * (9 - 0 + 1) + 0;
-                                    random_col= (int)Math.random() * (29 - 0 + 1) + 0;
-                                    if(player.FarmMap[random_col][random_col].type == ""){
+                                    Random rand = new Random();
+                                    random_row = rand.nextInt((9 - 0) + 1) + 0;
+                                    random_col= rand.nextInt((29 - 0) + 1) + 0;
+
+                                    if(player.FarmMap[random_row][random_col].seedImage == "~"){
                                         emptySlot = true;
                                     }
                                 }
