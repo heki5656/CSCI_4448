@@ -55,7 +55,7 @@ public class Farm {
         player.seedInventory[4] = potato;
 
         //Player starts with 5 turnip seeds
-        player.seedInventory[1].inventory = player.seedInventory[1].inventory + 5;
+        //player.seedInventory[1].inventory = player.seedInventory[1].inventory + 5;
 
         return player;
 
