@@ -1,0 +1,31 @@
+package Project6.src;
+
+
+//TODO: make sure the player starts with like 5 turnip seeds or something
+public class Player {
+    String name;
+    String farmName;
+    double money;
+    //int seedInventory; //Maybe move to class Seed
+    //player has an array to store all of their seeds
+    Seed[] seedInventory = new Seed[5];
+    Seed [][]FarmMap = new Seed[10][30];
+
+    public Player(String name, String farmName){
+        this.name = name;
+        this.farmName = farmName;
+        double money = 0;
+        int seedInventory = 0; //Maybe move to class Seed
+    }
+
+    public void generateMap(){
+        //generating the initial map
+        Seed initialSeed = new Seed("", "~", 0.00, 0.00, 0, 0);
+        for(int row = 0; row < 10; row++){
+            for(int col = 0; col < 30; col++){
+                FarmMap[row][col] = initialSeed;
+            }
+        }
+    }
+
+}
