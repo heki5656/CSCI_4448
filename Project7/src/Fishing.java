@@ -1,4 +1,4 @@
-package Project6.src;
+package Project7.src;
 
 import java.util.Arrays;
 import java.util.List;
@@ -27,8 +27,8 @@ public class Fishing{
 
         System.out.println("Which fishing pole would you like to upgrade to");
         System.out.println("1. Standard");
-        System.out.println("2. Advanced");
-        System.out.println("3. Deluxe");
+        System.out.println("2. Advanced (takes 1.4x time to catch something)");
+        System.out.println("3. Deluxe (takes 1.8x time to catch something)");
 
         //store the players selection
         int select = upgradeObj.nextInt();
@@ -41,7 +41,7 @@ public class Fishing{
 
             if (fishProbability <= 25){
                 try {
-                    Thread.sleep(7000);
+                    Thread.sleep(5000);
                     System.out.println("Darn -- you reeled in trash using the standard pole, but good news, people like trash so you can sell it for 1g!");
                     //player.money += 1; // increasing money count by 1g since player caught trash
                 }
@@ -53,7 +53,7 @@ public class Fishing{
 
             if (fishProbability <= 50 && fishProbability >= 25){
                 try{
-                    Thread.sleep(7000);
+                    Thread.sleep(5000);
                     System.out.println("Nice work! You caught a common fish using the standard pole. You can sell this for 10g.");
                     //player.money += 10; // increasing money count by 10g since player caught a common fish
                 }
@@ -66,7 +66,7 @@ public class Fishing{
 
             if (fishProbability >= 50){
                 try{
-                    Thread.sleep(7000);
+                    Thread.sleep(5000);
                     System.out.println("Bravo! You caught a rare fish using the standard pole. It's very hard to catch those. You can sell it for 30g.");
                     //player.money += 30; // increasing money count by 30g since player caught a rare fish
                 }
@@ -133,7 +133,7 @@ public class Fishing{
 
             if (fishProbability <= 40){
                 try{
-                    Thread.sleep(7000);
+                    Thread.sleep(9000);
                     System.out.println("Darn -- you reeled in trash using the deluxe pole, but good news, people like trash so you can sell it for 1g!");
                     //player.money += 1; // increasing money count by 1g since player caught trash
                 }
@@ -146,7 +146,7 @@ public class Fishing{
 
             if (fishProbability <= 75 && fishProbability >= 40){
                 try{
-                    Thread.sleep(7000);
+                    Thread.sleep(9000);
                     System.out.println("Nice work! You caught a common fish using the deluxe pole. You can sell this for 10g.");
                     //player.money += 10; // increasing money count by 10g since player caught a common fish
                 }
@@ -159,7 +159,7 @@ public class Fishing{
 
             if (fishProbability <= 75){
                 try{
-                    Thread.sleep(7000);
+                    Thread.sleep(9000);
                     System.out.println("Bravo! You caught a rare fish using the deluxe pole. It's very hard to catch those. You can sell it for 30g.");
                     //player.money += 30; // increasing money count by 30g since player caught a rare fish
                 }
