@@ -5,19 +5,20 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.Date;
 
-public class Fishing extends WeatherContext{
-    WeatherContext weatherContext = new WeatherContext();
+public class Fishing{
+    WeatherSingleton weatherSingleton = WeatherSingleton.getInstance();
     //Farm farm = new Farm();
     //Player player = new Player("Mary", "Mary's Farm");
     int level;
     boolean frozenStatus = false;
 
     public boolean isFrozen(){
-        if (weatherContext.randomWeatherGenerator(weather) == "freezing"){
+        if (weatherSingleton.pondStatus()){
             frozenStatus = true;
-//            System.out.println("Pond is frozen - come back to fish when it's warmer.");
+            System.out.println("Pond is frozen - come back to fish when it's warmer.");
             return frozenStatus;
         }
+        System.out.println("The pond is not frozen today!");
         return frozenStatus;
     }
 
