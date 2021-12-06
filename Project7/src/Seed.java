@@ -1,6 +1,12 @@
 package Project6.src;
 
 public class Seed {
+    /*private seedFactory factory;
+
+    public Seed(seedFactory factory){
+        this.factory = factory;
+    }*/
+
     String type; //the type of seed
     String seedImage;
     double cost; //the cost of the seed
