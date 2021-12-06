@@ -1,4 +1,5 @@
 package Project7.src;
+import java.util.*;
 
 
 //TODO: make sure the player starts with like 5 turnip seeds or something
@@ -15,7 +16,7 @@ public class Player {
         this.name = name;
         this.farmName = farmName;
         double money = 0;
-        int seedInventory = 0; //Maybe move to class Seed
+        //int seedInventory = 0; //Maybe move to class Seed
     }
 
     public void generateMap(){

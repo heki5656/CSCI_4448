@@ -13,7 +13,7 @@ public class Fishing{
     boolean frozenStatus = false;
 
     public boolean isFrozen(){
-        if (weatherSingleton.pondStatus()){
+        if (weatherSingleton.randomWeatherGenerator() == "freezing"){
             frozenStatus = true;
             System.out.println("Pond is frozen - come back to fish when it's warmer.");
             return frozenStatus;

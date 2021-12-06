@@ -4,17 +4,11 @@ import java.util.*;
 public class WeatherSingleton{ // lazy instantiation
     private static WeatherSingleton instance = new WeatherSingleton();
 
-    List<String> weather = Arrays.asList("freezing", "sunny", "rainy");
-    String status = randomWeatherGenerator(weather);
-
-
     // Seed carrot = new Seed("carrot", "*", 16, 30, 0/8);
     // Seed turnip = new Seed("turnip", "*", 10, 20, 0/4);
     // Seed onion = new Seed("onion", "*", 16, 30, 0/8);
     // Seed pumpkin = new Seed("pumpkin", "*", 12, 25, 0/6);
     // Seed potato = new Seed("potato", "*", 10, 20, 0/4);
-
-
 
     private WeatherSingleton(){}
 
@@ -28,14 +22,16 @@ public class WeatherSingleton{ // lazy instantiation
         return instance;
     }
 
-    public String randomWeatherGenerator(List<String> weather){
+    public String randomWeatherGenerator(){
+        List<String> weather = Arrays.asList("freezing", "sunny", "rainy");
+        //fString status = randomWeatherGenerator(weather);
         Random r = new Random();
         int randomString = r.nextInt(weather.size());
         String chosen = weather.get(randomString);
         return chosen;
     }
 
-    public boolean pondStatus(){
+    /*public boolean pondStatus(){
         boolean isFrozen = false;
         if (status == "freezing"){
             isFrozen = true;
@@ -113,10 +109,7 @@ public class WeatherSingleton{ // lazy instantiation
             System.out.println("Crop quality is at its best!");
         }
 
-    }
-
-
-
+    }*/
 
 }
 
