@@ -1,4 +1,4 @@
-package Project6.src;
+package Project7.src;
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.*;

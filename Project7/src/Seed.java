@@ -1,4 +1,4 @@
-package Project6.src;
+package Project7.src;
 
 public class Seed {
     /*private seedFactory factory;

@@ -15,7 +15,7 @@ public class Fishing extends WeatherContext{
     public boolean isFrozen(){
         if (weatherContext.randomWeatherGenerator(weather) == "freezing"){
             frozenStatus = true;
-//            System.out.println("Pond is frozen - come back to fish when it's warmer.");
+            //System.out.println("Pond is frozen - come back to fish when it's warmer.");
             return frozenStatus;
         }
         return frozenStatus;
@@ -25,9 +25,9 @@ public class Fishing extends WeatherContext{
         Scanner upgradeObj = new Scanner(System.in);
 
         System.out.println("Which fishing pole would you like to upgrade to");
-        System.out.println("1. Standard");
-        System.out.println("2. Advanced");
-        System.out.println("3. Deluxe");
+        System.out.println("1. Standard costs 0g");
+        System.out.println("2. Advanced (takes longer to catch fish)");
+        System.out.println("3. Deluxe costs (takes even longer to catch a fish");
 
         //store the players selection
         int select = upgradeObj.nextInt();
@@ -86,7 +86,7 @@ public class Fishing extends WeatherContext{
 
             if (fishProbability <= 40){
                 try{
-                    Thread.sleep(7000);
+                    Thread.sleep(8000);
                     System.out.println("Darn -- you reeled in trash using the advanced pole, but good news, people like trash so you can sell it for 1g!");
                     //player.money += 1; // increasing money count by 1g since player caught trash
                 }
@@ -97,7 +97,7 @@ public class Fishing extends WeatherContext{
 
             if (fishProbability >= 40 && fishProbability <= 75){
                 try{
-                    Thread.sleep(7000);
+                    Thread.sleep(8000);
                     System.out.println("Nice work! You caught a common fish using the advanced pole. You can sell this for 10g.");
                     //player.money += 10; // increasing money count by 10g since player caught a common fish
                 }
@@ -110,7 +110,7 @@ public class Fishing extends WeatherContext{
 
             if (fishProbability >= 75){
                 try{
-                    Thread.sleep(7000);
+                    Thread.sleep(8000);
                     System.out.println("Bravo! You caught a rare fish using the advanced pole. It's very hard to catch those. You can sell it for 30g.");
                     //player.money += 30; // increasing money count by 30g since player caught a rare fish
                 }
@@ -132,7 +132,7 @@ public class Fishing extends WeatherContext{
 
             if (fishProbability <= 40){
                 try{
-                    Thread.sleep(7000);
+                    Thread.sleep(9000);
                     System.out.println("Darn -- you reeled in trash using the deluxe pole, but good news, people like trash so you can sell it for 1g!");
                     //player.money += 1; // increasing money count by 1g since player caught trash
                 }
@@ -145,7 +145,7 @@ public class Fishing extends WeatherContext{
 
             if (fishProbability <= 75 && fishProbability >= 40){
                 try{
-                    Thread.sleep(7000);
+                    Thread.sleep(9000);
                     System.out.println("Nice work! You caught a common fish using the deluxe pole. You can sell this for 10g.");
                     //player.money += 10; // increasing money count by 10g since player caught a common fish
                 }
@@ -158,7 +158,7 @@ public class Fishing extends WeatherContext{
 
             if (fishProbability <= 75){
                 try{
-                    Thread.sleep(7000);
+                    Thread.sleep(9000);
                     System.out.println("Bravo! You caught a rare fish using the deluxe pole. It's very hard to catch those. You can sell it for 30g.");
                     //player.money += 30; // increasing money count by 30g since player caught a rare fish
                 }
