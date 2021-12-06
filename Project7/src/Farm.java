@@ -21,6 +21,10 @@ public class Farm {
         SingletonMayor singletonMayor = null;
         //mayor = singletonMayor.getMayor(); ****COMMENTED OUT TO RUN ****
 
+        //instantiate the weather object within the farm 
+        WeatherSingleton weatherObj = null;
+        weatherObj = weatherObj.getInstance();
+
     }
 
     //set up the players farm

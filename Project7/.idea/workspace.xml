@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc9aae60-3970-4918-98d3-3beb74ae770d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SeedFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CropStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GeneralStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Merchant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SeedStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Project4/src/com/OOAD/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project4/src/com/OOAD/Store.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project6/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project6/out/production/Project6/Project6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project6/out/production/Project6/Project6/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project6/out/production/Project6/Project6/src/Farm.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Project6/out/production/Project6/Project6/src/Farm.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project6/src/Farm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Project6/src/Farm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Seed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Seed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Farm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Farm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +34,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Project4" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RunManager">
