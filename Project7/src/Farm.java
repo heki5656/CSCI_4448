@@ -15,16 +15,21 @@ public class Farm {
     Seed pumpkin = new Seed("pumpkin", "*", 12, 25, 0/6, 0);
     Seed potato = new Seed("potato", "*", 10, 20, 0/4, 0);
 
+    //create the mayor (observer) ****COMMENTED OUT TO RUN ****
+    //mayor = new Announcer("Mayor"); ****COMMENTED OUT TO RUN ****
+    SingletonMayor singletonMayor = null;
+    //mayor = singletonMayor.getMayor(); ****COMMENTED OUT TO RUN ****
+
+    //WeatherSingleton weatherObj;
+    String weather;
+
     public void Farm(){
-        //create the mayor (observer) ****COMMENTED OUT TO RUN ****
-        //mayor = new Announcer("Mayor"); ****COMMENTED OUT TO RUN ****
-        SingletonMayor singletonMayor = null;
-        //mayor = singletonMayor.getMayor(); ****COMMENTED OUT TO RUN ****
 
-        //instantiate the weather object within the farm 
-        WeatherSingleton weatherObj = null;
-        weatherObj = weatherObj.getInstance();
 
+    }
+    //instantiate the weather object within the farm
+    public void getWeather(String weath){
+        weather = weath;
     }
 
     //set up the players farm
@@ -74,7 +79,7 @@ public class Farm {
         for(int e = 0; e < 5; e++){
             System.out.println(player.seedInventory[e].type + " " + player.seedInventory[e].inventory);
         }
-        System.out.println("Weather: "); //TODO NEED TO IMPLEMENT WEATHER
+        System.out.println("Weather: " + weather); //TODO NEED TO IMPLEMENT WEATHER
         System.out.println("Farm Map: ");
         for(int row = 0; row < 10; row ++){
             for(int col = 0; col < 30; col++){

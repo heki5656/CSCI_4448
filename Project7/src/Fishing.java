@@ -6,7 +6,7 @@ import java.util.Scanner;
 import java.util.Date;
 
 public class Fishing{
-    WeatherSingleton weatherObj = null;
+    String weather;
     Player playerObj = null;
     //Farm farm = new Farm();
     //Player player = new Player("Mary", "Mary's Farm");
@@ -17,12 +17,12 @@ public class Fishing{
         playerObj = playerInput;
     }
 
-    public void getWeather(WeatherSingleton weatherInput){
-        weatherObj = weatherInput;
+    public void getWeather(String weatherInput){
+        weather = weatherInput;
     }
 
     public boolean isFrozen(){
-        if (weatherObj.randomWeatherGenerator() == "freezing"){
+        if (weather == "freezing"){
             frozenStatus = true;
             System.out.println("Pond is frozen - come back to fish when it's warmer.");
             return frozenStatus;
