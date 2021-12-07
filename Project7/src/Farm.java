@@ -403,6 +403,7 @@ public class Farm {
             else if (choice == 3){
                 System.out.println("Player want to go fishing at the pond");
                 boolean froze = fishing.isFrozen();
+
                 if (froze == true){
                     System.out.println("Pond is frozen - come back to fish when it's warmer.");
                 }

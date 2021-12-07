@@ -19,13 +19,14 @@ public class Fishing{
             return frozenStatus;
         }
         System.out.println("The pond is not frozen today!");
+        frozenStatus = false;
         return frozenStatus;
     }
 
     public void reelInCatch(){
         Scanner upgradeObj = new Scanner(System.in);
 
-        System.out.println("Which fishing pole would you like to upgrade to");
+        System.out.println("Which fishing pole would you like to use");
         System.out.println("1. Standard");
         System.out.println("2. Advanced (takes 1.4x time to catch something)");
         System.out.println("3. Deluxe (takes 1.8x time to catch something)");
