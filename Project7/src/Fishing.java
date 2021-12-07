@@ -6,14 +6,23 @@ import java.util.Scanner;
 import java.util.Date;
 
 public class Fishing{
-    WeatherSingleton weatherSingleton = WeatherSingleton.getInstance();
+    WeatherSingleton weatherObj = null;
+    Player playerObj = null;
     //Farm farm = new Farm();
     //Player player = new Player("Mary", "Mary's Farm");
     int level;
     boolean frozenStatus = false;
 
+    public void getPlayer(Player playerInput){
+        playerObj = playerInput;
+    }
+
+    public void getWeather(WeatherSingleton weatherInput){
+        weatherObj = weatherInput;
+    }
+
     public boolean isFrozen(){
-        if (weatherSingleton.randomWeatherGenerator() == "freezing"){
+        if (weatherObj.randomWeatherGenerator() == "freezing"){
             frozenStatus = true;
             System.out.println("Pond is frozen - come back to fish when it's warmer.");
             return frozenStatus;
@@ -56,7 +65,7 @@ public class Fishing{
                 try{
                     Thread.sleep(5000);
                     System.out.println("Nice work! You caught a common fish using the standard pole. You can sell this for 10g.");
-                    //player.money += 10; // increasing money count by 10g since player caught a common fish
+                    playerObj.money += 10; // increasing money count by 10g since player caught a common fish
                 }
                 catch(InterruptedException ex)
                 {
@@ -69,7 +78,7 @@ public class Fishing{
                 try{
                     Thread.sleep(5000);
                     System.out.println("Bravo! You caught a rare fish using the standard pole. It's very hard to catch those. You can sell it for 30g.");
-                    //player.money += 30; // increasing money count by 30g since player caught a rare fish
+                    playerObj.money += 30; // increasing money count by 30g since player caught a rare fish
                 }
                 catch(InterruptedException ex)
                 {
@@ -90,7 +99,7 @@ public class Fishing{
                 try{
                     Thread.sleep(7000);
                     System.out.println("Darn -- you reeled in trash using the advanced pole, but good news, people like trash so you can sell it for 1g!");
-                    //player.money += 1; // increasing money count by 1g since player caught trash
+                    playerObj.money += 1; // increasing money count by 1g since player caught trash
                 }
                 catch(InterruptedException ex) {
                     ex.printStackTrace();
@@ -101,7 +110,7 @@ public class Fishing{
                 try{
                     Thread.sleep(7000);
                     System.out.println("Nice work! You caught a common fish using the advanced pole. You can sell this for 10g.");
-                    //player.money += 10; // increasing money count by 10g since player caught a common fish
+                    playerObj.money += 10; // increasing money count by 10g since player caught a common fish
                 }
                 catch(InterruptedException ex)
                 {
@@ -114,7 +123,7 @@ public class Fishing{
                 try{
                     Thread.sleep(7000);
                     System.out.println("Bravo! You caught a rare fish using the advanced pole. It's very hard to catch those. You can sell it for 30g.");
-                    //player.money += 30; // increasing money count by 30g since player caught a rare fish
+                    playerObj.money += 30; // increasing money count by 30g since player caught a rare fish
                 }
                 catch(InterruptedException ex)
                 {
@@ -127,7 +136,7 @@ public class Fishing{
 
         // if player upgrades to deluxe pole they have to withdraw some money from their account to pay for it
         else if (select == 3){
-            //player.money -= 35;
+            playerObj.money -= 35;
 
             // probability of catching a fish
             double fishProbability = Utility.rndFromRange(1, 100);
