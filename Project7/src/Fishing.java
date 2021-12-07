@@ -19,6 +19,7 @@ public class Fishing{
             return frozenStatus;
         }
         System.out.println("The pond is not frozen today!");
+        frozenStatus = false;
         return frozenStatus;
     }
 
