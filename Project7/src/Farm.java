@@ -84,11 +84,12 @@ public class Farm {
         }
     }
 
-    public int availableActions(){
+    public int availableActions(int numActions){
         //create a Scanner object
         Scanner myObj = new Scanner(System.in);
 
-        
+        //print out the number of actions player has used
+        System.out.println("Actions for the day: " + numActions + "/3");
         //display the available action choices
         System.out.println("Available actions (please enter the # of the action you would like to select:)");
         System.out.println("1. Go to the plaza");
@@ -266,22 +267,26 @@ public class Farm {
     }
 
     public void startADay(Player player){
+        int numberOfActions = 0;
+
         //create a variable that keeps track of how many actions player is allowed to do in a day
-        int numberOfActions = 3;
 
         //get the morning report
         morningReport(player);
 
         //allow player to do the number of actions for the day
-        for(int i = 0; i < numberOfActions; i++){
+        while (numberOfActions < 3){
 
             //pick from available actions, and store user input in choice
-            int choice = availableActions();
+            int choice = availableActions(numberOfActions);
 
             //player wants to go to plaza
             if (choice == 1){
                 System.out.println("Welcome to the plaza!");
                 int plazaOption = plazaOptions();
+
+                //add one to numberOfActions
+                numberOfActions++;
 
                 //crop shop 
                 if (plazaOption == 1){
@@ -337,6 +342,10 @@ public class Farm {
                         player.seedInventory[w].quality++;
                     }
                     System.out.println(player.name + "'s crops have been watered for the day!");
+
+                    //add one to numberOfActions
+                    numberOfActions++;
+                    
                 }
                 else if(FarmChoice == 2){
                     for(int row = 0; row < 10; row++){
@@ -345,6 +354,9 @@ public class Farm {
                         }
 
                         System.out.println("");
+
+                        //add one to numberOfActions
+                        numberOfActions++;
 
                         
                     }
@@ -409,9 +421,39 @@ public class Farm {
                 }
                 else{
                     fishing.reelInCatch();
+
+                    //add one to numberOfActions
+                    numberOfActions++;
                 }
             }
         }
+        System.out.println("Actions for the day: " + numberOfActions + "/3");
+        try {
+            Thread.sleep(500);
+            System.out.println("Farmer " + player.name + " is tired, and going to bed.");
+            Thread.sleep(2000);
+            System.out.println("ZZZZZZZZZZZZZZZZ");
+            Thread.sleep(300);
+            System.out.println("zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz");
+            Thread.sleep(300);
+            System.out.println("ZZZZZZZZZZZZZZZZ");
+            Thread.sleep(300);
+            System.out.println("zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz");
+            Thread.sleep(300);
+            System.out.println("ZZZZZZZZZZZZZZZZ");
+            Thread.sleep(300);
+            System.out.println("zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz");
+            Thread.sleep(300);
+            System.out.println("ZZZZZZZZZZZZZZZZ");
+            Thread.sleep(300);
+            System.out.println("zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz");
+            Thread.sleep(300);
+
+        } catch (Exception ex) {
+            // TODO Auto-generated catch block
+            ex.printStackTrace();
+        }
+
 
     }
 
