@@ -36,9 +36,9 @@ public class Fishing{
         Scanner upgradeObj = new Scanner(System.in);
 
         System.out.println("Which fishing pole would you like to use:");
-        System.out.println("1. Standard" + playerObj.objectInventoryCount[0]); //cost: 5g
-        System.out.println("2. Advanced (takes 1.4x time to catch something)" + playerObj.objectInventoryCount[1]); //cost: 15g
-        System.out.println("3. Deluxe (takes 1.8x time to catch something)" + playerObj.objectInventoryCount[2]); //cost: 30g
+        System.out.println("1. Standard" + " " + playerObj.objectInventoryCount[0] ); //cost: 5g
+        System.out.println("2. Advanced (takes 1.4x time to catch something)" + " " + playerObj.objectInventoryCount[1]); //cost: 15g
+        System.out.println("3. Deluxe (takes 1.8x time to catch something)" + " " + playerObj.objectInventoryCount[2]); //cost: 30g
         //only shows what fishing poles they have
 
         //store the players selection

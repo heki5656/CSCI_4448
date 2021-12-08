@@ -6,6 +6,8 @@ import java.util.*;
     if it is snowing, the store prices increase by 4 g
     if it is sunny, the store prices decrease by
  */
+
+//NOTE: not used :(
 public abstract class Merchant {
     //private Object String;
     String weather;

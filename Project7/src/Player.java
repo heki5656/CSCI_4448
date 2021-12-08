@@ -16,6 +16,9 @@ public class Player {
     Seed[] seedInventory = new Seed[5];
     Seed [][]FarmMap = new Seed[10][30];
 
+    //seed generator
+    SeedFactory seedCreatorObj = new SeedFactory();
+
     //the name of the objects the player has
     String[] objectInventory = new String[]{"standard pole", "advanced pole", "deluxe pole", "trash", "common fish", "rare fish",
             "carrot", "turnip", "onion", "pumpkin", "tomato"};
@@ -31,10 +34,10 @@ public class Player {
 
     public void generateMap(){
         //generating the initial map
-        Seed initialSeed = new Seed("", "~", 0, 0, 0, 0, 0);
+        //Seed initialSeed = new Seed("", "~", 0, 0, 0, 0, 0);
         for(int row = 0; row < 10; row++){
             for(int col = 0; col < 30; col++){
-                FarmMap[row][col] = initialSeed;
+                FarmMap[row][col] = seedCreatorObj.createSeed("empty");
             }
         }
     }

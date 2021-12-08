@@ -7,17 +7,19 @@ public class Farm {
     Observer observer; //creating mayor observer object
     Fishing fishing = new Fishing();
 
-    //just created a temp seed if needed
-    //Seed seedTemp = new Seed("", "", 0, 0, 0, 0, 0);
-
     //TODO ALL COSTS, PRICES, AND STATUS NEED TO BE CHANGED FOR SEEDS
     //instantiate the seed objects
-    //to harvest the crops, the status has to be equal to the qualityMax value
-    Seed carrot = new Seed("carrot", "*", 16, 32, 0, 0, 6);
-    Seed turnip = new Seed("turnip", "*", 10, 20, 0, 0, 4);
-    Seed onion = new Seed("onion", "*", 16, 32, 0, 0, 6);
-    Seed pumpkin = new Seed("pumpkin", "*", 12, 24, 0, 0, 5);
-    Seed potato = new Seed("potato", "*", 10, 20, 0, 0, 6);
+    SeedFactory seedFacObj = new SeedFactory();
+
+    //initial empty seed
+    Seed emptySeed = seedFacObj.createSeed("empty");
+
+    //initial seed prices
+    int carrotPrice = 16;
+    int turnipPrice = 10;
+    int onionPrice = 16;
+    int pumpkinPrice = 12;
+    int potatoPrice = 10;
 
     //create the mayor (observer) ****COMMENTED OUT TO RUN ****
     //mayor = new Announcer("Mayor"); ****COMMENTED OUT TO RUN ****
@@ -61,11 +63,11 @@ public class Farm {
         System.out.println("You have arrived at " + player.farmName);
 
         //instantiate the player's seed array so that it isn't null
-        player.seedInventory[0] = carrot;
-        player.seedInventory[1] = turnip;
-        player.seedInventory[2] = onion;
-        player.seedInventory[3] = pumpkin;
-        player.seedInventory[4] = potato;
+        player.seedInventory[0] = seedFacObj.createSeed("carrot");
+        player.seedInventory[1] = seedFacObj.createSeed("turnip");
+        player.seedInventory[2] = seedFacObj.createSeed("onion");
+        player.seedInventory[3] = seedFacObj.createSeed("pumpkin");
+        player.seedInventory[4] = seedFacObj.createSeed("potato");
 
         //Player starts with 6 turnip seeds
         player.seedInventory[1].inventory += 6;
@@ -190,7 +192,7 @@ public class Farm {
         boolean cost = true;
 
         //display the available seed store choices
-        System.out.println("Seeds in stock (please enter the # of the seed you would like to buy:)");
+        System.out.println("Seeds in stock (please enter the # of the seed type you would like to buy:)");
         System.out.println("1. 3 Carrot seeds");
         System.out.println("2. 3 Turnip seeds");
         System.out.println("3. 3 Onion seeds");
@@ -203,88 +205,88 @@ public class Farm {
 
         //check to make sure user has enough money for carrot seeds
         if (choice == 1){
-            if (player.money - 3*carrot.cost < 0){
+            if (player.money - 3*carrotPrice < 0){
                 System.out.println("You do not have enough money to buy carrot seeds.");
                 System.out.println("You have: " + player.money + "g in your pocket.");
-                System.out.println("Carrot seeds cost: " + carrot.cost + "g per seed.");
+                System.out.println("Carrot seeds cost: " + carrotPrice + "g per seed.");
                 return -1;
             }
 
             else{
                 //subtract cost of seeds
-                carrot.cost =
-                player.money -= 3*carrot.cost;
+                carrotPrice =
+                player.money -= 3*carrotPrice;
                 //increase inventory
-                carrot.inventory += 3;
+                player.seedInventory[0].inventory += 3;
             }
         }
 
         //check to make sure user has enough money for turnip seeds
         else if (choice == 2){
-            if (player.money - 3*turnip.cost < 0){
+            if (player.money - 3*turnipPrice < 0){
                 System.out.println("You do not have enough money to buy turnip seeds.");
                 System.out.println("You have: " + player.money + "g in your pocket.");
-                System.out.println("Turnip seeds cost: " + turnip.cost + "g per seed.");
+                System.out.println("Turnip seeds cost: " + turnipPrice + "g per seed.");
                 return -1;
             }
 
             else{
                 //subtract cost of seeds
-                player.money -= 3*turnip.cost;
+                player.money -= 3*turnipPrice;
                 //increase inventory
-                turnip.inventory += 3;
+                player.seedInventory[1].inventory += 3;
             }
 
         }
 
         //check to make sure user has enough money for onion seeds
         else if (choice == 3){
-            if (player.money - 3*onion.cost < 0){
+            if (player.money - 3*onionPrice < 0){
                 System.out.println("You do not have enough money to buy onion seeds.");
                 System.out.println("You have: " + player.money + "g in your pocket.");
-                System.out.println("Onion seeds cost: " + onion.cost + "g per seed.");
+                System.out.println("Onion seeds cost: " + onionPrice + "g per seed.");
                 return -1;
             }
 
             else{
                 //subtract cost of seeds
-                player.money -= 3*onion.cost;
+                player.money -= 3*onionPrice;
                 //increase inventory
-                onion.inventory += 3;
+                player.seedInventory[2].inventory += 3;
             }
         }
 
         //check to make sure user has enough money for pumpkin seeds
         else if (choice == 4){
-            if (player.money - 3*pumpkin.cost < 0){
+            if (player.money - 3*pumpkinPrice < 0){
                 System.out.println("You do not have enough money to buy pumpkin seeds.");
                 System.out.println("You have: " + player.money + "g in your pocket.");
-                System.out.println("Pumpkin seeds cost: " + pumpkin.cost + "g per seed.");
+                System.out.println("Pumpkin seeds cost: " + pumpkinPrice + "g per seed.");
                 return -1;
             }
 
             else{
                 //subtract cost of seeds
-                player.money -= 3*pumpkin.cost;
+                player.money -= 3*pumpkinPrice;
                 //increase inventory
-                pumpkin.inventory += 3;
+                player.seedInventory[3].inventory += 3;
             }
         }
 
         //check to make sure user has enough money for potato seeds
         else if (choice == 5){
-            if (player.money - 3*potato.cost < 0){
+            if (player.money - 3*potatoPrice < 0){
                 System.out.println("You do not have enough money to buy potato seeds.");
                 System.out.println("You have: " + player.money + "g in your pocket.");
-                System.out.println("Potato seeds cost: " + potato.cost + "g per seed.");
+                System.out.println("Potato seeds cost: " + potatoPrice + "g per seed.");
                 return -1;
             }
 
             else{
                 //subtract cost of seeds
-                player.money -= 3*potato.cost;
+                player.money -= 3*potatoPrice;
                 //increase inventory
-                potato.inventory += 3;
+                player.seedInventory[4].inventory += 3;
             }
         }
 
@@ -295,15 +297,155 @@ public class Farm {
             if (choice == 6){
                 return choice;
             }
-            
-            System.out.println("Invalid input. Please select a number between 1 and 3 from the following options:");
-            System.out.println("Seeds in stock (please enter the # of the seed you would like to buy:)");
-            System.out.println("1. Carrot");
-            System.out.println("2. Turnip");
-            System.out.println("3. Onion");
-            System.out.println("4. Pumpkin");
-            System.out.println("5. Potato");
+            System.out.println("Invalid input. Please select a number between 1 and 6 from the following options:");
+            System.out.println("Seeds in stock (please enter the # of the seed type you would like to buy:)");
+            System.out.println("1. 3 Carrot seeds");
+            System.out.println("2. 3 Turnip seeds");
+            System.out.println("3. 3 Onion seeds");
+            System.out.println("4. 3 Pumpkin seeds");
+            System.out.println("5. 3 Potato seeds");
             System.out.println("6. Exit seed shop");
+            choice = myObj.nextInt();
+        }
+        return choice;
+    }
+
+    //crop store options
+    public int cropStoreOptions(Player player){
+        Scanner myObj = new Scanner(System.in);
+
+        System.out.println("Select the number of the item you wish to sell");
+        System.out.println("1. all fish (and trash picked up)");
+        System.out.println("2. all crops");
+        System.out.println("3. Exit store");
+
+        int choice = myObj.nextInt();
+
+        //check the total inventory of fish
+        int totalItems = 0;
+        for(int k = 3; k <= 5; k++){
+            totalItems += player.objectInventoryCount[k];
+        }
+
+        //check the total inventory of the player crops
+        int totalCrops = 0;
+        for(int k = 6; k <= 10; k++){
+            totalCrops += player.objectInventoryCount[k];
+        }
+
+        int totalEarned = 0;
+        //options for the player in selecting fish to sell
+        if(choice == 1 && totalItems != 0){
+            for(int k = 3; k <= 5; k++){
+                player.money += player.objectInventoryCount[k] * player.objectInventoryPrice[k];
+                totalEarned += player.objectInventoryCount[k] * player.objectInventoryPrice[k];
+                player.objectInventoryCount[k] = 0;
+            }
+            System.out.println("All fish and trash sold! You earned: " + totalEarned + "g.");
+        }
+        else if(choice == 1 && totalItems == 0){
+            System.out.println("You do not have any items you can sell!");
+        }
+        //options for the player selecting crops to sell
+        else if(choice == 2 && totalCrops != 0){
+            for(int i = 0; i < 5; i++){
+                for(int k = 6; k <= 10; k++){
+                    player.money = player.seedInventory[i].sell_price * player.objectInventoryCount[k];
+                    totalEarned += player.seedInventory[i].sell_price * player.objectInventoryCount[k];
+                    player.seedInventory[k].inventory = 0;
+                }
+            }
+            System.out.println("All crops sold! You earned: " + totalEarned + "g.");
+        }
+        else if(choice == 2 && totalCrops == 0){
+            System.out.println("You do not have any full grown crops you can sell!");
+        }
+
+        while (choice < 1 || choice > 3){
+
+            //check if user wants to exit seed shop
+            if (choice == 3){
+                return choice;
+            }
+
+            System.out.println("Invalid input. Please select a number between 1 and 3 from the following options:");
+            System.out.println("1. all fish (and trash picked up)");
+            System.out.println("2. all crops");
+            System.out.println("3. Exit store");
+            choice = myObj.nextInt();
+        }
+        return choice;
+    }
+
+    int generalStoreOptions(Player player){
+        Scanner myObj = new Scanner(System.in);
+
+        System.out.println("Select the number of the item you wish to buy");
+        System.out.println("1. standard pole (5 g)");
+        System.out.println("2. advanced pole (15 g)");
+        System.out.println("3. deluxe pole (30 g)");
+        System.out.println("3. Exit store");
+
+        int choice = myObj.nextInt();
+
+        //standard pole
+        if (choice == 1){
+            if (player.money - 5 < 0){
+                System.out.println("You do not have enough money to buy a standard pole.");
+                System.out.println("You have: " + player.money + "g in your pocket.");
+                return -1;
+            }
+
+            else{
+                //subtract cost of seeds
+                player.money -= 5;
+                //increase inventory
+                player.objectInventoryCount[0] ++;
+            }
+        }
+        //advanced pole
+        else if (choice == 2){
+            if (player.money - 15 < 0){
+                System.out.println("You do not have enough money to buy a standard pole.");
+                System.out.println("You have: " + player.money + "g in your pocket.");
+                return -1;
+            }
+
+            else{
+                //subtract cost of seeds
+                player.money -= 15;
+                //increase inventory
+                player.objectInventoryCount[1] ++;
+            }
+        }
+        //deluxe pole
+        else if (choice == 3){
+            if (player.money - 30 < 0){
+                System.out.println("You do not have enough money to buy a standard pole.");
+                System.out.println("You have: " + player.money + "g in your pocket.");
+                return -1;
+            }
+
+            else{
+                //subtract cost of seeds
+                player.money -= 30;
+                //increase inventory
+                player.objectInventoryCount[2] ++;
+            }
+        }
+
+        while (choice < 1 || choice > 4){
+
+            //check if user wants to exit seed shop
+            if (choice == 4){
+                return choice;
+            }
+
+            System.out.println("Invalid input. Please select a number between 1 and 4 from the following options:");
+            System.out.println("1. 2 standard poles");
+            System.out.println("2. 2 advanced poles");
+            System.out.println("3. 2 deluxe poles");
+            System.out.println("3. Exit store");
             choice = myObj.nextInt();
         }
         return choice;
@@ -323,7 +465,8 @@ public class Farm {
         //adjust the crop qualities according to weather to start the day off
         for(int row = 0; row < 10; row++){
             for(int col = 0; col < 30; col++){
-                Seed seedTemp = new Seed("", "", 0, 0, 0, 0, 0);
+                //Seed seedTemp = new Seed("", "", 0, 0, 0, 0, 0);
+                Seed seedTemp = seedFacObj.createSeed("empty");
                 seedTemp = player.FarmMap[row][col];
                 weatherInfluence weatherInflObj = new weatherInfluence(seedTemp);
                 if(weather == "freezing"){
@@ -356,13 +499,20 @@ public class Farm {
 
                 //crop shop 
                 if (plazaOption == 1){
-                    //TODO
-                    System.out.println("Welcome to the crop shop.");
+                    System.out.println("Welcome to the crop store.");
+
+                    //crop store player option
+                    int cropStoreOption = 0;
+
+                    //keep going to the seed store until user wants to exit
+                    while (cropStoreOption != 3){
+                        cropStoreOption = cropStoreOptions(player);
+                    }
                 }
 
                 //seed shop
                 else if (plazaOption == 2){
-                    System.out.println("Welcome to the seed shop.");
+                    System.out.println("Welcome to the seed store.");
 
                     //store player option 
                     int seedStoreOption = 0;
@@ -376,7 +526,15 @@ public class Farm {
                 //general shop
                 else if (plazaOption == 3){
                     //TODO
-                    System.out.println("Welcome to the general shop.");
+                    System.out.println("Welcome to the general store.");
+
+                    //store player option
+                    int generalStoreOption = 0;
+
+                    //keep going to the seed store until user wants to exit
+                    while (generalStoreOption != 6){
+                        generalStoreOption = generalStoreOptions(player);
+                    }
                 }
 
             }
@@ -400,22 +558,62 @@ public class Farm {
                 Scanner myObj = new Scanner(System.in);
                 int FarmChoice = myObj.nextInt();
 
+                //harvesting the crops
                 if(FarmChoice == 1){
                     for(int row = 0; row < 10; row ++){
                         for(int col = 0; col < 30; col++){
                             if(player.FarmMap[row][col].growthProgress == player.FarmMap[row][col].growthTotal){
                                 for(int i = 0; i < player.seedInventory.length; i++){
-
+                                    //adding the crops to the player's seed inventory
+                                    if(player.FarmMap[row][col].type == "carrot"){
+                                        player.seedInventory[0].inventory ++;
+                                        player.FarmMap[row][col].inventory--;
+                                        if(player.FarmMap[row][col].inventory == 0){
+                                            player.FarmMap[row][col] = emptySeed;
+                                        }
+                                    }
+                                    if(player.FarmMap[row][col].type == "turnip"){
+                                        player.seedInventory[1].inventory ++;
+                                        player.FarmMap[row][col].inventory--;
+                                        if(player.FarmMap[row][col].inventory == 0){
+                                            player.FarmMap[row][col] = emptySeed;
+                                        }
+                                    }
+                                    if(player.FarmMap[row][col].type == "onion"){
+                                        player.seedInventory[2].inventory ++;
+                                        player.FarmMap[row][col].inventory--;
+                                        if(player.FarmMap[row][col].inventory == 0){
+                                            player.FarmMap[row][col] = emptySeed;
+                                        }
+                                    }
+                                    if(player.FarmMap[row][col].type == "pumpkin"){
+                                        player.seedInventory[3].inventory ++;
+                                        player.FarmMap[row][col].inventory--;
+                                        if(player.FarmMap[row][col].inventory == 0){
+                                            player.FarmMap[row][col] = emptySeed;
+                                        }
+                                    }
+                                    if(player.FarmMap[row][col].type == "potato"){
+                                        player.seedInventory[4].inventory ++;
+                                        player.FarmMap[row][col].inventory--;
+                                        if(player.FarmMap[row][col].inventory == 0){
+                                            player.FarmMap[row][col] = emptySeed;
+                                        }
+                                    }
                                 }
                             }
                         }
+                    }
+                    System.out.println(player.name + "'s full grown crops have been harvested! Current crop inventory:");
+                    for(int i = 0; i < 5; i ++){
+                        System.out.println(player.seedInventory[i].inventory + " " + player.seedInventory[i].type);
                     }
                 }
                 if(FarmChoice == 1 && weather != "rainy"){
                     //water the plants
                     for(int row = 0; row < 10; row++){
                         for(int col = 0; col < 30; col++){
-                            Seed seedTemp = new Seed("", "", 0, 0, 0, 0, 0);
+                            Seed seedTemp = emptySeed;
                             seedTemp = player.FarmMap[row][col];
                             weatherInfluence weatherInflObj = new weatherInfluence(seedTemp);
                             seedTemp = weatherInflObj.watered(seedTemp);
@@ -432,14 +630,13 @@ public class Farm {
                     numberOfActions++;
                 }
                 else if(FarmChoice == 2){
+                    //add one to numberOfActions
+                    numberOfActions++;
                     for(int row = 0; row < 10; row++){
                         for(int col = 0; col < 30; col++){
                             System.out.print(player.FarmMap[row][col].seedImage);
                         }
                         System.out.println("");
-
-                        //add one to numberOfActions
-                        numberOfActions++;
 
                     }
                     //planting all the seeds randomly
@@ -498,7 +695,8 @@ public class Farm {
                 boolean froze = fishing.isFrozen();
 
                 if (froze == true){
-                    System.out.println("Pond is frozen - come back to fish when it's warmer.");
+                    //System.out.println("Pond is frozen - come back to fish when it's warmer.");
+                    //the frozen status is already printed out
                 }
                 else if(playerFishingPoles == 0){
                     System.out.println("You have no fishing poles :( come back when you buy some!");
