@@ -4,7 +4,7 @@ import java.util.*;
 //Took from Bruce Montgomery
 public class Main {
     // How many days in a run?
-    final static int NUMBER_OF_DAYS = 30;
+    final static int NUMBER_OF_DAYS = 15;
 
     public static void main(String[] args) {
         //Call the simulator to run for that many days
