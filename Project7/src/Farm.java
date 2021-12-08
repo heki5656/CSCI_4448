@@ -193,11 +193,11 @@ public class Farm {
 
         //display the available seed store choices
         System.out.println("Seeds in stock (please enter the # of the seed type you would like to buy:)");
-        System.out.println("1. 3 Carrot seeds");
-        System.out.println("2. 3 Turnip seeds");
-        System.out.println("3. 3 Onion seeds");
-        System.out.println("4. 3 Pumpkin seeds");
-        System.out.println("5. 3 Potato seeds");
+        System.out.println("1. 3 Carrot seeds " + 3*carrotPrice + "g");
+        System.out.println("2. 3 Turnip seeds " + 3*turnipPrice + "g");
+        System.out.println("3. 3 Onion seeds " + 3*onionPrice + "g");
+        System.out.println("4. 3 Pumpkin seeds " + 3*pumpkinPrice + "g");
+        System.out.println("5. 3 Potato seeds " + 3*potatoPrice + "g");
         System.out.println("6. Exit seed shop");
 
         //store the players choice
@@ -384,7 +384,7 @@ public class Farm {
         System.out.println("1. standard pole (5 g)");
         System.out.println("2. advanced pole (15 g)");
         System.out.println("3. deluxe pole (30 g)");
-        System.out.println("3. Exit store");
+        System.out.println("4. Exit store");
 
         int choice = myObj.nextInt();
 
