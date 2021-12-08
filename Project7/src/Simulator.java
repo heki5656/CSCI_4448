@@ -25,6 +25,8 @@ public class Simulator {
         cropStore cropStoreObj = new cropStore();
         generalStore generalStoreObj = new generalStore();
 
+        //mayor observer
+        Mayor mayorObserver = new Mayor();
         //run for n days
         for (int day = 1; day <= days; day++) {
             //create a random weather for the day 
@@ -46,10 +48,10 @@ public class Simulator {
         }
 
         if(playerMoney >= 500){
-            System.out.print("Yay! You earned enough money to keep your farm!");
+            mayorObserver.Announcement("Yay! You earned enough money to keep your farm!");
         }
         else{
-            System.out.print("Oh no... you didn't earn enough money to keep your farm :( bye...");
+            mayorObserver.Announcement("Oh no... you didn't earn enough money to keep your farm :( bye...");
         }
     }
 }

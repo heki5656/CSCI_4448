@@ -43,8 +43,8 @@ public class Farm {
 
         //create a scanner object
         Scanner myObj = new Scanner(System.in);
-
-        System.out.println("Welcome to Stardew Horizon Simulator.");
+        Mayor mayorObserver = new Mayor();
+        mayorObserver.Announcement("Welcome to Stardew Horizon Simulator.");
 
         //get the players name
         System.out.println("Enter your farmers name: ");
@@ -59,7 +59,7 @@ public class Farm {
         player.generateMap();
 
         //print out the farmers name, and the farms name
-        System.out.println("Welcome farmer " + player.name);
+        mayorObserver.Announcement("Welcome farmer " + player.name);
         System.out.println("You have arrived at " + player.farmName);
 
         //instantiate the player's seed array so that it isn't null
