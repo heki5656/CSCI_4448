@@ -451,7 +451,7 @@ public class Farm {
         return choice;
     }
 
-    public void startADay(Player player, seedStore seedStoreObj, cropStore cropStoreObj, generalStore generalStoreObj){
+    public void startADay(Player player){
         int numberOfActions = 0;
 
         //create a variable that keeps track of how many actions player is allowed to do in a day

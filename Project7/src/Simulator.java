@@ -39,7 +39,7 @@ public class Simulator {
             System.out.println("--- Starting Day " + day);
 
             //start a day on the farm
-            farm.startADay(player, seedStoreObj, cropStoreObj, generalStoreObj);
+            farm.startADay(player);
             if(day == days){
                 playerMoney = player.money;
             }
